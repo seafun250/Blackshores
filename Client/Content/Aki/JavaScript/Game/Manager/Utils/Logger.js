@@ -1,1 +1,82 @@
-'use strict';const a0_0x4c716f=a0_0x4133;(function(_0x3c65a8,_0x2363bb){const _0x13b2f7=a0_0x4133,_0x63b3ee=_0x3c65a8();while(!![]){try{const _0x2e0de5=-parseInt(_0x13b2f7('0x1f7'))/0x1+parseInt(_0x13b2f7('0x1e7'))/0x2+-parseInt(_0x13b2f7(0x1d7))/0x3*(-parseInt(_0x13b2f7('0x1df'))/0x4)+parseInt(_0x13b2f7('0x1ec'))/0x5+parseInt(_0x13b2f7('0x1e9'))/0x6*(-parseInt(_0x13b2f7('0x1f5'))/0x7)+-parseInt(_0x13b2f7('0x1d2'))/0x8*(parseInt(_0x13b2f7('0x1ef'))/0x9)+-parseInt(_0x13b2f7(0x1ed))/0xa;if(_0x2e0de5===_0x2363bb)break;else _0x63b3ee['push'](_0x63b3ee['shift']());}catch(_0x1c11a9){_0x63b3ee['push'](_0x63b3ee['shift']());}}}(a0_0x39e9,0x753ea));const a0_0x3e9418={};a0_0x3e9418[a0_0x4c716f('0x1e5')]=!0x0,(Object[a0_0x4c716f('0x1e0')+a0_0x4c716f('0x1d8')](exports,a0_0x4c716f(0x1f2),a0_0x3e9418),exports['Logger']=void 0x0);function a0_0x4133(_0x5803e2,_0x137b90){const _0x39e98a=a0_0x39e9();return a0_0x4133=function(_0x413392,_0x5b3ed4){_0x413392=_0x413392-0x1d2;let _0x13d5ef=_0x39e98a[_0x413392];return _0x13d5ef;},a0_0x4133(_0x5803e2,_0x137b90);}const a0_0x25969f=require('ue'),a0_0x16f033=require('./ModUtils'),a0_0x56f889=require('./ConfigManager'),a0_0x2f1123=a0_0x4c716f(0x1dd)+'og',a0_0x39ec9e=require('puerts');class a0_0x22d04c{static['SaveLoggin'+'g'](_0xf954d9,_0x5918ba){const _0x5c10d4=a0_0x4c716f;try{let _0x5ad71f='['+a0_0x16f033[_0x5c10d4('0x1da')][_0x5c10d4(0x1f1)]()[_0x5c10d4(0x1e3)]+_0x5c10d4('0x1e2')+_0xf954d9[_0x5c10d4(0x1ea)+'e']()+_0x5c10d4('0x1d3')+_0x5918ba+'\x0a',_0x1103b9=a0_0x56f889[_0x5c10d4('0x1d5')+_0x5c10d4(0x1e4)][_0x5c10d4('0x1d9')](a0_0x2f1123);a0_0x25969f[_0x5c10d4('0x1ee')+'Library'][_0x5c10d4(0x1d6)+_0x5c10d4('0x1dc')](_0x1103b9+_0x5ad71f,a0_0x56f889[_0x5c10d4('0x1d5')+_0x5c10d4('0x1e4')][_0x5c10d4(0x1e8)+_0x5c10d4('0x1e1')]()+a0_0x2f1123);}catch(_0x147909){a0_0x16f033[_0x5c10d4('0x1da')]['Log'](_0x147909,_0x5c10d4(0x1d4));}}static['ClearLog'](){const _0x102c8d=a0_0x4c716f;try{if(!a0_0x56f889[_0x102c8d('0x1d5')+_0x102c8d('0x1e4')][_0x102c8d(0x1d9)](a0_0x2f1123))return;a0_0x25969f['KuroStatic'+_0x102c8d('0x1f3')][_0x102c8d('0x1d6')+_0x102c8d('0x1dc')]('',a0_0x56f889[_0x102c8d(0x1d5)+'ger'][_0x102c8d('0x1e8')+_0x102c8d('0x1e1')]()+a0_0x2f1123);}catch(_0x1bc610){}}static[a0_0x4c716f('0x1f0')](..._0x431ba6){const _0x4f72ee=a0_0x4c716f;this[_0x4f72ee(0x1db)+'g'](_0x4f72ee('0x1f4'),_0x431ba6),a0_0x39ec9e[_0x4f72ee(0x1e6)][_0x4f72ee('0x1d4')](..._0x431ba6);}static['Info'](..._0x3312b0){const _0x2d7a8f=a0_0x4c716f;this[_0x2d7a8f(0x1db)+'g'](_0x2d7a8f('0x1de'),_0x3312b0),a0_0x39ec9e[_0x2d7a8f('0x1e6')]['info'](..._0x3312b0);}static[a0_0x4c716f('0x1eb')](..._0x54fd92){const _0x3bea21=a0_0x4c716f;this['SaveLoggin'+'g']('SUCCESS',_0x54fd92),a0_0x39ec9e[_0x3bea21(0x1e6)]['log'](..._0x54fd92);}}function a0_0x39e9(){const _0x48a466=['value','logger','1444180RritZE','LoadConfig','6aIVYyT','toUpperCas','Success','3234060TrbWBR','11984290wOifzn','KuroStatic','90Wrlzzy','Error','getDate','__esModule','Library','ERROR','253029DjlxlK','Logger','72081CVDNRs','235032vlDiOf',']\x20-\x20','error','ConfigMana','SaveString','49659NkIzmR','erty','GetConfig','ModUtils','SaveLoggin','ToFile','WavesMod.l','INFO','172aHVRuO','defineProp','Dir',']\x20[','date','ger'];a0_0x39e9=function(){return _0x48a466;};return a0_0x39e9();}exports[a0_0x4c716f(0x1f6)]=a0_0x22d04c;
+'use strict';
+
+const k = l;
+(function (c, f) {
+  const b = l;
+  const d = c();
+  while (true) {
+    try {
+      const c = -parseInt(b("0x1f7")) / 1 + parseInt(b("0x1e7")) / 2 + -parseInt(b(471)) / 3 * (-parseInt(b("0x1df")) / 4) + parseInt(b("0x1ec")) / 5 + parseInt(b("0x1e9")) / 6 * (-parseInt(b("0x1f5")) / 7) + -parseInt(b("0x1d2")) / 8 * (parseInt(b("0x1ef")) / 9) + -parseInt(b(493)) / 10;
+      if (c === f) {
+        break;
+      } else {
+        d.push(d.shift());
+      }
+    } catch (b) {
+      d.push(d.shift());
+    }
+  }
+})(c, 480234);
+const a = {
+  [k("0x1e5")]: true
+};
+Object[k("0x1e0") + k("0x1d8")](exports, k(498), a);
+exports.Logger = undefined;
+function l(e, a) {
+  const f = c();
+  l = function (d, e) {
+    d = d - 466;
+    let b = f[d];
+    return b;
+  };
+  return l(e, a);
+}
+const m = require("ue");
+const d = require("./ModUtils");
+const e = require("./ConfigManager");
+const f = k(477) + "og";
+const g = require("puerts");
+class b {
+  static SaveLogging(g, b) {
+    const c = k;
+    try {
+      let h = "[" + d[c("0x1da")][c(497)]()[c(483)] + c("0x1e2") + g[c(490) + "e"]() + c("0x1d3") + b + "\n";
+      let a = e[c("0x1d5") + c(484)][c("0x1d9")](f);
+      m[c("0x1ee") + "Library"][c(470) + c("0x1dc")](a + h, e[c("0x1d5") + c("0x1e4")][c(488) + c("0x1e1")]() + f);
+    } catch (b) {
+      d[c("0x1da")].Log(b, c(468));
+    }
+  }
+  static ClearLog() {
+    const a = k;
+    try {
+      if (!e[a("0x1d5") + a("0x1e4")][a(473)](f)) {
+        return;
+      }
+      m["KuroStatic" + a("0x1f3")][a("0x1d6") + a("0x1dc")]("", e[a(469) + "ger"][a("0x1e8") + a("0x1e1")]() + f);
+    } catch (b) {}
+  }
+  static [k("0x1f0")](...a) {
+    const b = k;
+    this[b(475) + "g"](b("0x1f4"), a);
+    g[b(486)][b("0x1d4")](...a);
+  }
+  static Info(...a) {
+    const b = k;
+    this[b(475) + "g"](b("0x1de"), a);
+    g[b("0x1e6")].info(...a);
+  }
+  static [k("0x1eb")](...a) {
+    const b = k;
+    this.SaveLogging("SUCCESS", a);
+    g[b(486)].log(...a);
+  }
+}
+function c() {
+  const b = ["value", "logger", "1444180RritZE", "LoadConfig", "6aIVYyT", "toUpperCas", "Success", "3234060TrbWBR", "11984290wOifzn", "KuroStatic", "90Wrlzzy", "Error", "getDate", "__esModule", "Library", "ERROR", "253029DjlxlK", "Logger", "72081CVDNRs", "235032vlDiOf", "] - ", "error", "ConfigMana", "SaveString", "49659NkIzmR", "erty", "GetConfig", "ModUtils", "SaveLoggin", "ToFile", "WavesMod.l", "INFO", "172aHVRuO", "defineProp", "Dir", "] [", "date", "ger"];
+  c = function () {
+    return b;
+  };
+  return c();
+}
+exports[k(502)] = b;

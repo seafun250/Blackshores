@@ -1,1 +1,116 @@
-'use strict';const a0_0x5c2c9=a0_0x143d;(function(_0x332765,_0x11f019){const _0x22a2b1=a0_0x143d,_0x453d0f=_0x332765();while(!![]){try{const _0xe5f896=-parseInt(_0x22a2b1(0xbf))/0x1+parseInt(_0x22a2b1(0xcd))/0x2*(-parseInt(_0x22a2b1(0xc9))/0x3)+parseInt(_0x22a2b1('0xb4'))/0x4+-parseInt(_0x22a2b1(0xa7))/0x5*(-parseInt(_0x22a2b1(0xd0))/0x6)+parseInt(_0x22a2b1(0xaa))/0x7+parseInt(_0x22a2b1(0xbc))/0x8+-parseInt(_0x22a2b1('0xa4'))/0x9*(parseInt(_0x22a2b1(0xcb))/0xa);if(_0xe5f896===_0x11f019)break;else _0x453d0f['push'](_0x453d0f['shift']());}catch(_0xa42b38){_0x453d0f['push'](_0x453d0f['shift']());}}}(a0_0x4f7d,0x38661));function a0_0x143d(_0x431f7d,_0x15cfd9){const _0x4f7d42=a0_0x4f7d();return a0_0x143d=function(_0x143de0,_0x3685da){_0x143de0=_0x143de0-0xa1;let _0x1d4ff6=_0x4f7d42[_0x143de0];return _0x1d4ff6;},a0_0x143d(_0x431f7d,_0x15cfd9);}const a0_0x10ab12={};function a0_0x4f7d(){const _0x4bf358=['velPlayNam','TypeIdName','1051865eFLUFH','eDungeonIn','ame_0_4','1207416FyoBwe','2900002_Le','UnkownType','ntroller','Dungeon','291800007_','dungeonIlu','value','isInTower','RogueA_1.1','1692944GqwXtk','IsInInstan','siveRealm','LevelPlay_','TowerModel','GetInstanc','nfig','includes','1130176yJYzgL','isInIlusiv','eRealm','221664SAqAeU','IdName','CheckInTow','ngeonModel','InfoConfig','DungeonGam','riskDungeo','eplay','Holder','ModelManag','57MbwhER','UnkownDung','1314340zXXKtA','isInDungeo','5042pyxGYo','getDungeon','TidName','12zUNzAk','erty','Controller','InstanceDu','ter','e_2_1','DungeonFil','eDungeonCo','45yTwpQw'];a0_0x4f7d=function(){return _0x4bf358;};return a0_0x4f7d();}a0_0x10ab12[a0_0x5c2c9('0xb1')]=!0x0,(Object['defineProp'+a0_0x5c2c9(0xd1)](exports,'__esModule',a0_0x10ab12),exports[a0_0x5c2c9('0xa2')+a0_0x5c2c9('0xd4')]=void 0x0);const a0_0x2b4f67=require('puerts'),a0_0x2a3aa9=require('../ModelManager'),a0_0x33c826=require('../ControllerHolder'),a0_0x3ca374=require('ue'),a0_0x45ff7e={};a0_0x45ff7e['id']=0x2c4022,a0_0x45ff7e['en_name']=a0_0x5c2c9('0xb3')+'主控',a0_0x45ff7e['TidName']=a0_0x5c2c9('0xb7')+a0_0x5c2c9('0xab')+a0_0x5c2c9('0xa5')+a0_0x5c2c9(0xa1),a0_0x45ff7e['type']=a0_0x5c2c9(0xae);class a0_0x4987d3{static [a0_0x5c2c9(0xc4)+a0_0x5c2c9('0xc6')]=[];static [a0_0x5c2c9('0xb0')+a0_0x5c2c9(0xb6)]=a0_0x45ff7e;static [a0_0x5c2c9('0xc5')+'nList']=['LevelPlay_'+a0_0x5c2c9('0xaf')+'LevelPlayN'+a0_0x5c2c9(0xa9)];static[a0_0x5c2c9(0xce)+'InfoConfig'](){const _0x3ba85e=a0_0x5c2c9;try{return a0_0x2a3aa9[_0x3ba85e(0xc8)+'er'][_0x3ba85e('0xd3')+_0x3ba85e('0xc2')][_0x3ba85e(0xb9)+_0x3ba85e(0xa8)+'fo']()[_0x3ba85e(0xb9)+_0x3ba85e(0xa3)+_0x3ba85e('0xba')]();}catch(_0x3504f1){}}static['getDungeon'+'Type'](){const _0x413e46=a0_0x5c2c9;try{let _0x3d59e4=this[_0x413e46('0xce')+'InfoConfig']();return _0x3d59e4['Type'];}catch(_0x280a83){return _0x413e46('0xca')+'eonType';}}static[a0_0x5c2c9('0xce')+a0_0x5c2c9('0xa6')](){const _0x3d1755=a0_0x5c2c9;try{let _0xd843ee=this['getDungeon'+_0x3d1755(0xc3)]();return _0xd843ee[_0x3d1755(0xcf)];}catch(_0x365f40){return _0x3d1755('0xac')+_0x3d1755(0xc0);}}static[a0_0x5c2c9(0xcc)+'nFilter'](_0x186961){const _0x4b4483=a0_0x5c2c9;if(!Array['isArray'](_0x186961))return![];if(!this[_0x4b4483(0xb5)+'ce']())return![];return _0x186961['includes'](this['getDungeon'+_0x4b4483('0xa6')]());}static[a0_0x5c2c9('0xb5')+'ce'](){const _0x3c8421=a0_0x5c2c9;try{return a0_0x33c826[_0x3c8421(0xd2)+_0x3c8421(0xc7)]['GameModeCo'+_0x3c8421(0xad)][_0x3c8421(0xb5)+'ce']();}catch(_0x4ace69){return![];}}static[a0_0x5c2c9('0xbd')+a0_0x5c2c9('0xbe')](){const _0x1efb40=a0_0x5c2c9;if(!this['IsInInstan'+'ce']())return![];return this['dungeonIlu'+_0x1efb40('0xb6')][_0x1efb40('0xcf')][_0x1efb40(0xbb)](this[_0x1efb40('0xce')+_0x1efb40(0xa6)]());}static[a0_0x5c2c9(0xb2)](){const _0x578fa0=a0_0x5c2c9;try{return a0_0x2a3aa9['ModelManag'+'er'][_0x578fa0('0xb8')][_0x578fa0(0xc1)+'er']();}catch(_0x43be43){return![];}}static[a0_0x5c2c9(0xcc)+'n'](){const _0x275540=a0_0x5c2c9;return this[_0x275540(0xb5)+'ce']();}}exports[a0_0x5c2c9(0xa2)+a0_0x5c2c9('0xd4')]=a0_0x4987d3;
+'use strict';
+
+const k = l;
+(function (b, f) {
+  const c = l;
+  const d = b();
+  while (true) {
+    try {
+      const b = -parseInt(c(191)) / 1 + parseInt(c(205)) / 2 * (-parseInt(c(201)) / 3) + parseInt(c("0xb4")) / 4 + -parseInt(c(167)) / 5 * (-parseInt(c(208)) / 6) + parseInt(c(170)) / 7 + parseInt(c(188)) / 8 + -parseInt(c("0xa4")) / 9 * (parseInt(c(203)) / 10);
+      if (b === f) {
+        break;
+      } else {
+        d.push(d.shift());
+      }
+    } catch (b) {
+      d.push(d.shift());
+    }
+  }
+})(b, 231009);
+function l(d, a) {
+  const f = b();
+  l = function (d, e) {
+    d = d - 161;
+    let b = f[d];
+    return b;
+  };
+  return l(d, a);
+}
+const a = {};
+function b() {
+  const c = ["velPlayNam", "TypeIdName", "1051865eFLUFH", "eDungeonIn", "ame_0_4", "1207416FyoBwe", "2900002_Le", "UnkownType", "ntroller", "Dungeon", "291800007_", "dungeonIlu", "value", "isInTower", "RogueA_1.1", "1692944GqwXtk", "IsInInstan", "siveRealm", "LevelPlay_", "TowerModel", "GetInstanc", "nfig", "includes", "1130176yJYzgL", "isInIlusiv", "eRealm", "221664SAqAeU", "IdName", "CheckInTow", "ngeonModel", "InfoConfig", "DungeonGam", "riskDungeo", "eplay", "Holder", "ModelManag", "57MbwhER", "UnkownDung", "1314340zXXKtA", "isInDungeo", "5042pyxGYo", "getDungeon", "TidName", "12zUNzAk", "erty", "Controller", "InstanceDu", "ter", "e_2_1", "DungeonFil", "eDungeonCo", "45yTwpQw"];
+  b = function () {
+    return c;
+  };
+  return b();
+}
+a[k("0xb1")] = true;
+Object["defineProp" + k(209)](exports, "__esModule", a);
+exports[k("0xa2") + k("0xd4")] = undefined;
+const c = require("puerts");
+const d = require("../ModelManager");
+const e = require("../ControllerHolder");
+const f = require("ue");
+const g = {
+  id: 2900002
+};
+g.en_name = k("0xb3") + "主控";
+g.TidName = k("0xb7") + k("0xab") + k("0xa5") + k(161);
+g.type = k(174);
+class h {
+  static [k(196) + k("0xc6")] = [];
+  static [k("0xb0") + k(182)] = g;
+  static [k("0xc5") + "nList"] = ["LevelPlay_" + k("0xaf") + "LevelPlayN" + k(169)];
+  static [k(206) + "InfoConfig"]() {
+    const a = k;
+    try {
+      return d[a(200) + "er"][a("0xd3") + a("0xc2")][a(185) + a(168) + "fo"]()[a(185) + a(163) + a("0xba")]();
+    } catch (b) {}
+  }
+  static getDungeonType() {
+    const c = k;
+    try {
+      let b = this[c("0xce") + "InfoConfig"]();
+      return b.Type;
+    } catch (b) {
+      return c("0xca") + "eonType";
+    }
+  }
+  static [k("0xce") + k("0xa6")]() {
+    const c = k;
+    try {
+      let b = this["getDungeon" + c(195)]();
+      return b[c(207)];
+    } catch (b) {
+      return c("0xac") + c(192);
+    }
+  }
+  static [k(204) + "nFilter"](a) {
+    const b = k;
+    if (!Array.isArray(a)) {
+      return false;
+    }
+    if (!this[b(181) + "ce"]()) {
+      return false;
+    }
+    return a.includes(this["getDungeon" + b("0xa6")]());
+  }
+  static [k("0xb5") + "ce"]() {
+    const a = k;
+    try {
+      return e[a(210) + a(199)]["GameModeCo" + a(173)][a(181) + "ce"]();
+    } catch (b) {
+      return false;
+    }
+  }
+  static [k("0xbd") + k("0xbe")]() {
+    const a = k;
+    if (!this.IsInInstance()) {
+      return false;
+    }
+    return this["dungeonIlu" + a("0xb6")][a("0xcf")][a(187)](this[a("0xce") + a(166)]());
+  }
+  static [k(178)]() {
+    const a = k;
+    try {
+      return d.ModelManager[a("0xb8")][a(193) + "er"]();
+    } catch (b) {
+      return false;
+    }
+  }
+  static [k(204) + "n"]() {
+    const a = k;
+    return this[a(181) + "ce"]();
+  }
+}
+exports[k(162) + k("0xd4")] = h;

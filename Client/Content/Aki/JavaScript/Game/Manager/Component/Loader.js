@@ -1,1 +1,134 @@
-'use strict';function a0_0xd7df(_0x5eae30,_0x384874){const _0x596459=a0_0x5964();return a0_0xd7df=function(_0xd7df6d,_0x22393d){_0xd7df6d=_0xd7df6d-0x13b;let _0x9a193f=_0x596459[_0xd7df6d];return _0x9a193f;},a0_0xd7df(_0x5eae30,_0x384874);}const a0_0x329cf1=a0_0xd7df;(function(_0x20ca16,_0xe7b2b2){const _0x4f44d7=a0_0xd7df,_0x50a2ca=_0x20ca16();while(!![]){try{const _0x230e94=-parseInt(_0x4f44d7(0x13b))/0x1*(-parseInt(_0x4f44d7('0x148'))/0x2)+-parseInt(_0x4f44d7('0x142'))/0x3+-parseInt(_0x4f44d7('0x15b'))/0x4*(parseInt(_0x4f44d7(0x167))/0x5)+parseInt(_0x4f44d7(0x146))/0x6+-parseInt(_0x4f44d7(0x155))/0x7+parseInt(_0x4f44d7('0x16f'))/0x8+parseInt(_0x4f44d7(0x14a))/0x9;if(_0x230e94===_0xe7b2b2)break;else _0x50a2ca['push'](_0x50a2ca['shift']());}catch(_0x39fbbe){_0x50a2ca['push'](_0x50a2ca['shift']());}}}(a0_0x5964,0xb5130));function a0_0x5964(){const _0x4c96e5=['LoaderWidg','3303468cEDWwk','aded','GlobalData','__esModule','ProgressTe','der_C','4uotQTd','ModUtils','Log','Initializi','retryCount','rval','ProgressBa','Load','/Game/Aki/','LoaderInte','UMGManager','ng\x20mod\x20men','4784755kDokyu','ity','progress','AddToViewp','defineProp','IncreasePr','art.','msg','6593528WEBlSX','erty','SetPercent','ing\x20widget','Loader\x20sho','value','stem','Loader.Loa','9199bODhQY','ogress','\x20Loader\x20fa','oaded!','Loader','maxRetries','intervalPr','333012sSQljH','s\x20reached.','LoadingTex','MainMenu','8014854RLRsrl','SetVisibil','18FKXsTc','rMod','348912azZHEv','Error\x20load','error','World','mod\x20menu..','isLoaderLo','CreateWidg','SetText','iled\x20to\x20st','ort'];a0_0x5964=function(){return _0x4c96e5;};return a0_0x5964();}const a0_0x294fdd={};a0_0x294fdd[a0_0x329cf1('0x174')]=!0x0,(Object[a0_0x329cf1('0x16b')+a0_0x329cf1(0x170)](exports,a0_0x329cf1(0x158),a0_0x294fdd),exports['Loader']=void 0x0);const a0_0x241956=require('puerts'),a0_0x3a2301=require('ue'),a0_0x15377a=require('../../GlobalData'),a0_0x5008dd=require('../Utils/ModUtils'),a0_0x576593=require('../../ModMenu'),a0_0xa1f484=require('../../../Core/Resource/ResourceSystem');class a0_0x2cab04{static [a0_0x329cf1('0x154')+'et']=null;static ['isLoaderLo'+a0_0x329cf1('0x156')]=![];static [a0_0x329cf1('0x141')+a0_0x329cf1(0x13c)]=null;static ['progress']=0x0;static ['retryCount']=0x0;static [a0_0x329cf1('0x140')]=0x5;static async['RenderLoad'+'er'](){const _0x2ce011=a0_0x329cf1;if(!a0_0x2cab04[_0x2ce011('0x14f')+_0x2ce011('0x156')])try{a0_0x2cab04['LoaderWidg'+'et']=a0_0x3a2301[_0x2ce011('0x165')][_0x2ce011(0x150)+'et'](a0_0x15377a[_0x2ce011(0x157)][_0x2ce011('0x14d')],a0_0xa1f484['ResourceSy'+_0x2ce011('0x175')][_0x2ce011('0x162')](_0x2ce011('0x163')+_0x2ce011('0x176')+_0x2ce011('0x15a'),a0_0x3a2301['Class']));}catch(_0x3ff02d){a0_0x5008dd[_0x2ce011('0x15c')][_0x2ce011(0x15d)](_0x2ce011('0x14b')+_0x2ce011(0x172)+':\x20'+_0x3ff02d,_0x2ce011('0x14c'));return;}try{a0_0x2cab04[_0x2ce011('0x154')+'et']&&(a0_0x2cab04[_0x2ce011('0x154')+'et'][_0x2ce011(0x161)+_0x2ce011(0x149)]['SetPercent'](0x0),a0_0x2cab04[_0x2ce011(0x154)+'et'][_0x2ce011('0x159')+'xt']['SetText']('0%'),a0_0x2cab04[_0x2ce011('0x154')+'et'][_0x2ce011('0x16a')+_0x2ce011(0x153)](0x64),a0_0x2cab04[_0x2ce011('0x154')+'et'][_0x2ce011(0x147)+_0x2ce011(0x168)](0x0),clearInterval(a0_0x576593[_0x2ce011(0x145)]['LoaderInte'+_0x2ce011('0x160')]),a0_0x576593[_0x2ce011('0x145')][_0x2ce011(0x164)+'rval']=null,a0_0x5008dd[_0x2ce011('0x15c')][_0x2ce011(0x15d)](_0x2ce011(0x173)+'w!'),a0_0x2cab04[_0x2ce011('0x14f')+'aded']=!![],this[_0x2ce011(0x16c)+_0x2ce011('0x13c')]());}catch(_0x4c0f89){a0_0x5008dd[_0x2ce011('0x15c')][_0x2ce011(0x15d)](_0x4c0f89,'error'),a0_0x2cab04[_0x2ce011('0x15f')]<a0_0x2cab04['maxRetries']?(a0_0x2cab04[_0x2ce011('0x15f')]++,setTimeout(()=>{a0_0x2cab04['RenderLoad'+'er']();},0x5dc)):a0_0x5008dd[_0x2ce011(0x15c)][_0x2ce011(0x15d)]('Max\x20retrie'+_0x2ce011(0x143)+_0x2ce011(0x13d)+_0x2ce011('0x152')+_0x2ce011(0x16d),_0x2ce011(0x14c));}}static[a0_0x329cf1('0x16e')](){const _0x29a6d6=a0_0x329cf1;if(this['progress']<0x28)this[_0x29a6d6('0x154')+'et'][_0x29a6d6('0x144')+'t'][_0x29a6d6('0x151')]('Preparing\x20'+_0x29a6d6('0x14e')+'.');else{if(this[_0x29a6d6('0x169')]>=0x28&&this[_0x29a6d6(0x169)]<0x64)this[_0x29a6d6(0x154)+'et'][_0x29a6d6('0x144')+'t'][_0x29a6d6(0x151)](_0x29a6d6(0x15e)+_0x29a6d6('0x166')+'u...');else this[_0x29a6d6('0x169')]>=0x64&&this[_0x29a6d6(0x154)+'et'][_0x29a6d6(0x144)+'t'][_0x29a6d6(0x151)]('Mod\x20menu\x20l'+_0x29a6d6('0x13e'));}}static[a0_0x329cf1(0x16c)+a0_0x329cf1(0x13c)](){const _0x593426=a0_0x329cf1;try{this['intervalPr'+_0x593426(0x13c)]=setInterval(()=>{const _0x485cb5=_0x593426;if(!this[_0x485cb5('0x154')+'et'])return;this[_0x485cb5('0x16e')]();let _0x2d19ff=this['progress']/0x64;this[_0x485cb5(0x154)+'et'][_0x485cb5('0x161')+_0x485cb5('0x149')][_0x485cb5('0x171')](_0x2d19ff),this[_0x485cb5(0x154)+'et'][_0x485cb5('0x159')+'xt'][_0x485cb5(0x151)](this[_0x485cb5(0x169)]+'%');if(this[_0x485cb5(0x169)]>=0x64){clearInterval(this[_0x485cb5('0x141')+_0x485cb5(0x13c)]),this[_0x485cb5('0x141')+_0x485cb5(0x13c)]=null,setTimeout(()=>{const _0x27c382=_0x485cb5;this['LoaderWidg'+'et']['SetVisibil'+_0x27c382(0x168)](0x2);},0xbb8);return;}this[_0x485cb5(0x169)]<0x50&&(this['progress']+=0x14);},0x3e8);}catch(_0x221a3b){a0_0x5008dd[_0x593426(0x15c)]['Log'](_0x221a3b,_0x593426('0x14c'));}}}exports[a0_0x329cf1('0x13f')]=a0_0x2cab04;
+'use strict';
+
+function l(a, b) {
+  const d = n();
+  l = function (e, f) {
+    e = e - 315;
+    let b = d[e];
+    return b;
+  };
+  return l(a, b);
+}
+const m = l;
+(function (a, b) {
+  const c = l;
+  const d = a();
+  while (true) {
+    try {
+      const e = -parseInt(c(315)) / 1 * (-parseInt(c("0x148")) / 2) + -parseInt(c("0x142")) / 3 + -parseInt(c("0x15b")) / 4 * (parseInt(c(359)) / 5) + parseInt(c(326)) / 6 + -parseInt(c(341)) / 7 + parseInt(c("0x16f")) / 8 + parseInt(c(330)) / 9;
+      if (e === b) {
+        break;
+      } else {
+        d.push(d.shift());
+      }
+    } catch (b) {
+      d.push(d.shift());
+    }
+  }
+})(n, 741680);
+function n() {
+  const b = ["LoaderWidg", "3303468cEDWwk", "aded", "GlobalData", "__esModule", "ProgressTe", "der_C", "4uotQTd", "ModUtils", "Log", "Initializi", "retryCount", "rval", "ProgressBa", "Load", "/Game/Aki/", "LoaderInte", "UMGManager", "ng mod men", "4784755kDokyu", "ity", "progress", "AddToViewp", "defineProp", "IncreasePr", "art.", "msg", "6593528WEBlSX", "erty", "SetPercent", "ing widget", "Loader sho", "value", "stem", "Loader.Loa", "9199bODhQY", "ogress", " Loader fa", "oaded!", "Loader", "maxRetries", "intervalPr", "333012sSQljH", "s reached.", "LoadingTex", "MainMenu", "8014854RLRsrl", "SetVisibil", "18FKXsTc", "rMod", "348912azZHEv", "Error load", "error", "World", "mod menu..", "isLoaderLo", "CreateWidg", "SetText", "iled to st", "ort"];
+  n = function () {
+    return b;
+  };
+  return n();
+}
+const a = {
+  [m("0x174")]: true
+};
+Object[m("0x16b") + m(368)](exports, m(344), a);
+exports.Loader = undefined;
+const b = require("puerts");
+const c = require("ue");
+const d = require("../../GlobalData");
+const e = require("../Utils/ModUtils");
+const f = require("../../ModMenu");
+const g = require("../../../Core/Resource/ResourceSystem");
+class h {
+  static [m("0x154") + "et"] = null;
+  static ["isLoaderLo" + m("0x156")] = false;
+  static [m("0x141") + m(316)] = null;
+  static progress = 0;
+  static retryCount = 0;
+  static [m("0x140")] = 5;
+  static async RenderLoader() {
+    const i = m;
+    if (!h[i("0x14f") + i("0x156")]) {
+      try {
+        h.LoaderWidget = c[i("0x165")][i(336) + "et"](d[i(343)][i("0x14d")], g["ResourceSy" + i("0x175")][i("0x162")](i("0x163") + i("0x176") + i("0x15a"), c.Class));
+      } catch (a) {
+        e[i("0x15c")][i(349)](i("0x14b") + i(370) + ": " + a, i("0x14c"));
+        return;
+      }
+    }
+    try {
+      if (h[i("0x154") + "et"]) {
+        h[i("0x154") + "et"][i(353) + i(329)].SetPercent(0);
+        h[i(340) + "et"][i("0x159") + "xt"].SetText("0%");
+        h[i("0x154") + "et"][i("0x16a") + i(339)](100);
+        h[i("0x154") + "et"][i(327) + i(360)](0);
+        clearInterval(f[i(325)]["LoaderInte" + i("0x160")]);
+        f[i("0x145")][i(356) + "rval"] = null;
+        e[i("0x15c")][i(349)](i(371) + "w!");
+        h[i("0x14f") + "aded"] = true;
+        this[i(364) + i("0x13c")]();
+      }
+    } catch (a) {
+      e[i("0x15c")][i(349)](a, "error");
+      if (h[i("0x15f")] < h.maxRetries) {
+        h[i("0x15f")]++;
+        // TOLOOK
+        // TOLOOK
+        setTimeout(() => {
+          h.RenderLoader();
+        }, 1500);
+      } else {
+        e[i(348)][i(349)]("Max retrie" + i(323) + i(317) + i("0x152") + i(365), i(332));
+      }
+    }
+  }
+  static [m("0x16e")]() {
+    const b = m;
+    if (this.progress < 40) {
+      this[b("0x154") + "et"][b("0x144") + "t"][b("0x151")]("Preparing " + b("0x14e") + ".");
+    } else if (this[b("0x169")] >= 40 && this[b(361)] < 100) {
+      this[b(340) + "et"][b("0x144") + "t"][b(337)](b(350) + b("0x166") + "u...");
+    } else if (this[b("0x169")] >= 100) {
+      this[b(340) + "et"][b(324) + "t"][b(337)]("Mod menu l" + b("0x13e"));
+    }
+  }
+  static [m(364) + m(316)]() {
+    const d = m;
+    try {
+      this["intervalPr" + d(316)] = // TOLOOK
+      // TOLOOK
+      setInterval(() => {
+        const e = d;
+        if (!this[e("0x154") + "et"]) {
+          return;
+        }
+        this[e("0x16e")]();
+        let a = this.progress / 100;
+        this[e(340) + "et"][e("0x161") + e("0x149")][e("0x171")](a);
+        this[e(340) + "et"][e("0x159") + "xt"][e(337)](this[e(361)] + "%");
+        if (this[e(361)] >= 100) {
+          clearInterval(this[e("0x141") + e(316)]);
+          this[e("0x141") + e(316)] = null;
+          // TOLOOK
+          // TOLOOK
+          setTimeout(() => {
+            const b = e;
+            this.LoaderWidget["SetVisibil" + b(360)](2);
+          }, 3000);
+          return;
+        }
+        if (this[e(361)] < 80) {
+          this.progress += 20;
+        }
+      }, 1000);
+    } catch (a) {
+      e[d(348)].Log(a, d("0x14c"));
+    }
+  }
+}
+exports[m("0x13f")] = h;

@@ -1,1 +1,505 @@
-'use strict';const a0_0x1d468e=a0_0x5e67;(function(_0xebc92a,_0x5cabf2){const _0x4115a3=a0_0x5e67,_0xcc65ce=_0xebc92a();while(!![]){try{const _0xfc41e9=parseInt(_0x4115a3('0x1be'))/0x1*(-parseInt(_0x4115a3('0x1ad'))/0x2)+-parseInt(_0x4115a3('0x1c1'))/0x3*(-parseInt(_0x4115a3(0x145))/0x4)+-parseInt(_0x4115a3(0x194))/0x5+parseInt(_0x4115a3('0x184'))/0x6*(parseInt(_0x4115a3(0x157))/0x7)+-parseInt(_0x4115a3('0x12f'))/0x8*(-parseInt(_0x4115a3(0x12a))/0x9)+parseInt(_0x4115a3('0x155'))/0xa*(parseInt(_0x4115a3('0x169'))/0xb)+parseInt(_0x4115a3(0x134))/0xc;if(_0xfc41e9===_0x5cabf2)break;else _0xcc65ce['push'](_0xcc65ce['shift']());}catch(_0x4ae0a8){_0xcc65ce['push'](_0xcc65ce['shift']());}}}(a0_0x2b44,0x6504c));const a0_0x3f2c8e={};a0_0x3f2c8e[a0_0x1d468e('0x15e')]=!0x0,(Object[a0_0x1d468e('0x165')+'erty'](exports,a0_0x1d468e(0x181),a0_0x3f2c8e),exports[a0_0x1d468e('0x170')]=void 0x0);const a0_0x4503c3=require('puerts'),a0_0x497807=a0_0x1d468e('0x154')+a0_0x1d468e('0x123'),a0_0x24e873=a0_0x1d468e('0x1af'),a0_0x3013b2=require('ue'),a0_0x39306c=require('../../Module/Abilities/FormationDataController'),a0_0x3416bb=require('../../NewWorld/Character/Common/Component/Abilities/CharacterAttributeTypes'),a0_0x2c445c=require('../../Global'),a0_0x5433ff=require('../Utils/Logger'),a0_0x18a02d=require('./EntityManager'),a0_0x58dc84=require('../Utils/ConfigManager'),a0_0x401484=require('../Utils/ModUtils'),a0_0x3509a0=require('../ModelManager'),a0_0x29fa18=require('./dungeonFilter'),a0_0x4db08c=require('../ListComponent'),a0_0x7366b3=require('./Data/Buff'),a0_0x5bb504=require('../Utils/UI'),a0_0x301c7c=require('../ModManager');let a0_0x223603,a0_0xc6bdcb=[];const a0_0x40e5c1={};a0_0x40e5c1[a0_0x1d468e(0x14d)]=[0xc16,0x4c4e311],a0_0x40e5c1[a0_0x1d468e('0x16e')]=0xd1965027c2,a0_0x40e5c1[a0_0x1d468e('0x15c')+a0_0x1d468e('0x139')]=[0x4f2a682,0x4f2a6e6],a0_0x40e5c1['Echo']=0x4f2a556,a0_0x40e5c1[a0_0x1d468e(0x17d)+'e']=0x41af5e63,a0_0x40e5c1[a0_0x1d468e(0x190)+a0_0x1d468e(0x1bd)]=[0x5f94fee8,0x41ce9e6b,0x59ba9c92],a0_0x40e5c1['Atk']=0x19,a0_0x40e5c1[a0_0x1d468e(0x186)]=0x280e0f76,a0_0x40e5c1['Cr']=0x1a,a0_0x40e5c1['Cdmg']=0x280e0f79,a0_0x40e5c1[a0_0x1d468e(0x11e)+a0_0x1d468e(0x16c)]=0x15,a0_0x40e5c1[a0_0x1d468e('0x193')+'timate']=0x17,a0_0x40e5c1[a0_0x1d468e(0x192)+'troOutro']=0x25042b43,a0_0x40e5c1[a0_0x1d468e(0x1ca)]=[0x10,0x2508710b,0x2508710c];function a0_0x2b44(){const _0x242e02=['InfiniteUl','1891075zZqpXN','Request','includes','ModUtils','CritialHit','BuffCompon','ceChain','fStates','BaseCharac','DungeonFil','push','size','isInDungeo','RemoveBuff','GetConfig','ListenForT','tChainGrou','buffType','handleBuff','ot\x20exist.\x20','MaterialSh','GetRoleIns','EntityMana','GetCompone','isSprintTi','67212wRSqoQ','SceneTeamM','Buff.json','$unref','AddBuff','error','KuroStatic','PbDataId','CheckConfi','timerApply','AddMultiSt','\x20or\x20does\x20n','RoleTag','has','Component','warn','rte','17USPFAM','oBlueprint','hainMaxFak','2033145JnWyRe','gExists','SaveConfig','sprintBuff','handleMult','timate','lastBuffUs','ackBuffReq','ApplyBuffs','NoCD','ntity','isBuffActi','GetBuffByI','InfiniteSt','ined','stringify','getEntityT','Entity','d.json','dValue','buffs','Duration','odel','IllusiveSp','merActive','1165635CPbUnS','iguration:','ModManager','superBuff','Logger','8TBHYDc','playerSpee','AddBuffReq','Value','uestByEnti','1772916YPCtAn','ter','Dir','RequestApp','EchoesBuff','dCoin','ModelManag','ffRequest','WorldSpeed','Log','uest','stacks','BlueprintP','AddMultiBu','eam','rmat:\x20Conf','ank','4gjmjVB','ceData','isArray','luePrint','Instigator','SuperBuff','settings','RequestByE','GodMode','agAddOrRem','Echo','Cdmg','ResonanceC','Sanhua','every','ResonanceI','2301370KsgMdh','name','7nTOIYz','Failed\x20to\x20','troOutro','LoadConfig','Adding\x20new','MaterialAn','ellBuff','value','ent','AlwaysCrit','buffManage','ig\x20must\x20be','ger','length','defineProp','CreatureDa','sprintTime','InfiniteIn','11lXjWUJ','CurrentTea','hasBuff','amina','GetRoleMod','OneHitKill','uff:\x20','buffMethod','ChangeBuff','BaseBuff','logger','appliedBuf','\x20buff:\x20','forEach','info','ConfigMana','athsLibrar','parse\x20conf','ove','IsInFight','SanhuaFort','ToFile','rint','HasBuff','__esModule','map','SaveString','1069074zOuZvg','pIndex','Atk600','PlayerSpee','SetResonan','GetCurrent','Config\x20fil','parse','Invalid\x20fo','MaxResonan','ig.','taId','InfiniteFo','FileExists','infiniteIn'];a0_0x2b44=function(){return _0x242e02;};return a0_0x2b44();}const a0_0x4f2a83={};a0_0x4f2a83[a0_0x1d468e('0x1b6')]=null,a0_0x4f2a83[a0_0x1d468e(0x1cc)+'ve']=![],a0_0x4f2a83[a0_0x1d468e(0x16a)+'m']=[];class a0_0x50d9f7{static [a0_0x1d468e(0x199)+a0_0x1d468e(0x15f)]=0xcc;static [a0_0x1d468e('0x1a5')]=a0_0x7366b3;static [a0_0x1d468e(0x1ac)+a0_0x1d468e(0x129)]=![];static [a0_0x1d468e('0x167')+'r']=null;static [a0_0x1d468e('0x1c7')+'ed']=null;static [a0_0x1d468e('0x125')]=a0_0x40e5c1;static [a0_0x1d468e('0x161')+'r']={'superBuff':a0_0x4f2a83,'criticalHit':{'isBuffActive':![],'charactersActive':new Map()},'appliedBuffStates':{},'selectedBuffOption':null};static[a0_0x1d468e(0x151)+a0_0x1d468e(0x1c0)+'e'](){const _0xd4f82d=a0_0x1d468e;if(!a0_0x301c7c['ModManager'][_0xd4f82d('0x14b')][_0xd4f82d('0x18d')+_0xd4f82d('0x19a')])return;const _0x51e13f=a0_0x18a02d['EntityMana'+_0xd4f82d(0x163)][_0xd4f82d(0x16d)+'el']();if(!_0x51e13f)return;a0_0x18a02d[_0xd4f82d('0x1aa')+_0xd4f82d('0x163')][_0xd4f82d('0x121')+_0xd4f82d(0x142)]()[_0xd4f82d('0x176')](_0x1159e3=>{const _0x21cc95=_0xd4f82d,_0x5c96bf=_0x51e13f[_0x21cc95('0x1a9')+'tanceById'](_0x1159e3[_0x21cc95('0x1b4')]),_0x3921b2=_0x5c96bf['GetResonan'+_0x21cc95('0x146')]();_0x3921b2&&_0x3921b2['GetResonan'+_0x21cc95(0x1a4)+_0x21cc95(0x185)]()<0x6&&_0x3921b2[_0x21cc95('0x188')+'tChainGrou'+_0x21cc95('0x185')](0x6);});}static['MaxWeaponR'+a0_0x1d468e(0x144)](){}static['AddMultiBu'+a0_0x1d468e(0x13b)](_0x13ef06=![],_0x5f9f14){const _0x4019fc=a0_0x1d468e;if(_0x13ef06)_0x5f9f14[_0x4019fc('0x176')](_0x1dc525=>{const _0x1baba5=_0x4019fc,_0x4445c7=this[_0x1baba5('0x16b')](_0x1dc525);!_0x4445c7&&this['AddBuffReq'+_0x1baba5('0x13e')](_0x1dc525);});else!_0x13ef06&&_0x5f9f14[_0x4019fc('0x176')](_0x2cf589=>{const _0x40bd4c=_0x4019fc,_0x2993a5=this['hasBuff'](_0x2cf589);_0x2993a5&&this[_0x40bd4c(0x1a1)+_0x40bd4c('0x195')](_0x2cf589);});}static[a0_0x1d468e('0x171')+a0_0x1d468e('0x195')](_0x563466){const _0x5b2bae=a0_0x1d468e;try{if(!_0x563466)throw new Error('buff\x20undef'+_0x5b2bae('0x11f'));this[_0x5b2bae('0x1c7')+'ed']?.['removeable']&&(a0_0x401484[_0x5b2bae('0x197')][_0x5b2bae(0x13d)]('Removing\x20b'+_0x5b2bae('0x16f')+this[_0x5b2bae('0x1c7')+'ed']['name']),this[_0x5b2bae('0x1a1')+_0x5b2bae(0x195)](this[_0x5b2bae('0x1c7')+'ed']['id']),this[_0x5b2bae('0x1c7')+'ed']=null),this[_0x5b2bae('0x1c7')+'ed']=_0x563466,a0_0x401484[_0x5b2bae(0x197)][_0x5b2bae(0x13d)](_0x5b2bae('0x15b')+_0x5b2bae(0x175)+this[_0x5b2bae(0x1c7)+'ed'][_0x5b2bae('0x156')]),this['AddBuffReq'+_0x5b2bae('0x13e')](_0x563466['id']);}catch(_0x528d9d){a0_0x401484[_0x5b2bae(0x197)]['Log'](_0x528d9d,_0x5b2bae(0x1b2));}}static[a0_0x1d468e(0x16b)](_0x73df79){const _0x13b548=a0_0x1d468e;try{const _0x581599=a0_0x3509a0[_0x13b548('0x13a')+'er']['SceneTeamM'+_0x13b548('0x127')][_0x13b548(0x189)+_0x13b548(0x122)];if(!_0x581599)return![];const _0x31808a=_0x581599[_0x13b548(0x122)][_0x13b548('0x1ab')+'nt'](a0_0x4db08c[_0x13b548('0x1bb')]['BaseBuff']);if(!_0x31808a)return;const _0x3ea1fa=_0x31808a[_0x13b548('0x180')](_0x73df79),_0x583c81=_0x31808a[_0x13b548(0x1cd)+'d'](_0x73df79);return Boolean(_0x3ea1fa||_0x583c81);}catch(_0x3bc5c0){a0_0x5433ff[_0x13b548(0x12e)]['Error'](_0x3bc5c0);}}static['AddMultiSt'+a0_0x1d468e('0x1c8')+'uest'](_0x268c6c,_0x3d8726=0x0){const _0x75ff=a0_0x1d468e;if(_0x3d8726===0x0||_0x268c6c[_0x75ff('0x164')]===0x0)return;for(let _0x416cb3=0x0;_0x416cb3<_0x3d8726;_0x416cb3++){for(const _0x3bdab1 of _0x268c6c){this[_0x75ff(0x131)+'uest'](_0x3bdab1);}}}static[a0_0x1d468e('0x131')+a0_0x1d468e('0x13e')](_0x2141ef,_0xfd6ae9){const _0x5d855c=a0_0x1d468e;try{const _0x2af12b=a0_0x3509a0[_0x5d855c(0x13a)+'er'][_0x5d855c(0x1ae)+'odel']['GetCurrent'+_0x5d855c('0x122')],_0x2b0dc7=_0x2af12b['Entity'][_0x5d855c('0x1ab')+'nt'](a0_0x4db08c[_0x5d855c('0x1bb')][_0x5d855c('0x172')]);if(!_0x2b0dc7)return;const _0x2f81dd={'InstigatorId':_0x2b0dc7[_0x5d855c('0x166')+_0x5d855c('0x18f')],'Reason':'\x20',..._0xfd6ae9},_0x57e36b=_0x2f81dd;_0x2b0dc7[_0x5d855c(0x1b1)](_0x2141ef,_0x57e36b);}catch(_0x6f1c1d){}}static[a0_0x1d468e('0x1a1')+a0_0x1d468e(0x195)](_0x555223){const _0x425bd7=a0_0x1d468e,_0x35613f=a0_0x3509a0[_0x425bd7('0x13a')+'er'][_0x425bd7('0x1ae')+'odel']['GetCurrent'+'Entity'],_0x2fb651=_0x35613f[_0x425bd7('0x122')][_0x425bd7(0x1ab)+'nt'](a0_0x4db08c['Component'][_0x425bd7(0x172)]);if(!_0x2fb651)return;_0x2fb651[_0x425bd7(0x1a1)](_0x555223,-0x1,'');}static[a0_0x1d468e('0x1a1')+a0_0x1d468e('0x14c')+a0_0x1d468e('0x1cb')](_0x55b5d0,_0x867107){const _0x5319ae=a0_0x1d468e,_0x1f744d=_0x867107[_0x5319ae('0x1ab')+'nt'](a0_0x4db08c['Component'][_0x5319ae(0x172)]);if(!_0x1f744d)return;_0x1f744d[_0x5319ae(0x1a1)](_0x55b5d0,-0x1,'');}static[a0_0x1d468e('0x1a6')+a0_0x1d468e('0x195')](_0x2f63c0,_0x4b14b8=![],_0x149efe=![]){const _0x58c17c=a0_0x1d468e;try{const _0x6ad7c6=this[_0x58c17c(0x16b)](_0x2f63c0),_0x6600e5=this['buffManage'+'r'][_0x58c17c(0x174)+'fStates'][_0x2f63c0];if(_0x4b14b8){if(_0x6600e5&&_0x149efe&&_0x6ad7c6)return;this['AddBuffReq'+_0x58c17c('0x13e')](_0x2f63c0),this[_0x58c17c(0x161)+'r'][_0x58c17c(0x174)+_0x58c17c(0x19b)][_0x2f63c0]=!![];return;}_0x6ad7c6&&_0x6600e5&&this[_0x58c17c(0x1a1)+_0x58c17c(0x195)](_0x2f63c0),this[_0x58c17c('0x161')+'r']['appliedBuf'+_0x58c17c('0x19b')][_0x2f63c0]=![];}catch(_0x54d019){}}static[a0_0x1d468e(0x1c5)+'iBuffReque'+'st'](_0x43b8c7,_0x54b102=![],_0x5270e2=![]){const _0x514381=a0_0x1d468e;try{if(!Array[_0x514381('0x147')](_0x43b8c7))return;for(const _0x128a58 of _0x43b8c7){const _0x29b906=this['hasBuff'](_0x128a58),_0x40ffa6=this['buffManage'+'r'][_0x514381(0x174)+_0x514381('0x19b')][_0x128a58];if(_0x54b102){if(_0x40ffa6&&_0x5270e2&&_0x29b906)continue;this[_0x514381(0x131)+'uest'](_0x128a58),this['buffManage'+'r'][_0x514381(0x174)+'fStates'][_0x128a58]=!![];continue;}_0x29b906&&_0x40ffa6&&this[_0x514381('0x1a1')+_0x514381('0x195')](_0x128a58),this[_0x514381('0x161')+'r'][_0x514381(0x174)+'fStates'][_0x128a58]=![];}}catch(_0x2f01e6){}}static[a0_0x1d468e('0x131')+a0_0x1d468e(0x133)+'ty'](_0x254855,_0x3002b9){const _0x563d91=a0_0x1d468e;try{const _0xea3c19=_0x3002b9['GetCompone'+'nt'](a0_0x4db08c[_0x563d91(0x1bb)][_0x563d91(0x172)]);if(!_0xea3c19)return;const _0xe9d8b9={};_0xe9d8b9[_0x563d91('0x149')+'Id']=_0xea3c19[_0x563d91(0x166)+_0x563d91(0x18f)],_0xe9d8b9['Reason']='\x20';const _0x3f3270=_0xe9d8b9;_0xea3c19['AddBuff'](_0x254855,_0x3f3270);}catch(_0x3a3c92){}}static['HanldeBuff'+'RequestByE'+'ntity'](_0x495ac2,_0x4ebdcc=![],_0x4ce0ac=![],_0x4b5604=null){const _0x1d56af=a0_0x1d468e;if(!_0x4b5604)return;try{if(_0x4ce0ac&&_0x4ebdcc&&this[_0x1d56af(0x16b)](_0x495ac2))return;if(_0x4ebdcc)this[_0x1d56af(0x131)+_0x1d56af(0x133)+'ty'](_0x495ac2,_0x4b5604);else!_0x4ebdcc&&this[_0x1d56af('0x16b')](_0x495ac2)&&this['RemoveBuff'+_0x1d56af('0x14c')+_0x1d56af('0x1cb')](_0x495ac2,_0x4b5604);}catch(_0x588721){}}static['sprintBuff'](){const _0x456e60=a0_0x1d468e,_0x3d595f=a0_0x3509a0[_0x456e60(0x13a)+'er'][_0x456e60('0x1ae')+_0x456e60('0x127')]['GetCurrent'+'Entity'];let _0x11dca9=a0_0x2c445c['Global'][_0x456e60(0x19c)+'ter']?.['GetEntityN'+_0x456e60('0x1bf')]();if(!_0x11dca9||!_0x3d595f[_0x456e60(0x122)])return;let _0x8f331b=_0x3d595f['Entity']['GetCompone'+'nt'](a0_0x4db08c[_0x456e60('0x1bb')][_0x456e60(0x1b9)]);const _0x1d6c4b=()=>{const _0x3b7ff2=_0x456e60;let _0xc3d58d=0xd48;if(!a0_0x301c7c[_0x3b7ff2('0x12c')]['settings'][_0x3b7ff2('0x128')+_0x3b7ff2(0x17f)]||!_0x8f331b['HasTag'](0x36b27fe4))return;a0_0x50d9f7['sprintTime'+'r']&&(clearTimeout(a0_0x50d9f7[_0x3b7ff2('0x167')+'r']),a0_0x50d9f7[_0x3b7ff2('0x167')+'r']=null),a0_0x301c7c[_0x3b7ff2(0x12c)][_0x3b7ff2(0x14b)][_0x3b7ff2('0x187')+'d']&&(_0xc3d58d=_0xc3d58d/a0_0x301c7c[_0x3b7ff2('0x12c')][_0x3b7ff2('0x14b')][_0x3b7ff2('0x130')+_0x3b7ff2(0x124)]),a0_0x301c7c[_0x3b7ff2('0x12c')]['settings']['WorldSpeed']&&(_0xc3d58d=_0xc3d58d/a0_0x301c7c[_0x3b7ff2('0x12c')]['settings'][_0x3b7ff2(0x13c)+_0x3b7ff2('0x132')]),a0_0x50d9f7[_0x3b7ff2(0x167)+'r']=setTimeout(()=>{const _0x3493c5=_0x3b7ff2;if(!this['hasBuff'](0x2625abc8)){const _0x2e34eb={};_0x2e34eb[_0x3493c5('0x126')]=0x3c,this[_0x3493c5(0x131)+_0x3493c5(0x13e)](0x2625abc8,_0x2e34eb);}a0_0x4503c3[_0x3493c5(0x173)][_0x3493c5(0x177)]('Refreshing'+'\x20buff'),_0x1d6c4b();},_0xc3d58d);};a0_0x223603!==_0x11dca9&&!a0_0xc6bdcb[_0x456e60('0x196')](_0x11dca9)&&(a0_0x223603=_0x11dca9,a0_0xc6bdcb[_0x456e60(0x19e)](_0x11dca9),_0x8f331b[_0x456e60('0x1a3')+_0x456e60(0x14e)+_0x456e60(0x17b)](0x36b27fe4,_0x1d6c4b));if(a0_0x301c7c['ModManager']['settings']['IllusiveSp'+_0x456e60('0x17f')]){if(!_0x8f331b['HasTag'](0x36b27fe4)&&!_0x8f331b['HasTag'](-0x735bac2c)){const _0x2301d7={};_0x2301d7[_0x456e60(0x126)]=0.01,this[_0x456e60(0x131)+_0x456e60(0x13e)](0x2625abc9,_0x2301d7);}}}static[a0_0x1d468e('0x12d')](){const _0x206bb4=a0_0x1d468e;try{const _0x32fc74=a0_0x18a02d['EntityMana'+_0x206bb4('0x163')][_0x206bb4(0x121)+_0x206bb4('0x142')]();if(!_0x32fc74)return;!this[_0x206bb4('0x16b')](this[_0x206bb4(0x125)][_0x206bb4('0x186')])&&(this[_0x206bb4(0x161)+'r'][_0x206bb4(0x12d)][_0x206bb4('0x1cc')+'ve']=![]);const _0x480fcc=()=>{const _0x494565=_0x206bb4;_0x32fc74[_0x494565('0x176')](_0x5dfece=>{const _0x59390d=_0x494565;this[_0x59390d(0x1a1)+'RequestByE'+'ntity'](this[_0x59390d(0x125)]['Atk600'],_0x5dfece[_0x59390d('0x122')]),this[_0x59390d('0x1a1')+_0x59390d('0x14c')+_0x59390d(0x1cb)](this[_0x59390d(0x125)]['Cr'],_0x5dfece[_0x59390d(0x122)]),this[_0x59390d('0x1a1')+'RequestByE'+'ntity'](this[_0x59390d('0x125')][_0x59390d('0x150')],_0x5dfece[_0x59390d(0x122)]);}),this['buffManage'+'r'][_0x494565('0x12d')]['isBuffActi'+'ve']=![],this[_0x494565(0x161)+'r'][_0x494565('0x12d')][_0x494565(0x16a)+'m']=[];};if(!a0_0x301c7c[_0x206bb4(0x12c)][_0x206bb4('0x14b')][_0x206bb4(0x14a)]){this[_0x206bb4('0x161')+'r'][_0x206bb4('0x12d')][_0x206bb4('0x1cc')+'ve']&&_0x480fcc();return;}if(this[_0x206bb4('0x161')+'r'][_0x206bb4(0x12d)]['CurrentTea'+'m'][_0x206bb4(0x164)]>0x0){const _0x43c609=new Set(this[_0x206bb4('0x161')+'r'][_0x206bb4('0x12d')]['CurrentTea'+'m']),_0x2741e2=new Set(_0x32fc74[_0x206bb4(0x182)](_0xef3159=>_0xef3159[_0x206bb4(0x1b4)])),_0x360733=_0x43c609[_0x206bb4(0x19f)]===_0x2741e2['size']&&[..._0x43c609][_0x206bb4('0x153')](_0x51ef2c=>_0x2741e2[_0x206bb4(0x1ba)](_0x51ef2c));if(a0_0x29fa18[_0x206bb4('0x19d')+_0x206bb4(0x135)][_0x206bb4('0x1a0')+'n']()){if(this[_0x206bb4('0x161')+'r']['superBuff'][_0x206bb4(0x1cc)+'ve']&&!_0x360733)return _0x480fcc();}if(!_0x360733){if(this[_0x206bb4(0x161)+'r'][_0x206bb4(0x12d)][_0x206bb4('0x1cc')+'ve'])return _0x480fcc();}}if(!this[_0x206bb4(0x161)+'r'][_0x206bb4(0x12d)][_0x206bb4('0x1cc')+'ve']){this[_0x206bb4('0x131')+'uest'](this[_0x206bb4('0x125')]['Cr']);for(let _0x41c445=0x0;_0x41c445<0x5;_0x41c445++){this[_0x206bb4('0x131')+'uest'](this[_0x206bb4(0x125)][_0x206bb4(0x186)]);}for(let _0x27010f=0x0;_0x27010f<0xa;_0x27010f++){this[_0x206bb4('0x131')+_0x206bb4('0x13e')](this[_0x206bb4(0x125)][_0x206bb4(0x150)]);}this[_0x206bb4(0x161)+'r'][_0x206bb4('0x12d')][_0x206bb4('0x1cc')+'ve']=!![],_0x32fc74[_0x206bb4('0x182')](_0x165e24=>this[_0x206bb4(0x161)+'r'][_0x206bb4('0x12d')][_0x206bb4('0x16a')+'m'][_0x206bb4(0x19e)](_0x165e24[_0x206bb4(0x1b4)]));}}catch(_0x25f516){a0_0x401484[_0x206bb4(0x197)][_0x206bb4('0x13d')](_0x25f516,'error');}}static['CritialHit'](){const _0x3ec77f=a0_0x1d468e;try{const _0x68a4e9=a0_0x18a02d['EntityMana'+_0x3ec77f(0x163)][_0x3ec77f(0x121)+_0x3ec77f('0x142')]();if(!_0x68a4e9)return;const _0x20bec6=this[_0x3ec77f('0x161')+'r'][_0x3ec77f('0x174')+_0x3ec77f('0x19b')][this[_0x3ec77f('0x125')]['Cr']],_0x4ee7b7=_0x68a4e9[_0x3ec77f('0x153')](_0x2fbaf9=>_0x2fbaf9[_0x3ec77f('0x122')][_0x3ec77f('0x1ab')+'nt'](a0_0x4db08c['Component'][_0x3ec77f(0x172)])[_0x3ec77f('0x180')](this[_0x3ec77f(0x125)]['Cr']));if(a0_0x301c7c['ModManager'][_0x3ec77f('0x14b')]['AlwaysCrit']&&!_0x4ee7b7)this[_0x3ec77f(0x131)+'uest'](this[_0x3ec77f(0x125)]['Cr']),this['buffManage'+'r'][_0x3ec77f(0x174)+_0x3ec77f(0x19b)][this[_0x3ec77f(0x125)]['Cr']]=!![];else!a0_0x301c7c[_0x3ec77f('0x12c')]['settings'][_0x3ec77f('0x160')]&&_0x20bec6&&(_0x68a4e9[_0x3ec77f(0x176)](_0xc9dc2b=>{const _0x46389d=_0x3ec77f,_0x24c03f=_0xc9dc2b[_0x46389d(0x122)],_0x44fa5a=_0x24c03f[_0x46389d('0x1ab')+'nt'](a0_0x4db08c[_0x46389d(0x1bb)][_0x46389d('0x172')])[_0x46389d(0x180)](this[_0x46389d('0x125')]['Cr']);_0x44fa5a&&this['RemoveBuff'+_0x46389d(0x14c)+'ntity'](this[_0x46389d('0x125')]['Cr'],_0x24c03f);}),this['buffManage'+'r'][_0x3ec77f(0x174)+_0x3ec77f(0x19b)][this[_0x3ec77f(0x125)]['Cr']]=![]);}catch(_0x6bf3df){}}static[a0_0x1d468e('0x190')+a0_0x1d468e(0x1bd)](){const _0x18b40f=a0_0x1d468e;try{a0_0x401484[_0x18b40f('0x197')][_0x18b40f(0x17c)]()&&(a0_0x18a02d[_0x18b40f(0x1aa)+_0x18b40f(0x163)]['GetPlayerB'+_0x18b40f('0x148')]()[_0x18b40f('0x196')](_0x18b40f(0x152))&&this[_0x18b40f(0x1a6)+'Request'](this[_0x18b40f(0x125)][_0x18b40f(0x17d)+'e'],a0_0x301c7c[_0x18b40f('0x12c')][_0x18b40f(0x14b)]['InfiniteFo'+'rte']),this[_0x18b40f('0x1c5')+'iBuffReque'+'st'](this['buffs'][_0x18b40f('0x190')+_0x18b40f('0x1bd')],a0_0x301c7c[_0x18b40f(0x12c)]['settings'][_0x18b40f('0x190')+'rte']));}catch(_0x2cadbc){}}static[a0_0x1d468e('0x168')+a0_0x1d468e('0x159')](){const _0x458c18=a0_0x1d468e;try{a0_0x301c7c[_0x458c18('0x12c')]['settings'][_0x458c18(0x168)+_0x458c18(0x159)]&&a0_0x401484[_0x458c18(0x197)][_0x458c18('0x17c')]()&&this[_0x458c18(0x131)+_0x458c18('0x13e')](a0_0x50d9f7[_0x458c18('0x125')][_0x458c18(0x192)+_0x458c18('0x159')]);}catch(_0x5ae07c){}}static[a0_0x1d468e(0x1c9)](){const _0x2a3ae9=a0_0x1d468e;this[_0x2a3ae9(0x1c5)+'iBuffReque'+'st'](this['buffs'][_0x2a3ae9(0x14d)],a0_0x301c7c[_0x2a3ae9('0x12c')][_0x2a3ae9(0x14b)][_0x2a3ae9('0x14d')],!![]),this[_0x2a3ae9(0x1a6)+_0x2a3ae9('0x195')](this[_0x2a3ae9(0x125)][_0x2a3ae9('0x16e')],a0_0x301c7c[_0x2a3ae9(0x12c)][_0x2a3ae9(0x14b)][_0x2a3ae9(0x16e)],!![]),this[_0x2a3ae9(0x141)+_0x2a3ae9('0x13b')](a0_0x301c7c[_0x2a3ae9(0x12c)]['settings'][_0x2a3ae9(0x1a8)+_0x2a3ae9('0x15d')],this['buffs'][_0x2a3ae9('0x15c')+_0x2a3ae9('0x139')]),this['handleBuff'+'Request'](this[_0x2a3ae9(0x125)][_0x2a3ae9('0x14f')],a0_0x301c7c[_0x2a3ae9('0x12c')]['settings'][_0x2a3ae9('0x138')],!![]),this[_0x2a3ae9('0x1a6')+_0x2a3ae9('0x195')](this['buffs'][_0x2a3ae9(0x11e)+_0x2a3ae9(0x16c)],a0_0x301c7c[_0x2a3ae9('0x12c')][_0x2a3ae9('0x14b')][_0x2a3ae9('0x11e')+_0x2a3ae9(0x16c)],!![]),this['handleBuff'+'Request'](this[_0x2a3ae9('0x125')][_0x2a3ae9(0x193)+_0x2a3ae9(0x1c6)],a0_0x301c7c[_0x2a3ae9('0x12c')]['settings']['InfiniteUl'+_0x2a3ae9(0x1c6)],!![]),this[_0x2a3ae9('0x1c5')+'iBuffReque'+'st'](this['buffs'][_0x2a3ae9('0x1ca')],a0_0x301c7c[_0x2a3ae9(0x12c)][_0x2a3ae9('0x14b')][_0x2a3ae9('0x1ca')]),this[_0x2a3ae9('0x190')+'rte'](),this[_0x2a3ae9('0x1c4')](),this[_0x2a3ae9(0x198)](),this['InfiniteIn'+'troOutro'](),this[_0x2a3ae9('0x12d')]();}static[a0_0x1d468e('0x137')+'lyBuff'](_0x5aa4f){const _0x833ab4=a0_0x1d468e;if(Array['isArray'](_0x5aa4f['id'])){if(_0x5aa4f[_0x833ab4('0x13f')])a0_0x50d9f7['AddMultiSt'+_0x833ab4(0x1c8)+_0x833ab4('0x13e')](_0x5aa4f['id'],_0x5aa4f[_0x833ab4('0x13f')]);else for(const _0xa9daf7 of _0x5aa4f['id']){a0_0x50d9f7[_0x833ab4('0x131')+'uest'](_0xa9daf7);}}else _0x5aa4f['stacks']?a0_0x50d9f7[_0x833ab4('0x1b7')+_0x833ab4(0x1c8)+_0x833ab4('0x13e')]([_0x5aa4f['id']],_0x5aa4f['stacks']):a0_0x50d9f7[_0x833ab4(0x131)+'uest'](_0x5aa4f['id']);}static[a0_0x1d468e('0x1b5')+a0_0x1d468e('0x1c2')](){const _0x31baaf=a0_0x1d468e,_0x2860d6=a0_0x3013b2[_0x31baaf(0x140)+_0x31baaf('0x179')+'y'][_0x31baaf('0x191')](a0_0x58dc84[_0x31baaf(0x178)+'ger'][_0x31baaf(0x15a)+_0x31baaf(0x136)]()+a0_0x24e873);return _0x2860d6;}static['SaveConfig'](){const _0x46737e=a0_0x1d468e;a0_0x3013b2[_0x46737e('0x1b3')+'Library'][_0x46737e(0x183)+_0x46737e('0x17e')](JSON[_0x46737e('0x120')](this[_0x46737e(0x1a5)],null,0x2),a0_0x58dc84[_0x46737e(0x178)+_0x46737e(0x163)]['LoadConfig'+_0x46737e('0x136')]()+a0_0x24e873);}static['LoadConfig'](){const _0x223679=a0_0x1d468e;let _0x591507=a0_0x58dc84[_0x223679(0x178)+'ger'][_0x223679(0x1a2)](a0_0x24e873);a0_0x4503c3[_0x223679(0x1b0)](_0x591507);if(!_0x591507||!_0x591507[0x0]){a0_0x4503c3[_0x223679(0x173)][_0x223679(0x1bc)](_0x223679('0x18a')+'e\x20is\x20empty'+_0x223679('0x1b8')+_0x223679(0x1a7)+'Loading\x20de'+'fault\x20conf'+_0x223679(0x18e)),a0_0x50d9f7[_0x223679('0x1c3')]();return;}try{_0x591507=JSON[_0x223679('0x18b')](_0x591507);if(!Array['isArray'](_0x591507))throw new Error(_0x223679('0x18c')+_0x223679('0x143')+_0x223679('0x162')+'\x20an\x20array.');this[_0x223679('0x1a5')]=_0x591507,a0_0x50d9f7[_0x223679(0x1c3)]();}catch(_0x44dfb2){a0_0x5bb504['UI']['ShowTip'](_0x223679(0x158)+_0x223679('0x17a')+_0x223679(0x12b)+_0x44dfb2),a0_0x4503c3[_0x223679('0x173')]['error'](_0x223679(0x158)+_0x223679('0x17a')+_0x223679(0x12b),_0x44dfb2);}}}function a0_0x5e67(_0x4919cc,_0xa81f54){const _0x2b4454=a0_0x2b44();return a0_0x5e67=function(_0x5e67c8,_0x583607){_0x5e67c8=_0x5e67c8-0x11e;let _0x4a235e=_0x2b4454[_0x5e67c8];return _0x4a235e;},a0_0x5e67(_0x4919cc,_0xa81f54);}exports['buffMethod']=a0_0x50d9f7;
+'use strict';
+
+const A = w;
+(function (e, f) {
+  const b = w;
+  const c = e();
+  while (true) {
+    try {
+      const d = parseInt(b("0x1be")) / 1 * (-parseInt(b("0x1ad")) / 2) + -parseInt(b("0x1c1")) / 3 * (-parseInt(b(325)) / 4) + -parseInt(b(404)) / 5 + parseInt(b("0x184")) / 6 * (parseInt(b(343)) / 7) + -parseInt(b("0x12f")) / 8 * (-parseInt(b(298)) / 9) + parseInt(b("0x155")) / 10 * (parseInt(b("0x169")) / 11) + parseInt(b(308)) / 12;
+      if (d === f) {
+        break;
+      } else {
+        c.push(c.shift());
+      }
+    } catch (b) {
+      c.push(c.shift());
+    }
+  }
+})(t, 413772);
+const a = {
+  [A("0x15e")]: true
+};
+Object[A("0x165") + "erty"](exports, A(385), a);
+exports[A("0x170")] = undefined;
+const B = require("puerts");
+const b = A("0x154") + A("0x123");
+const C = A("0x1af");
+const d = require("ue");
+const c = require("../../Module/Abilities/FormationDataController");
+const e = require("../../NewWorld/Character/Common/Component/Abilities/CharacterAttributeTypes");
+const h = require("../../Global");
+const f = require("../Utils/Logger");
+const g = require("./EntityManager");
+const i = require("../Utils/ConfigManager");
+const j = require("../Utils/ModUtils");
+const k = require("../ModelManager");
+const l = require("./dungeonFilter");
+const m = require("../ListComponent");
+const n = require("./Data/Buff");
+const o = require("../Utils/UI");
+const p = require("../ModManager");
+let q;
+let r = [];
+const s = {
+  [A(333)]: [3094, 80012049],
+  [A("0x16e")]: 900170000322,
+  [A("0x15c") + A("0x139")]: [83011202, 83011302],
+  Echo: 83010902,
+  [A(381) + "e"]: 1102012003,
+  [A(400) + A(445)]: [1603600104, 1104060011, 1505402002],
+  Atk: 25,
+  [A(390)]: 672010102,
+  Cr: 26,
+  Cdmg: 672010105,
+  [A(286) + A(364)]: 21,
+  [A("0x193") + "timate"]: 23,
+  [A(402) + "troOutro"]: 621030211,
+  [A(458)]: [16, 621310219, 621310220]
+};
+function t() {
+  const b = ["InfiniteUl", "1891075zZqpXN", "Request", "includes", "ModUtils", "CritialHit", "BuffCompon", "ceChain", "fStates", "BaseCharac", "DungeonFil", "push", "size", "isInDungeo", "RemoveBuff", "GetConfig", "ListenForT", "tChainGrou", "buffType", "handleBuff", "ot exist. ", "MaterialSh", "GetRoleIns", "EntityMana", "GetCompone", "isSprintTi", "67212wRSqoQ", "SceneTeamM", "Buff.json", "$unref", "AddBuff", "error", "KuroStatic", "PbDataId", "CheckConfi", "timerApply", "AddMultiSt", " or does n", "RoleTag", "has", "Component", "warn", "rte", "17USPFAM", "oBlueprint", "hainMaxFak", "2033145JnWyRe", "gExists", "SaveConfig", "sprintBuff", "handleMult", "timate", "lastBuffUs", "ackBuffReq", "ApplyBuffs", "NoCD", "ntity", "isBuffActi", "GetBuffByI", "InfiniteSt", "ined", "stringify", "getEntityT", "Entity", "d.json", "dValue", "buffs", "Duration", "odel", "IllusiveSp", "merActive", "1165635CPbUnS", "iguration:", "ModManager", "superBuff", "Logger", "8TBHYDc", "playerSpee", "AddBuffReq", "Value", "uestByEnti", "1772916YPCtAn", "ter", "Dir", "RequestApp", "EchoesBuff", "dCoin", "ModelManag", "ffRequest", "WorldSpeed", "Log", "uest", "stacks", "BlueprintP", "AddMultiBu", "eam", "rmat: Conf", "ank", "4gjmjVB", "ceData", "isArray", "luePrint", "Instigator", "SuperBuff", "settings", "RequestByE", "GodMode", "agAddOrRem", "Echo", "Cdmg", "ResonanceC", "Sanhua", "every", "ResonanceI", "2301370KsgMdh", "name", "7nTOIYz", "Failed to ", "troOutro", "LoadConfig", "Adding new", "MaterialAn", "ellBuff", "value", "ent", "AlwaysCrit", "buffManage", "ig must be", "ger", "length", "defineProp", "CreatureDa", "sprintTime", "InfiniteIn", "11lXjWUJ", "CurrentTea", "hasBuff", "amina", "GetRoleMod", "OneHitKill", "uff: ", "buffMethod", "ChangeBuff", "BaseBuff", "logger", "appliedBuf", " buff: ", "forEach", "info", "ConfigMana", "athsLibrar", "parse conf", "ove", "IsInFight", "SanhuaFort", "ToFile", "rint", "HasBuff", "__esModule", "map", "SaveString", "1069074zOuZvg", "pIndex", "Atk600", "PlayerSpee", "SetResonan", "GetCurrent", "Config fil", "parse", "Invalid fo", "MaxResonan", "ig.", "taId", "InfiniteFo", "FileExists", "infiniteIn"];
+  t = function () {
+    return b;
+  };
+  return t();
+}
+const u = {
+  [A("0x1b6")]: null,
+  [A(460) + "ve"]: false,
+  [A(362) + "m"]: []
+};
+class v {
+  static [A(409) + A(351)] = 204;
+  static [A("0x1a5")] = n;
+  static [A(428) + A(297)] = false;
+  static [A("0x167") + "r"] = null;
+  static [A("0x1c7") + "ed"] = null;
+  static [A("0x125")] = s;
+  static [A("0x161") + "r"] = {
+    superBuff: u,
+    criticalHit: {
+      isBuffActive: false,
+      charactersActive: new Map()
+    },
+    appliedBuffStates: {},
+    selectedBuffOption: null
+  };
+  static [A(337) + A(448) + "e"]() {
+    const h = A;
+    if (!p.ModManager[h("0x14b")][h("0x18d") + h("0x19a")]) {
+      return;
+    }
+    const b = g["EntityMana" + h(355)][h(365) + "el"]();
+    if (!b) {
+      return;
+    }
+    g[h("0x1aa") + h("0x163")][h("0x121") + h(322)]()[h("0x176")](c => {
+      const a = h;
+      const d = b[a("0x1a9") + "tanceById"](c[a("0x1b4")]);
+      const e = d["GetResonan" + a("0x146")]();
+      if (e && e["GetResonan" + a(420) + a(389)]() < 6) {
+        e[a("0x188") + "tChainGrou" + a("0x185")](6);
+      }
+    });
+  }
+  static ["MaxWeaponR" + A(324)]() {}
+  static ["AddMultiBu" + A(315)](a = false, b) {
+    const e = A;
+    if (a) {
+      b[e("0x176")](d => {
+        const a = e;
+        const b = this[a("0x16b")](d);
+        if (!b) {
+          this["AddBuffReq" + a("0x13e")](d);
+        }
+      });
+    } else if (!a) {
+      b[e("0x176")](d => {
+        const a = e;
+        const b = this.hasBuff(d);
+        if (b) {
+          this[a(417) + a("0x195")](d);
+        }
+      });
+    }
+  }
+  static [A("0x171") + A("0x195")](a) {
+    const b = A;
+    try {
+      if (!a) {
+        throw new Error("buff undef" + b("0x11f"));
+      }
+      if (this[b("0x1c7") + "ed"]?.removeable) {
+        j[b("0x197")][b(317)]("Removing b" + b("0x16f") + this[b("0x1c7") + "ed"].name);
+        this[b("0x1a1") + b(405)](this[b("0x1c7") + "ed"].id);
+        this[b("0x1c7") + "ed"] = null;
+      }
+      this[b("0x1c7") + "ed"] = a;
+      j[b(407)][b(317)](b("0x15b") + b(373) + this[b(455) + "ed"][b("0x156")]);
+      this["AddBuffReq" + b("0x13e")](a.id);
+    } catch (c) {
+      j[b(407)].Log(c, b(434));
+    }
+  }
+  static [A(363)](g) {
+    const b = A;
+    try {
+      const c = k[b("0x13a") + "er"]["SceneTeamM" + b("0x127")][b(393) + b(290)];
+      if (!c) {
+        return false;
+      }
+      const a = c[b(290)][b("0x1ab") + "nt"](m[b("0x1bb")].BaseBuff);
+      if (!a) {
+        return;
+      }
+      const d = a[b("0x180")](g);
+      const e = a[b(461) + "d"](g);
+      return Boolean(d || e);
+    } catch (c) {
+      f[b(302)].Error(c);
+    }
+  }
+  static ["AddMultiSt" + A("0x1c8") + "uest"](e, b = 0) {
+    const c = A;
+    if (b === 0 || e[c("0x164")] === 0) {
+      return;
+    }
+    for (let d = 0; d < b; d++) {
+      for (const b of e) {
+        this[c(305) + "uest"](b);
+      }
+    }
+  }
+  static [A("0x131") + A("0x13e")](h, b) {
+    const c = A;
+    try {
+      const d = k[c(314) + "er"][c(430) + "odel"]["GetCurrent" + c("0x122")];
+      const a = d.Entity[c("0x1ab") + "nt"](m[c("0x1bb")][c("0x172")]);
+      if (!a) {
+        return;
+      }
+      const e = {
+        InstigatorId: a[c("0x166") + c("0x18f")],
+        Reason: " ",
+        ...b
+      };
+      const f = e;
+      a[c(433)](h, f);
+    } catch (b) {}
+  }
+  static [A("0x1a1") + A(405)](a) {
+    const b = A;
+    const c = k[b("0x13a") + "er"][b("0x1ae") + "odel"].GetCurrentEntity;
+    const d = c[b("0x122")][b(427) + "nt"](m.Component[b(370)]);
+    if (!d) {
+      return;
+    }
+    d[b(417)](a, -1, "");
+  }
+  static [A("0x1a1") + A("0x14c") + A("0x1cb")](a, b) {
+    const c = A;
+    const d = b[c("0x1ab") + "nt"](m.Component[c(370)]);
+    if (!d) {
+      return;
+    }
+    d[c(417)](a, -1, "");
+  }
+  static [A("0x1a6") + A("0x195")](g, b = false, c = false) {
+    const d = A;
+    try {
+      const e = this[d(363)](g);
+      const a = this.buffManager[d(372) + "fStates"][g];
+      if (b) {
+        if (a && c && e) {
+          return;
+        }
+        this["AddBuffReq" + d("0x13e")](g);
+        this[d(353) + "r"][d(372) + d(411)][g] = true;
+        return;
+      }
+      if (e && a) {
+        this[d(417) + d(405)](g);
+      }
+      this[d("0x161") + "r"]["appliedBuf" + d("0x19b")][g] = false;
+    } catch (b) {}
+  }
+  static [A(453) + "iBuffRequest"](f, g = false, c = false) {
+    const d = A;
+    try {
+      if (!Array[d("0x147")](f)) {
+        return;
+      }
+      for (const e of f) {
+        const a = this.hasBuff(e);
+        const b = this.buffManager[d(372) + d("0x19b")][e];
+        if (g) {
+          if (b && c && a) {
+            continue;
+          }
+          this[d(305) + "uest"](e);
+          this.buffManager[d(372) + "fStates"][e] = true;
+          continue;
+        }
+        if (a && b) {
+          this[d("0x1a1") + d("0x195")](e);
+        }
+        this[d("0x161") + "r"][d(372) + "fStates"][e] = false;
+      }
+    } catch (b) {}
+  }
+  static [A("0x131") + A(307) + "ty"](g, b) {
+    const c = A;
+    try {
+      const d = b.GetComponent(m[c(443)][c(370)]);
+      if (!d) {
+        return;
+      }
+      const a = {};
+      a[c("0x149") + "Id"] = d[c(358) + c(399)];
+      a.Reason = " ";
+      const e = a;
+      d.AddBuff(g, e);
+    } catch (b) {}
+  }
+  static HanldeBuffRequestByEntity(a, b = false, c = false, d = null) {
+    const e = A;
+    if (!d) {
+      return;
+    }
+    try {
+      if (c && b && this[e(363)](a)) {
+        return;
+      }
+      if (b) {
+        this[e(305) + e(307) + "ty"](a, d);
+      } else if (!b && this[e("0x16b")](a)) {
+        this["RemoveBuff" + e("0x14c") + e("0x1cb")](a, d);
+      }
+    } catch (b) {}
+  }
+  static sprintBuff() {
+    const c = A;
+    const a = k[c(314) + "er"][c("0x1ae") + c("0x127")].GetCurrentEntity;
+    let b = h.Global[c(412) + "ter"]?.["GetEntityN" + c("0x1bf")]();
+    if (!b || !a[c(290)]) {
+      return;
+    }
+    let e = a.Entity.GetComponent(m[c("0x1bb")][c(441)]);
+    const d = () => {
+      const f = c;
+      let a = 3400;
+      if (!p[f("0x12c")].settings[f("0x128") + f(383)] || !e.HasTag(917667812)) {
+        return;
+      }
+      if (v.sprintTimer) {
+        clearTimeout(v[f("0x167") + "r"]);
+        v[f("0x167") + "r"] = null;
+      }
+      if (p[f(300)][f(331)][f("0x187") + "d"]) {
+        a = a / p[f("0x12c")][f("0x14b")][f("0x130") + f(292)];
+      }
+      if (p[f("0x12c")].settings.WorldSpeed) {
+        a = a / p[f("0x12c")].settings[f(316) + f("0x132")];
+      }
+      v[f(359) + "r"] = // TOLOOK
+      // TOLOOK
+      setTimeout(() => {
+        const c = f;
+        if (!this.hasBuff(640003016)) {
+          const b = {
+            [c("0x126")]: 60
+          };
+          this[c(305) + c(318)](640003016, b);
+        }
+        B[c(371)][c(375)]("Refreshing buff");
+        d();
+      }, a);
+    };
+    if (q !== b && !r[c("0x196")](b)) {
+      q = b;
+      r[c(414)](b);
+      e[c("0x1a3") + c(334) + c(379)](917667812, d);
+    }
+    if (p.ModManager.settings["IllusiveSp" + c("0x17f")]) {
+      if (!e.HasTag(917667812) && !e.HasTag(-1935387692)) {
+        const b = {
+          [c(294)]: 0.01
+        };
+        this[c(305) + c(318)](640003017, b);
+      }
+    }
+  }
+  static [A("0x12d")]() {
+    const h = A;
+    try {
+      const b = g["EntityMana" + h("0x163")][h(289) + h("0x142")]();
+      if (!b) {
+        return;
+      }
+      if (!this[h("0x16b")](this[h(293)][h("0x186")])) {
+        this[h(353) + "r"][h(301)][h("0x1cc") + "ve"] = false;
+      }
+      const a = () => {
+        const d = h;
+        b[d("0x176")](c => {
+          const a = d;
+          this[a(417) + "RequestByEntity"](this[a(293)].Atk600, c[a("0x122")]);
+          this[a("0x1a1") + a("0x14c") + a(459)](this[a(293)].Cr, c[a(290)]);
+          this[a("0x1a1") + "RequestByEntity"](this[a("0x125")][a("0x150")], c[a(290)]);
+        });
+        this.buffManager[d("0x12d")].isBuffActive = false;
+        this[d(353) + "r"][d("0x12d")][d(362) + "m"] = [];
+      };
+      if (!p[h(300)][h("0x14b")][h(330)]) {
+        if (this[h("0x161") + "r"][h("0x12d")][h("0x1cc") + "ve"]) {
+          a();
+        }
+        return;
+      }
+      if (this[h("0x161") + "r"][h(301)].CurrentTeam[h(356)] > 0) {
+        const c = new Set(this[h("0x161") + "r"][h("0x12d")].CurrentTeam);
+        const d = new Set(b[h(386)](b => b[h(436)]));
+        const e = c[h(415)] === d.size && [...c][h("0x153")](b => d[h(442)](b));
+        if (l[h("0x19d") + h(309)][h("0x1a0") + "n"]()) {
+          if (this[h("0x161") + "r"].superBuff[h(460) + "ve"] && !e) {
+            return a();
+          }
+        }
+        if (!e) {
+          if (this[h(353) + "r"][h(301)][h("0x1cc") + "ve"]) {
+            return a();
+          }
+        }
+      }
+      if (!this[h(353) + "r"][h(301)][h("0x1cc") + "ve"]) {
+        this[h("0x131") + "uest"](this[h("0x125")].Cr);
+        for (let b = 0; b < 5; b++) {
+          this[h("0x131") + "uest"](this[h(293)][h(390)]);
+        }
+        for (let b = 0; b < 10; b++) {
+          this[h("0x131") + h("0x13e")](this[h(293)][h(336)]);
+        }
+        this[h(353) + "r"][h("0x12d")][h("0x1cc") + "ve"] = true;
+        b[h("0x182")](b => this[h(353) + "r"][h("0x12d")][h("0x16a") + "m"][h(414)](b[h(436)]));
+      }
+    } catch (b) {
+      j[h(407)][h("0x13d")](b, "error");
+    }
+  }
+  static CritialHit() {
+    const f = A;
+    try {
+      const b = g["EntityMana" + f(355)][f(289) + f("0x142")]();
+      if (!b) {
+        return;
+      }
+      const a = this[f("0x161") + "r"][f("0x174") + f("0x19b")][this[f("0x125")].Cr];
+      const c = b[f("0x153")](b => b[f("0x122")][f("0x1ab") + "nt"](m.Component[f(370)])[f("0x180")](this[f(293)].Cr));
+      if (p.ModManager[f("0x14b")].AlwaysCrit && !c) {
+        this[f(305) + "uest"](this[f(293)].Cr);
+        this.buffManager[f(372) + f(411)][this[f(293)].Cr] = true;
+      } else if (!p[f("0x12c")].settings[f("0x160")] && a) {
+        b[f(374)](b => {
+          const a = f;
+          const c = b[a(290)];
+          const d = c[a("0x1ab") + "nt"](m[a(443)][a("0x172")])[a(384)](this[a("0x125")].Cr);
+          if (d) {
+            this["RemoveBuff" + a(332) + "ntity"](this[a("0x125")].Cr, c);
+          }
+        });
+        this.buffManager[f(372) + f(411)][this[f(293)].Cr] = false;
+      }
+    } catch (b) {}
+  }
+  static [A("0x190") + A(445)]() {
+    const a = A;
+    try {
+      if (j[a("0x197")][a(380)]()) {
+        if (g[a(426) + a(355)]["GetPlayerB" + a("0x148")]()[a("0x196")](a(338))) {
+          this[a(422) + "Request"](this[a(293)][a(381) + "e"], p[a("0x12c")][a(331)].InfiniteForte);
+        }
+        this[a("0x1c5") + "iBuffRequest"](this.buffs[a("0x190") + a("0x1bd")], p[a(300)].settings[a("0x190") + "rte"]);
+      }
+    } catch (b) {}
+  }
+  static [A("0x168") + A("0x159")]() {
+    const a = A;
+    try {
+      if (p[a("0x12c")].settings[a(360) + a(345)] && j[a(407)][a("0x17c")]()) {
+        this[a(305) + a("0x13e")](v[a("0x125")][a(402) + a("0x159")]);
+      }
+    } catch (b) {}
+  }
+  static [A(457)]() {
+    const a = A;
+    this[a(453) + "iBuffRequest"](this.buffs[a(333)], p[a("0x12c")][a(331)][a("0x14d")], true);
+    this[a(422) + a("0x195")](this[a(293)][a("0x16e")], p[a(300)][a(331)][a(366)], true);
+    this[a(321) + a("0x13b")](p[a(300)].settings[a(424) + a("0x15d")], this.buffs[a("0x15c") + a("0x139")]);
+    this.handleBuffRequest(this[a(293)][a("0x14f")], p[a("0x12c")].settings[a("0x138")], true);
+    this[a("0x1a6") + a("0x195")](this.buffs[a(286) + a(364)], p[a("0x12c")][a("0x14b")][a("0x11e") + a(364)], true);
+    this.handleBuffRequest(this[a("0x125")][a(403) + a(454)], p[a("0x12c")].settings["InfiniteUl" + a(454)], true);
+    this[a("0x1c5") + "iBuffRequest"](this.buffs[a("0x1ca")], p[a(300)][a("0x14b")][a("0x1ca")]);
+    this[a("0x190") + "rte"]();
+    this[a("0x1c4")]();
+    this[a(408)]();
+    this.InfiniteIntroOutro();
+    this[a("0x12d")]();
+  }
+  static [A("0x137") + "lyBuff"](d) {
+    const b = A;
+    if (Array.isArray(d.id)) {
+      if (d[b("0x13f")]) {
+        v["AddMultiSt" + b(456) + b("0x13e")](d.id, d[b("0x13f")]);
+      } else {
+        for (const c of d.id) {
+          v[b("0x131") + "uest"](c);
+        }
+      }
+    } else if (d.stacks) {
+      v[b("0x1b7") + b(456) + b("0x13e")]([d.id], d.stacks);
+    } else {
+      v[b(305) + "uest"](d.id);
+    }
+  }
+  static [A("0x1b5") + A("0x1c2")]() {
+    const a = A;
+    const b = d[a(320) + a("0x179") + "y"][a("0x191")](i[a(376) + "ger"][a(346) + a(310)]() + C);
+    return b;
+  }
+  static SaveConfig() {
+    const a = A;
+    d[a("0x1b3") + "Library"][a(387) + a("0x17e")](JSON[a("0x120")](this[a(421)], null, 2), i[a(376) + a(355)]["LoadConfig" + a("0x136")]() + C);
+  }
+  static LoadConfig() {
+    const c = A;
+    let a = i[c(376) + "ger"][c(418)](C);
+    B[c(432)](a);
+    if (!a || !a[0]) {
+      B[c(371)][c(444)](c("0x18a") + "e is empty" + c("0x1b8") + c(423) + "Loading default conf" + c(398));
+      v[c("0x1c3")]();
+      return;
+    }
+    try {
+      a = JSON[c("0x18b")](a);
+      if (!Array.isArray(a)) {
+        throw new Error(c("0x18c") + c("0x143") + c("0x162") + " an array.");
+      }
+      this[c("0x1a5")] = a;
+      v[c(451)]();
+    } catch (b) {
+      o.UI.ShowTip(c(344) + c("0x17a") + c(299) + b);
+      B[c("0x173")].error(c(344) + c("0x17a") + c(299), b);
+    }
+  }
+}
+function w(d, a) {
+  const e = t();
+  w = function (c, f) {
+    c = c - 286;
+    let b = e[c];
+    return b;
+  };
+  return w(d, a);
+}
+exports.buffMethod = v;

@@ -1,1 +1,72 @@
-'use strict';const a0_0x2ba77f=a0_0x5eb9;(function(_0x2ef1ef,_0x1cede9){const _0x21cf56=a0_0x5eb9,_0x48fda4=_0x2ef1ef();while(!![]){try{const _0x5a87b1=parseInt(_0x21cf56('0xed'))/0x1+parseInt(_0x21cf56('0x106'))/0x2+-parseInt(_0x21cf56(0x105))/0x3*(parseInt(_0x21cf56(0xf4))/0x4)+-parseInt(_0x21cf56('0x101'))/0x5*(parseInt(_0x21cf56(0xf7))/0x6)+parseInt(_0x21cf56(0xef))/0x7*(parseInt(_0x21cf56(0xff))/0x8)+parseInt(_0x21cf56('0xf2'))/0x9*(-parseInt(_0x21cf56('0xf6'))/0xa)+parseInt(_0x21cf56(0xf1))/0xb*(-parseInt(_0x21cf56(0xf8))/0xc);if(_0x5a87b1===_0x1cede9)break;else _0x48fda4['push'](_0x48fda4['shift']());}catch(_0xc1bb62){_0x48fda4['push'](_0x48fda4['shift']());}}}(a0_0x5499,0x469e9));const a0_0x17ccfd={};a0_0x17ccfd[a0_0x2ba77f('0xfe')]=!0x0,(Object[a0_0x2ba77f('0x104')+a0_0x2ba77f(0xf3)](exports,a0_0x2ba77f(0x107),a0_0x17ccfd),exports[a0_0x2ba77f(0xee)]=void 0x0);function a0_0x5eb9(_0x1949a9,_0x2d8c06){const _0x54994b=a0_0x5499();return a0_0x5eb9=function(_0x5eb95e,_0x2b3b47){_0x5eb95e=_0x5eb95e-0xed;let _0xdd1ac0=_0x54994b[_0x5eb95e];return _0xdd1ac0;},a0_0x5eb9(_0x1949a9,_0x2d8c06);}const a0_0x5077cf=require('../../../Core/Http/Http'),a0_0x278c1c=require('../Utils/ModUtils');class a0_0x515d2f{static async[a0_0x2ba77f('0xfb')](_0x27f604,_0x428aaa){return new Promise((_0x32b2cd,_0x3a1e5e)=>{const _0x173a83=a0_0x5eb9;a0_0x5077cf[_0x173a83('0xee')][_0x173a83('0xfb')](_0x27f604,_0x428aaa,(_0x338491,_0x1ea8fa,_0xe9da4f)=>{_0x338491?_0x32b2cd(_0xe9da4f):_0x3a1e5e(_0x1ea8fa);});});}static async[a0_0x2ba77f('0xfa')](){const _0x2f9ad0=a0_0x2ba77f;try{const _0x21d98c=_0x2f9ad0('0xf5')+_0x2f9ad0(0x100)+'.github.io'+_0x2f9ad0(0xf0)+_0x2f9ad0(0xfc)+_0x2f9ad0(0xfd),_0x5698e9=await this[_0x2f9ad0(0xfb)](_0x21d98c,null);return JSON['parse'](_0x5698e9);}catch(_0x7a574a){a0_0x278c1c[_0x2f9ad0(0x103)][_0x2f9ad0(0xf9)](_0x7a574a,_0x2f9ad0('0x102')),setTimeout(()=>{this['GetVersion']();},0x1388);}}}exports[a0_0x2ba77f(0xee)]=a0_0x515d2f;function a0_0x5499(){const _0x587ca5=['defineProp','13557GZcuqb','769286zDmTxY','__esModule','573840UmglJA','Http','2868390ELZHlK','/test-test','108273wQZnlR','77841LtuqGo','erty','372jflwps','https://sa','190SkwecJ','8394ruPjzS','468CEmGYt','Log','GetVersion','Get','/version.j','son','value','8guhfpH','efulbarkah','395iqUpVu','error','ModUtils'];a0_0x5499=function(){return _0x587ca5;};return a0_0x5499();}
+'use strict';
+
+const h = i;
+(function (c, f) {
+  const b = i;
+  const d = c();
+  while (true) {
+    try {
+      const c = parseInt(b("0xed")) / 1 + parseInt(b("0x106")) / 2 + -parseInt(b(261)) / 3 * (parseInt(b(244)) / 4) + -parseInt(b("0x101")) / 5 * (parseInt(b(247)) / 6) + parseInt(b(239)) / 7 * (parseInt(b(255)) / 8) + parseInt(b("0xf2")) / 9 * (-parseInt(b("0xf6")) / 10) + parseInt(b(241)) / 11 * (-parseInt(b(248)) / 12);
+      if (c === f) {
+        break;
+      } else {
+        d.push(d.shift());
+      }
+    } catch (b) {
+      d.push(d.shift());
+    }
+  }
+})(e, 289257);
+const a = {
+  [h("0xfe")]: true
+};
+Object[h("0x104") + h(243)](exports, h(263), a);
+exports[h(238)] = undefined;
+function i(c, a) {
+  const f = e();
+  i = function (d, e) {
+    d = d - 237;
+    let b = f[d];
+    return b;
+  };
+  return i(c, a);
+}
+const c = require("../../../Core/Http/Http");
+const d = require("../Utils/ModUtils");
+class b {
+  static async [h("0xfb")](d, a) {
+    return new Promise((b, e) => {
+      const f = i;
+      c[f("0xee")][f("0xfb")](d, a, (d, a, f) => {
+        if (d) {
+          b(f);
+        } else {
+          e(a);
+        }
+      });
+    });
+  }
+  static async [h("0xfa")]() {
+    const e = h;
+    try {
+      const b = e("0xf5") + e(256) + ".github.io" + e(240) + e(252) + e(253);
+      const a = await this[e(251)](b, null);
+      return JSON.parse(a);
+    } catch (b) {
+      d[e(259)][e(249)](b, e("0x102"));
+      // TOLOOK
+      // TOLOOK
+      setTimeout(() => {
+        this.GetVersion();
+      }, 5000);
+    }
+  }
+}
+exports[h(238)] = b;
+function e() {
+  const b = ["defineProp", "13557GZcuqb", "769286zDmTxY", "__esModule", "573840UmglJA", "Http", "2868390ELZHlK", "/test-test", "108273wQZnlR", "77841LtuqGo", "erty", "372jflwps", "https://sa", "190SkwecJ", "8394ruPjzS", "468CEmGYt", "Log", "GetVersion", "Get", "/version.j", "son", "value", "8guhfpH", "efulbarkah", "395iqUpVu", "error", "ModUtils"];
+  e = function () {
+    return b;
+  };
+  return e();
+}

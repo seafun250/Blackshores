@@ -1,1 +1,113 @@
-'use strict';const a0_0x14153d=a0_0x520d;(function(_0x3f6a2b,_0xc108b0){const _0x3900e6=a0_0x520d,_0x3c298d=_0x3f6a2b();while(!![]){try{const _0x2165e8=parseInt(_0x3900e6('0x205'))/0x1*(parseInt(_0x3900e6(0x20f))/0x2)+-parseInt(_0x3900e6(0x21a))/0x3+-parseInt(_0x3900e6('0x227'))/0x4*(-parseInt(_0x3900e6(0x21f))/0x5)+-parseInt(_0x3900e6('0x209'))/0x6*(-parseInt(_0x3900e6('0x1ff'))/0x7)+-parseInt(_0x3900e6(0x1fa))/0x8*(-parseInt(_0x3900e6(0x210))/0x9)+-parseInt(_0x3900e6(0x223))/0xa*(parseInt(_0x3900e6(0x222))/0xb)+parseInt(_0x3900e6('0x1fb'))/0xc;if(_0x2165e8===_0xc108b0)break;else _0x3c298d['push'](_0x3c298d['shift']());}catch(_0x2ed50c){_0x3c298d['push'](_0x3c298d['shift']());}}}(a0_0xbc8c,0x89f73));const a0_0x56110f={};a0_0x56110f[a0_0x14153d(0x1ee)]=!0x0,(Object['defineProp'+a0_0x14153d('0x214')](exports,a0_0x14153d(0x21c),a0_0x56110f),exports[a0_0x14153d(0x1f6)]=void 0x0);const a0_0x55bc1a=require('puerts'),a0_0x482f84=require('ue'),a0_0x27d2c6=require('../ModManager'),a0_0x46a341=require('../Utils/ModUtils'),a0_0xb16928=require('./ModMethod'),a0_0x1ebced=require('./EntityManager'),a0_0x387330=[a0_0x14153d('0x1ed'),a0_0x14153d(0x1fc),a0_0x14153d('0x203'),a0_0x14153d('0x217'),a0_0x14153d(0x204),'Animal032'],a0_0x296346=[a0_0x14153d('0x1f7'),a0_0x14153d(0x221),'branch2.0_'+a0_0x14153d('0x20c'),a0_0x14153d('0x212')+'Animal042'],a0_0x488a9e=['Animal006',a0_0x14153d('0x206'),'Animal035',a0_0x14153d(0x212)+'Animal039'];class a0_0x188b79 extends a0_0x1ebced[a0_0x14153d('0x20b')+a0_0x14153d('0x215')]{static[a0_0x14153d('0x1ec')+'ce'](_0x34c281){const _0x1dfea0=a0_0x14153d;try{let _0x3c17b7=this[_0x1dfea0(0x1fe)+'n'](_0x34c281[_0x1dfea0(0x1ef)]);if(!_0x3c17b7)return![];let _0xdeb1aa=a0_0x46a341[_0x1dfea0(0x1f3)]['Getdistanc'+_0x1dfea0(0x224)](_0x3c17b7);return _0xdeb1aa<a0_0x27d2c6[_0x1dfea0('0x20d')][_0x1dfea0('0x20e')][_0x1dfea0(0x200)+_0x1dfea0('0x1f2')]*0x64;}catch(_0x30eeba){return![];}}static async[a0_0x14153d(0x1f5)](_0xfadc02){const _0x517f1f=a0_0x14153d;try{if(!_0xfadc02[_0x517f1f('0x1ef')])return;if(this[_0x517f1f('0x1f4')](_0xfadc02)&&this['isIndistan'+'ce'](_0xfadc02)&&a0_0x27d2c6[_0x517f1f(0x20d)][_0x517f1f('0x20e')][_0x517f1f(0x213)+'ura'])return a0_0xb16928[_0x517f1f(0x1f9)]['MonsterKil'+_0x517f1f('0x1f1')](_0xfadc02[_0x517f1f(0x1ef)]);if(this[_0x517f1f(0x1f4)](_0xfadc02)&&this['isIndistan'+'ce'](_0xfadc02)&&a0_0x27d2c6[_0x517f1f(0x20d)][_0x517f1f('0x20e')][_0x517f1f(0x219)+'illAura'])return a0_0xb16928[_0x517f1f(0x1f9)][_0x517f1f(0x201)+_0x517f1f(0x202)+_0x517f1f('0x216')](_0xfadc02['Entity']);}catch(_0x3c51b2){}}static[a0_0x14153d('0x21e')+'a'](){const _0x2c7a1c=a0_0x14153d;try{if(!a0_0x27d2c6['ModManager']['settings'][_0x2c7a1c(0x1f5)])return;if(a0_0x46a341[_0x2c7a1c(0x1f3)][_0x2c7a1c('0x207')+_0x2c7a1c(0x211)]())return;a0_0x1ebced['EntityMana'+_0x2c7a1c(0x215)][_0x2c7a1c(0x225)+_0x2c7a1c(0x21d)]()[_0x2c7a1c(0x20a)](_0x3c6aca=>{const _0x1745f8=_0x2c7a1c;a0_0x188b79[_0x1745f8('0x1f5')](_0x3c6aca);});}catch(_0x490dcc){Logger_1[_0x2c7a1c(0x1f8)][_0x2c7a1c('0x226')](_0x490dcc);}}static async[a0_0x14153d(0x21b)](_0x5f35f5){const _0x1759e1=a0_0x14153d;try{if(!a0_0x27d2c6[_0x1759e1('0x20d')][_0x1759e1(0x20e)][_0x1759e1('0x21b')])return;if(!_0x5f35f5[_0x1759e1('0x1ef')])return;let _0x3c7736=this[_0x1759e1(0x218)+'ntType2'](_0x5f35f5);if(a0_0x387330[_0x1759e1(0x208)](_0x3c7736))a0_0xb16928[_0x1759e1(0x1f9)][_0x1759e1('0x220')+_0x1759e1(0x1fd)](_0x5f35f5[_0x1759e1('0x1ef')]);else{if(a0_0x488a9e[_0x1759e1(0x208)](_0x3c7736))a0_0xb16928[_0x1759e1('0x1f9')][_0x1759e1('0x1f0')+'Request'](_0x5f35f5[_0x1759e1(0x1ef)]);else{if(a0_0x296346[_0x1759e1('0x208')](_0x3c7736)){}}}}catch(_0x293503){}}}function a0_0x520d(_0x7424ed,_0x284091){const _0xbc8ce5=a0_0xbc8c();return a0_0x520d=function(_0x520d87,_0x3e7522){_0x520d87=_0x520d87-0x1ec;let _0x48e8d6=_0xbc8ce5[_0x520d87];return _0x48e8d6;},a0_0x520d(_0x7424ed,_0x284091);}function a0_0xbc8c(){const _0x5085b9=['220530VtZSVn','KillAnimal','__esModule','ties','RunKillAur','350LEYtnk','AnimalDieR','Animal033','22nFlKmc','5616740fnuBNa','e2Player','GetAllEnti','Error','40544MWfyta','isIndistan','Animal001','value','Entity','AnimalDrop','lRequest','dius','ModUtils','isMonster','killAura','KillAura','Animal015','Logger','ModMethod','16OQlOVM','107808CfpyJt','Animal002','equest','GetPositio','7tIrPmh','killAuraRa','InstantMon','sterKillRe','Animal003','Animal012','377UzaBah','Animal005','isLoadingO','includes','468942tlsxmG','forEach','EntityMana','Animal045','ModManager','settings','1756UfqmrO','2854341sSkakM','rNotInGame','branch2.0_','isDotKillA','erty','ger','quest','Animal004','GetBluepri','isInstantK'];a0_0xbc8c=function(){return _0x5085b9;};return a0_0xbc8c();}exports[a0_0x14153d('0x1f6')]=a0_0x188b79;
+'use strict';
+
+const o = k;
+(function (e, f) {
+  const b = k;
+  const c = e();
+  while (true) {
+    try {
+      const d = parseInt(b("0x205")) / 1 * (parseInt(b(527)) / 2) + -parseInt(b(538)) / 3 + -parseInt(b("0x227")) / 4 * (-parseInt(b(543)) / 5) + -parseInt(b("0x209")) / 6 * (-parseInt(b("0x1ff")) / 7) + -parseInt(b(506)) / 8 * (-parseInt(b(528)) / 9) + -parseInt(b(547)) / 10 * (parseInt(b(546)) / 11) + parseInt(b("0x1fb")) / 12;
+      if (d === f) {
+        break;
+      } else {
+        c.push(c.shift());
+      }
+    } catch (b) {
+      c.push(c.shift());
+    }
+  }
+})(l, 565107);
+const a = {
+  [o(494)]: true
+};
+Object["defineProp" + o("0x214")](exports, o(540), a);
+exports[o(502)] = undefined;
+const b = require("puerts");
+const c = require("ue");
+const p = require("../ModManager");
+const e = require("../Utils/ModUtils");
+const d = require("./ModMethod");
+const f = require("./EntityManager");
+const g = [o("0x1ed"), o(508), o("0x203"), o("0x217"), o(516), "Animal032"];
+const h = [o("0x1f7"), o(545), "branch2.0_" + o("0x20c"), o("0x212") + "Animal042"];
+const i = ["Animal006", o("0x206"), "Animal035", o(530) + "Animal039"];
+class j extends f[o("0x20b") + o("0x215")] {
+  static [o("0x1ec") + "ce"](f) {
+    const b = o;
+    try {
+      let c = this[b(510) + "n"](f[b(495)]);
+      if (!c) {
+        return false;
+      }
+      let a = e[b(499)]["Getdistanc" + b(548)](c);
+      return a < p[b("0x20d")][b("0x20e")][b(512) + b("0x1f2")] * 100;
+    } catch (b) {
+      return false;
+    }
+  }
+  static async [o(501)](a) {
+    const b = o;
+    try {
+      if (!a[b("0x1ef")]) {
+        return;
+      }
+      if (this[b("0x1f4")](a) && this.isIndistance(a) && p[b(525)][b("0x20e")][b(531) + "ura"]) {
+        return d[b(505)]["MonsterKil" + b("0x1f1")](a[b(495)]);
+      }
+      if (this[b(500)](a) && this.isIndistance(a) && p[b(525)][b("0x20e")][b(537) + "illAura"]) {
+        return d[b(505)][b(513) + b(514) + b("0x216")](a.Entity);
+      }
+    } catch (b) {}
+  }
+  static [o("0x21e") + "a"]() {
+    const d = o;
+    try {
+      if (!p.ModManager.settings[d(501)]) {
+        return;
+      }
+      if (e[d(499)][d("0x207") + d(529)]()) {
+        return;
+      }
+      f["EntityMana" + d(533)][d(549) + d(541)]()[d(522)](b => {
+        const a = d;
+        j[a("0x1f5")](b);
+      });
+    } catch (b) {
+      Logger_1[d(504)][d("0x226")](b);
+    }
+  }
+  static async [o(539)](e) {
+    const b = o;
+    try {
+      if (!p[b("0x20d")][b(526)][b("0x21b")]) {
+        return;
+      }
+      if (!e[b("0x1ef")]) {
+        return;
+      }
+      let c = this[b(536) + "ntType2"](e);
+      if (g[b(520)](c)) {
+        d[b(505)][b("0x220") + b(509)](e[b("0x1ef")]);
+      } else if (i[b(520)](c)) {
+        d[b("0x1f9")][b("0x1f0") + "Request"](e[b(495)]);
+      } else if (h[b("0x208")](c)) {}
+    } catch (b) {}
+  }
+}
+function k(d, a) {
+  const e = l();
+  k = function (c, f) {
+    c = c - 492;
+    let b = e[c];
+    return b;
+  };
+  return k(d, a);
+}
+function l() {
+  const b = ["220530VtZSVn", "KillAnimal", "__esModule", "ties", "RunKillAur", "350LEYtnk", "AnimalDieR", "Animal033", "22nFlKmc", "5616740fnuBNa", "e2Player", "GetAllEnti", "Error", "40544MWfyta", "isIndistan", "Animal001", "value", "Entity", "AnimalDrop", "lRequest", "dius", "ModUtils", "isMonster", "killAura", "KillAura", "Animal015", "Logger", "ModMethod", "16OQlOVM", "107808CfpyJt", "Animal002", "equest", "GetPositio", "7tIrPmh", "killAuraRa", "InstantMon", "sterKillRe", "Animal003", "Animal012", "377UzaBah", "Animal005", "isLoadingO", "includes", "468942tlsxmG", "forEach", "EntityMana", "Animal045", "ModManager", "settings", "1756UfqmrO", "2854341sSkakM", "rNotInGame", "branch2.0_", "isDotKillA", "erty", "ger", "quest", "Animal004", "GetBluepri", "isInstantK"];
+  l = function () {
+    return b;
+  };
+  return l();
+}
+exports[o("0x1f6")] = j;

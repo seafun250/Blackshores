@@ -9,8 +9,6 @@ function hook() {
     ModelManager_1 = require("./Manager/ModelManager");
 
   LoginController_1.LoginController.SMi = (e) => {
-    // puerts_1.logger.info("notified logout");
-    // ModUtils_1.ModUtils.jsLog(ModUtils_1.ModUtils.StackTrace());
   };
 
   ReConnectController_1.ReConnectController.qGi = () => {

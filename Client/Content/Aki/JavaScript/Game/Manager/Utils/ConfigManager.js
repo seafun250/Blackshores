@@ -1,1 +1,73 @@
-'use strict';const a0_0x256167=a0_0x505a;(function(_0x2cc4a0,_0x4a2bb2){const _0x31dcd3=a0_0x505a,_0x39bd46=_0x2cc4a0();while(!![]){try{const _0x462404=parseInt(_0x31dcd3('0x12b'))/0x1+-parseInt(_0x31dcd3(0x11d))/0x2+-parseInt(_0x31dcd3('0x11c'))/0x3+parseInt(_0x31dcd3('0x126'))/0x4+-parseInt(_0x31dcd3(0x118))/0x5*(-parseInt(_0x31dcd3(0x11e))/0x6)+-parseInt(_0x31dcd3(0x12c))/0x7*(-parseInt(_0x31dcd3(0x11b))/0x8)+parseInt(_0x31dcd3('0x128'))/0x9;if(_0x462404===_0x4a2bb2)break;else _0x39bd46['push'](_0x39bd46['shift']());}catch(_0xd30711){_0x39bd46['push'](_0x39bd46['shift']());}}}(a0_0x1521,0xbc806));const a0_0x541514={};a0_0x541514['value']=!0x0,(Object[a0_0x256167(0x123)+a0_0x256167(0x134)](exports,a0_0x256167(0x11f),a0_0x541514),exports[a0_0x256167(0x129)+a0_0x256167(0x132)]=void 0x0);function a0_0x505a(_0x30568b,_0x3205d8){const _0x15219f=a0_0x1521();return a0_0x505a=function(_0x505a54,_0x43469e){_0x505a54=_0x505a54-0x113;let _0x10e6a5=_0x15219f[_0x505a54];return _0x10e6a5;},a0_0x505a(_0x30568b,_0x3205d8);}function a0_0x1521(){const _0x4a9bdc=['saved_conf','Dir','ger','ig.json','erty','gExists','logger','BlueprintP','athsLibrar','LoadFileTo','612515uiDIKV','Failed\x20to\x20','FileExists','18144wfeZXw','2205498aPyRqt','2156282HmeUrv','12rLVIOO','__esModule','$ref','parse\x20JSON','Library','defineProp','Binaries/W','error','954648axOorg','$unref','13095972dQeweF','ConfigMana','KuroStatic','333649lAtlJf','966bdYcjr','LoadConfig','in64/','CheckConfi'];a0_0x1521=function(){return _0x4a9bdc;};return a0_0x1521();}const a0_0x127387=require('ue'),a0_0x15a5fc=a0_0x256167('0x130')+a0_0x256167(0x133),a0_0x4d3ee9=require('puerts');class a0_0xa3e252{static[a0_0x256167(0x12f)+a0_0x256167(0x113)](_0x40c86c){const _0x3625c1=a0_0x256167,_0x15743f=a0_0x127387['BlueprintP'+_0x3625c1(0x116)+'y'][_0x3625c1(0x11a)](this[_0x3625c1('0x12d')+_0x3625c1('0x131')]()+_0x40c86c);return _0x15743f;}static['LoadConfig'+a0_0x256167('0x131')](){const _0x3b55d4=a0_0x256167,_0x278dda=a0_0x127387[_0x3b55d4('0x115')+_0x3b55d4('0x116')+'y']['ProjectDir']()+(_0x3b55d4(0x124)+_0x3b55d4('0x12e'));let _0xc3e25e=a0_0x4d3ee9[_0x3b55d4('0x120')]('');a0_0x127387[_0x3b55d4(0x12a)+_0x3b55d4('0x122')][_0x3b55d4('0x117')+'String'](_0xc3e25e,_0x278dda+a0_0x15a5fc);let _0x5d37b7=a0_0x4d3ee9[_0x3b55d4(0x127)](_0xc3e25e);try{let _0x2b37d0=JSON['parse'](_0x5d37b7);return _0x2b37d0['launcherPa'+'th'];}catch(_0x35422c){return a0_0x4d3ee9[_0x3b55d4('0x114')][_0x3b55d4(0x125)](_0x3b55d4('0x119')+_0x3b55d4(0x121)+':',_0x35422c),null;}}static['GetConfig'](_0x50862d){const _0x4916ad=a0_0x256167,_0x421e7f=this[_0x4916ad(0x12d)+_0x4916ad('0x131')]();let _0x2f6519=a0_0x4d3ee9[_0x4916ad('0x120')]('');a0_0x127387[_0x4916ad(0x12a)+_0x4916ad('0x122')]['LoadFileTo'+'String'](_0x2f6519,_0x421e7f+_0x50862d);let _0x7acaff=a0_0x4d3ee9[_0x4916ad(0x127)](_0x2f6519);return _0x7acaff;}}exports[a0_0x256167('0x129')+a0_0x256167('0x132')]=a0_0xa3e252;
+'use strict';
+
+const i = j;
+(function (c, f) {
+  const b = j;
+  const d = c();
+  while (true) {
+    try {
+      const c = parseInt(b("0x12b")) / 1 + -parseInt(b(285)) / 2 + -parseInt(b("0x11c")) / 3 + parseInt(b("0x126")) / 4 + -parseInt(b(280)) / 5 * (-parseInt(b(286)) / 6) + -parseInt(b(300)) / 7 * (-parseInt(b(283)) / 8) + parseInt(b("0x128")) / 9;
+      if (c === f) {
+        break;
+      } else {
+        d.push(d.shift());
+      }
+    } catch (b) {
+      d.push(d.shift());
+    }
+  }
+})(c, 772102);
+const a = {
+  value: true
+};
+Object[i(291) + i(308)](exports, i(287), a);
+exports[i(297) + i(306)] = undefined;
+function j(d, a) {
+  const f = c();
+  j = function (d, e) {
+    d = d - 275;
+    let b = f[d];
+    return b;
+  };
+  return j(d, a);
+}
+function c() {
+  const b = ["saved_conf", "Dir", "ger", "ig.json", "erty", "gExists", "logger", "BlueprintP", "athsLibrar", "LoadFileTo", "612515uiDIKV", "Failed to ", "FileExists", "18144wfeZXw", "2205498aPyRqt", "2156282HmeUrv", "12rLVIOO", "__esModule", "$ref", "parse JSON", "Library", "defineProp", "Binaries/W", "error", "954648axOorg", "$unref", "13095972dQeweF", "ConfigMana", "KuroStatic", "333649lAtlJf", "966bdYcjr", "LoadConfig", "in64/", "CheckConfi"];
+  c = function () {
+    return b;
+  };
+  return c();
+}
+const k = require("ue");
+const e = i("0x130") + i(307);
+const l = require("puerts");
+class b {
+  static [i(303) + i(275)](a) {
+    const b = i;
+    const c = k["BlueprintP" + b(278) + "y"][b(282)](this[b("0x12d") + b("0x131")]() + a);
+    return c;
+  }
+  static ["LoadConfig" + i("0x131")]() {
+    const f = i;
+    const a = k[f("0x115") + f("0x116") + "y"].ProjectDir() + (f(292) + f("0x12e"));
+    let b = l[f("0x120")]("");
+    k[f(298) + f("0x122")][f("0x117") + "String"](b, a + e);
+    let c = l[f(295)](b);
+    try {
+      let b = JSON.parse(c);
+      return b.launcherPath;
+    } catch (b) {
+      l[f("0x114")][f(293)](f("0x119") + f(289) + ":", b);
+      return null;
+    }
+  }
+  static GetConfig(a) {
+    const b = i;
+    const c = this[b(301) + b("0x131")]();
+    let d = l[b("0x120")]("");
+    k[b(298) + b("0x122")].LoadFileToString(d, c + a);
+    let e = l[b(295)](d);
+    return e;
+  }
+}
+exports[i("0x129") + i("0x132")] = b;

@@ -1,1 +1,62 @@
-'use strict';const a0_0x3fc585=a0_0x17ea;(function(_0x4b0615,_0x344117){const _0x4d2994=a0_0x17ea,_0x46c20e=_0x4b0615();while(!![]){try{const _0x1e77d6=-parseInt(_0x4d2994(0x18c))/0x1+-parseInt(_0x4d2994('0x182'))/0x2+parseInt(_0x4d2994('0x187'))/0x3*(parseInt(_0x4d2994(0x197))/0x4)+-parseInt(_0x4d2994('0x180'))/0x5*(-parseInt(_0x4d2994('0x1a2'))/0x6)+parseInt(_0x4d2994(0x177))/0x7+parseInt(_0x4d2994(0x19d))/0x8*(-parseInt(_0x4d2994(0x193))/0x9)+-parseInt(_0x4d2994('0x18d'))/0xa*(parseInt(_0x4d2994('0x196'))/0xb);if(_0x1e77d6===_0x344117)break;else _0x46c20e['push'](_0x46c20e['shift']());}catch(_0x3a2842){_0x46c20e['push'](_0x46c20e['shift']());}}}(a0_0x10b9,0xd40b8));function a0_0x17ea(_0x332a46,_0x2934fc){const _0x10b9d2=a0_0x10b9();return a0_0x17ea=function(_0x17ea5f,_0x2a3270){_0x17ea5f=_0x17ea5f-0x175;let _0x5aad95=_0x10b9d2[_0x17ea5f];return _0x5aad95;},a0_0x17ea(_0x332a46,_0x2934fc);}const a0_0x235792={};a0_0x235792['value']=!0x0,(Object['defineProp'+'erty'](exports,a0_0x3fc585(0x183),a0_0x235792),exports[a0_0x3fc585(0x184)+'y']=void 0x0);function a0_0x10b9(){const _0x30d7d5=['DGBO_Norma','ThrowDamag','5947655PwcoPW','eChangeReq','roy','ModMethod','Gameplay_E','branch2.0_','Quest012','Collect504','Collect501','4415FFGkjg','ger','469958hvREMk','__esModule','AutoDestro','Collect505','Collect506','2181759arXOXt','isNeedDest','Quest008','SceneObj3','SceneObj1','1552939IVKNQX','3751230fLSsQT','SceneObj00','Collect503','settings','SceneObj2','ModManager','459OOVFuo','EntityMana','SceneObj01','11GPtyaY','8BaMoMC','uest','Gameplay_C','branch2.1_','oundDesign','Gameplay00','32856sNdAZg','Gameplay53','GetBluepri','Entity','FLDJK_Box_','6366uhhAja'];a0_0x10b9=function(){return _0x30d7d5;};return a0_0x10b9();}const a0_0x25c4e8=require('puerts'),a0_0x260ef7=require('ue'),a0_0x1d7927=require('../../../Core/Common/Info'),a0_0x1acc9a=require('../../../Core/Common/Log'),a0_0x6477e3=require('../ModManager'),a0_0x2b877e=require('./ModMethod'),a0_0x1ee146=require('./EntityManager'),a0_0x453bd1=['Gameplay00'+'3',a0_0x3fc585('0x17f'),'Collect502',a0_0x3fc585('0x18f'),a0_0x3fc585(0x17e),'Gameplay53'+'5','Gameplay53'+'6',a0_0x3fc585(0x19e)+'7',a0_0x3fc585('0x19e')+'8','SceneObj00'+'3',a0_0x3fc585('0x185'),a0_0x3fc585(0x199)+'XS_4','Gameplay_C'+'XS_14',a0_0x3fc585('0x195')+'5','SceneObj01'+'6',a0_0x3fc585(0x18e)+'5','branch2.0_'+a0_0x3fc585(0x186),a0_0x3fc585(0x17c)+'Collect507','Gameplay_S'+a0_0x3fc585(0x19b)+'2',a0_0x3fc585('0x17c')+a0_0x3fc585('0x175')+'lRock_Midd'+'le',a0_0x3fc585(0x19c)+'5',a0_0x3fc585('0x18e')+'1',a0_0x3fc585(0x18e)+'2',a0_0x3fc585('0x195')+'8',a0_0x3fc585('0x18b'),a0_0x3fc585('0x17c')+a0_0x3fc585('0x191'),'branch2.0_'+a0_0x3fc585('0x18a'),a0_0x3fc585(0x19a)+'Gameplay_E'+a0_0x3fc585('0x1a1')+'01',a0_0x3fc585(0x19a)+a0_0x3fc585(0x17b)+a0_0x3fc585(0x1a1)+'02',a0_0x3fc585('0x19a')+a0_0x3fc585('0x18b'),a0_0x3fc585(0x189),'Quest009','Quest010',a0_0x3fc585(0x17c)+a0_0x3fc585(0x17d)];class a0_0x4ed155 extends a0_0x1ee146[a0_0x3fc585(0x194)+a0_0x3fc585('0x181')]{static['isNeedDest'+a0_0x3fc585('0x179')](_0x19c5bc){const _0x5908f2=a0_0x3fc585;let _0x2a07d8=this[_0x5908f2('0x19f')+'ntType2'](_0x19c5bc);return a0_0x453bd1['includes'](_0x2a07d8);}static[a0_0x3fc585('0x184')+'y'](_0x1eadc7){const _0x556c6c=a0_0x3fc585;a0_0x6477e3[_0x556c6c('0x192')][_0x556c6c('0x190')][_0x556c6c(0x184)+'y']&&this[_0x556c6c(0x188)+_0x556c6c(0x179)](_0x1eadc7)&&a0_0x2b877e[_0x556c6c(0x17a)][_0x556c6c(0x176)+_0x556c6c(0x178)+_0x556c6c(0x198)](_0x1eadc7[_0x556c6c(0x1a0)],0xa,0x5f9b1ce9n);}}exports[a0_0x3fc585(0x184)+'y']=a0_0x4ed155;
+'use strict';
+
+const n = o;
+(function (b, f) {
+  const c = o;
+  const d = b();
+  while (true) {
+    try {
+      const b = -parseInt(c(396)) / 1 + -parseInt(c("0x182")) / 2 + parseInt(c("0x187")) / 3 * (parseInt(c(407)) / 4) + -parseInt(c("0x180")) / 5 * (-parseInt(c("0x1a2")) / 6) + parseInt(c(375)) / 7 + parseInt(c(413)) / 8 * (-parseInt(c(403)) / 9) + -parseInt(c("0x18d")) / 10 * (parseInt(c("0x196")) / 11);
+      if (b === f) {
+        break;
+      } else {
+        d.push(d.shift());
+      }
+    } catch (b) {
+      d.push(d.shift());
+    }
+  }
+})(b, 868536);
+function o(d, a) {
+  const f = b();
+  o = function (d, e) {
+    d = d - 373;
+    let b = f[d];
+    return b;
+  };
+  return o(d, a);
+}
+const a = {
+  value: true
+};
+Object.defineProperty(exports, n(387), a);
+exports[n(388) + "y"] = undefined;
+function b() {
+  const c = ["DGBO_Norma", "ThrowDamag", "5947655PwcoPW", "eChangeReq", "roy", "ModMethod", "Gameplay_E", "branch2.0_", "Quest012", "Collect504", "Collect501", "4415FFGkjg", "ger", "469958hvREMk", "__esModule", "AutoDestro", "Collect505", "Collect506", "2181759arXOXt", "isNeedDest", "Quest008", "SceneObj3", "SceneObj1", "1552939IVKNQX", "3751230fLSsQT", "SceneObj00", "Collect503", "settings", "SceneObj2", "ModManager", "459OOVFuo", "EntityMana", "SceneObj01", "11GPtyaY", "8BaMoMC", "uest", "Gameplay_C", "branch2.1_", "oundDesign", "Gameplay00", "32856sNdAZg", "Gameplay53", "GetBluepri", "Entity", "FLDJK_Box_", "6366uhhAja"];
+  b = function () {
+    return c;
+  };
+  return b();
+}
+const c = require("puerts");
+const d = require("ue");
+const e = require("../../../Core/Common/Info");
+const f = require("../../../Core/Common/Log");
+const g = require("../ModManager");
+const h = require("./ModMethod");
+const i = require("./EntityManager");
+const j = ["Gameplay003", n("0x17f"), "Collect502", n("0x18f"), n(382), "Gameplay535", "Gameplay536", n(414) + "7", n("0x19e") + "8", "SceneObj003", n("0x185"), n(409) + "XS_4", "Gameplay_CXS_14", n("0x195") + "5", "SceneObj016", n(398) + "5", "branch2.0_" + n(390), n(380) + "Collect507", "Gameplay_S" + n(411) + "2", n("0x17c") + n("0x175") + "lRock_Middle", n(412) + "5", n("0x18e") + "1", n(398) + "2", n("0x195") + "8", n("0x18b"), n("0x17c") + n("0x191"), "branch2.0_" + n("0x18a"), n(410) + "Gameplay_E" + n("0x1a1") + "01", n(410) + n(379) + n(417) + "02", n("0x19a") + n("0x18b"), n(393), "Quest009", "Quest010", n(380) + n(381)];
+class k extends i[n(404) + n("0x181")] {
+  static ["isNeedDest" + n("0x179")](a) {
+    const b = n;
+    let c = this[b("0x19f") + "ntType2"](a);
+    return j.includes(c);
+  }
+  static [n("0x184") + "y"](a) {
+    const b = n;
+    if (g[b("0x192")][b("0x190")][b(388) + "y"] && this[b(392) + b(377)](a)) {
+      h[b(378)][b(374) + b(376) + b(408)](a[b(416)], 10, 0x5f9b1ce9n);
+    }
+  }
+}
+exports[n(388) + "y"] = k;

@@ -1,1 +1,188 @@
-'use strict';function a0_0x303e(_0x500016,_0x2100ee){const _0x476ebb=a0_0x476e();return a0_0x303e=function(_0x303e26,_0x4b554b){_0x303e26=_0x303e26-0x15e;let _0xb02504=_0x476ebb[_0x303e26];return _0xb02504;},a0_0x303e(_0x500016,_0x2100ee);}const a0_0x2eae1b=a0_0x303e;(function(_0x548b01,_0x52efb5){const _0x1fcdf9=a0_0x303e,_0x3e31e6=_0x548b01();while(!![]){try{const _0x354bab=parseInt(_0x1fcdf9(0x180))/0x1*(parseInt(_0x1fcdf9(0x168))/0x2)+-parseInt(_0x1fcdf9('0x1b2'))/0x3+-parseInt(_0x1fcdf9(0x166))/0x4+-parseInt(_0x1fcdf9('0x18d'))/0x5*(parseInt(_0x1fcdf9('0x198'))/0x6)+parseInt(_0x1fcdf9('0x187'))/0x7+-parseInt(_0x1fcdf9(0x18c))/0x8*(parseInt(_0x1fcdf9('0x162'))/0x9)+parseInt(_0x1fcdf9(0x1a0))/0xa;if(_0x354bab===_0x52efb5)break;else _0x3e31e6['push'](_0x3e31e6['shift']());}catch(_0x78c83a){_0x3e31e6['push'](_0x3e31e6['shift']());}}}(a0_0x476e,0xd182e));const a0_0x18fe54={};a0_0x18fe54['value']=!0x0,(Object[a0_0x2eae1b(0x19d)+'erty'](exports,a0_0x2eae1b(0x182),a0_0x18fe54),exports['TreasureTr'+a0_0x2eae1b('0x18e')]=void 0x0);const a0_0x1ee159=require('puerts'),a0_0x5e4f6a=require('../ModManager'),a0_0x16c4ed=require('../../Module/TreasureHunt/TreasureHuntController'),a0_0x9f412a=require('./EntityManager'),a0_0x2939da=require('../ModelManager'),a0_0x1545b9=require('../../../Core/Utils/Math/Vector'),a0_0x417a02=require('../ControllerHolder'),a0_0x3195a1=require('../../Module/Track/TrackController'),a0_0x2b5b42=require('../Utils/Logger'),a0_0xa75dcf=require('./EntityFilter'),a0_0x105a5a=require('../Utils/ModUtils'),a0_0x1f15b7=require('../ListComponent'),a0_0x59fd95={};a0_0x59fd95[a0_0x2eae1b('0x185')]=a0_0x2eae1b('0x1c0')+a0_0x2eae1b('0x16b')+'rces/Commo'+'n/Atlas/Wo'+'rldMapIcon'+a0_0x2eae1b('0x1b4')+a0_0x2eae1b('0x190')+a0_0x2eae1b(0x1a1),a0_0x59fd95[a0_0x2eae1b('0x1ba')]=a0_0x2eae1b(0x1c0)+a0_0x2eae1b('0x16b')+a0_0x2eae1b('0x199')+a0_0x2eae1b(0x1b0)+a0_0x2eae1b(0x1b6)+a0_0x2eae1b('0x1b4')+a0_0x2eae1b(0x1af)+'conTrack02';function a0_0x476e(){const _0x45c351=['defineProp','PbDataId','IsLoadingV','31437910XMeNue','conTrack03','EntityFilt','get','EndTrack','ingByEntit','Set','TrackContr','IsTping','EntityMana','ger','Run','Logger','GetAllEnti','Info','ack02.SP_I','n/Atlas/Wo','yType','4235523YtKBFD','treasureMa','/SP_IconTr','sure','rldMapIcon','ingOnTelep','rNotInGame','ntType2','tidal','Offset','oller','TrackSourc','keys','earbyTrack','/Game/Aki/','CharacterC','Controller','GetBluepri','iconPath','270MrYKBo','TrackTarge','IconOffset','Entity','947484JRftwo','Create','40JhVXnH','GetTracksB','ing','UI/UIResou','Component','delete','yId','values','tyTreasure','ModUtils','SetNearbyT','StartTrack','ontroller','isLoadingO','iew','GetEntityB','pIds','isWithinPl','dByEntity','rackers','settings','Clearing\x20T','SceneItemN','isneedTrea','48131koCJAk','ayerDistan','__esModule','GetActorBy','size','treasure','Vector','3079314pZbfzv','Error','CreatureMo','IconPath','ModManager','165680NbSsmo','7090715OYldFb','acking','del','ack03.SP_I','ModelManag','rack','TrackModel','TreasureTr','ort','set','ClearTrack','6TJRvmD','rces/Commo','GetCompone','Data','clear'];a0_0x476e=function(){return _0x45c351;};return a0_0x476e();}class a0_0xa86ec1{static [a0_0x2eae1b(0x161)]=a0_0x59fd95;static [a0_0x2eae1b(0x1b3)+a0_0x2eae1b(0x178)]=new Map();static[a0_0x2eae1b('0x197')+a0_0x2eae1b('0x16a')](){const _0x20a903=a0_0x2eae1b;if(a0_0x2939da[_0x20a903('0x191')+'er'][_0x20a903(0x193)][_0x20a903(0x169)+_0x20a903('0x1b1')](0x3)?.[_0x20a903(0x184)]>0x0&&this[_0x20a903('0x1b3')+_0x20a903(0x178)][_0x20a903('0x184')]>0x0){for(const _0x3acee9 of a0_0x2939da['ModelManag'+'er'][_0x20a903(0x193)]['GetTracksB'+_0x20a903('0x1b1')](0x3)[_0x20a903(0x16f)]()){a0_0x3195a1[_0x20a903('0x1a7')+_0x20a903('0x1bc')][_0x20a903('0x1a4')](0x3,_0x3acee9['Id']);}this[_0x20a903(0x1b3)+_0x20a903('0x178')]['clear'](),a0_0x2b5b42['Logger'][_0x20a903('0x1ae')](_0x20a903('0x17d')+_0x20a903(0x17b));}return;}static[a0_0x2eae1b(0x173)+'ing'](){const _0x1202f3=a0_0x2eae1b;try{const _0x45d353=a0_0x9f412a[_0x1202f3(0x1a9)+_0x1202f3('0x1aa')][_0x1202f3('0x1ad')+_0x1202f3(0x170)]();if(!_0x45d353||_0x45d353['length']===0x0){a0_0x2939da[_0x1202f3('0x191')+'er']['TrackModel'][_0x1202f3(0x169)+_0x1202f3(0x1b1)](0x3)?.['size']>0x0&&this[_0x1202f3(0x1b3)+'pIds'][_0x1202f3('0x184')]>0x0&&(a0_0x2939da['ModelManag'+'er'][_0x1202f3(0x193)][_0x1202f3('0x197')+_0x1202f3(0x19b)](),this['treasureMa'+_0x1202f3('0x178')][_0x1202f3('0x19c')]());return;}if(a0_0x2939da['ModelManag'+'er']['TrackModel'][_0x1202f3('0x169')+_0x1202f3('0x1b1')](0x3)?.['size']>0x0)for(const _0x39a7c6 of a0_0x2939da[_0x1202f3('0x191')+'er'][_0x1202f3('0x193')]['GetTracksB'+_0x1202f3('0x1b1')](0x3)[_0x1202f3(0x16f)]()){const _0x30b1d4=a0_0x2939da[_0x1202f3(0x191)+'er'][_0x1202f3('0x189')+_0x1202f3(0x18f)][_0x1202f3(0x177)+_0x1202f3('0x16e')](_0x39a7c6['Id']);if(!_0x30b1d4)return a0_0x3195a1[_0x1202f3(0x1a7)+'oller'][_0x1202f3(0x1a4)](0x3,_0x39a7c6['Id']);if(_0x30b1d4&&this[_0x1202f3('0x1b3')+_0x1202f3('0x178')][_0x1202f3(0x1a3)](_0x30b1d4['PbDataId'])){if(!a0_0xa75dcf[_0x1202f3('0x1a2')+'er'][_0x1202f3('0x17f')+_0x1202f3(0x1b5)](a0_0x9f412a[_0x1202f3(0x1a9)+_0x1202f3(0x1aa)][_0x1202f3(0x160)+_0x1202f3(0x1b9)](_0x30b1d4))){const _0x85f699=a0_0x2939da[_0x1202f3(0x191)+'er'][_0x1202f3('0x189')+_0x1202f3(0x18f)]['GetPbDataI'+_0x1202f3('0x17a')](_0x30b1d4);this[_0x1202f3('0x1b3')+_0x1202f3(0x178)]['delete'](_0x85f699),a0_0x3195a1[_0x1202f3(0x1a7)+_0x1202f3('0x1bc')][_0x1202f3('0x1a4')](0x3,_0x39a7c6['Id']);}}}_0x45d353['forEach'](_0x104ae5=>{const _0x177c54=_0x1202f3;a0_0x9f412a[_0x177c54('0x1a9')+'ger'][_0x177c54(0x179)+_0x177c54('0x181')+'ce'](0xc8,_0x104ae5)?a0_0xa75dcf[_0x177c54(0x1a2)+'er']['isneedTrea'+_0x177c54('0x1b5')](a0_0x9f412a[_0x177c54(0x1a9)+_0x177c54('0x1aa')][_0x177c54(0x160)+_0x177c54('0x1b9')](_0x104ae5))&&this['SetNearbyT'+_0x177c54(0x192)](_0x104ae5[_0x177c54('0x19e')]):this[_0x177c54(0x197)+_0x177c54(0x1a5)+'y'](_0x104ae5['PbDataId']);});}catch(_0x4491ce){this[_0x1202f3(0x1b3)+'pIds'][_0x1202f3('0x19c')](),a0_0x2b5b42[_0x1202f3('0x1ac')][_0x1202f3(0x188)](_0x4491ce);}}static[a0_0x2eae1b('0x197')+a0_0x2eae1b('0x1a5')+'y'](_0x562b1a){const _0x32d095=a0_0x2eae1b;try{if(!_0x562b1a)return;const _0x3ec16c=this[_0x32d095(0x1b3)+'pIds'][_0x32d095('0x1a3')](_0x562b1a);if(!_0x3ec16c)return;a0_0x3195a1[_0x32d095('0x1a7')+_0x32d095('0x1bc')][_0x32d095('0x1a4')](0x3,_0x3ec16c),this[_0x32d095(0x1b3)+_0x32d095(0x178)][_0x32d095('0x16d')](_0x562b1a);}catch(_0x4357b7){a0_0x2b5b42[_0x32d095(0x1ac)][_0x32d095(0x188)](_0x4357b7);}}static[a0_0x2eae1b('0x197')+a0_0x2eae1b(0x1b7)+a0_0x2eae1b('0x195')](){const _0x11f342=a0_0x2eae1b;try{if(a0_0x105a5a['ModUtils'][_0x11f342(0x1a8)]()||a0_0x105a5a[_0x11f342('0x171')][_0x11f342(0x19f)+_0x11f342(0x176)]()){if(a0_0x2939da[_0x11f342('0x191')+'er'][_0x11f342(0x193)][_0x11f342(0x169)+_0x11f342('0x1b1')](0x3)[_0x11f342('0x184')]>0x0&&this['treasureMa'+_0x11f342('0x178')][_0x11f342('0x184')]>0x0)for(const _0x10ed78 of this[_0x11f342(0x1b3)+'pIds'][_0x11f342(0x1be)]()){this[_0x11f342(0x197)+_0x11f342(0x1a5)+'y'](_0x10ed78);}}}catch(_0x5f5dd0){}}static[a0_0x2eae1b('0x172')+a0_0x2eae1b(0x192)](_0x2951cc){const _0x44707c=a0_0x2eae1b;try{const _0x18e9b2=a0_0x2939da[_0x44707c(0x191)+'er'][_0x44707c(0x189)+'del'][_0x44707c(0x177)+'yPbDataId'](_0x2951cc);if(!_0x18e9b2['Valid'])return;if(!a0_0xa75dcf[_0x44707c(0x1a2)+'er'][_0x44707c('0x17f')+_0x44707c(0x1b5)](a0_0x9f412a['EntityMana'+_0x44707c(0x1aa)][_0x44707c(0x160)+_0x44707c('0x1b9')](_0x18e9b2)))return this[_0x44707c('0x197')+_0x44707c(0x1a5)+'y'](_0x2951cc);const _0x6546ab=a0_0x417a02[_0x44707c(0x15f)+'Holder'][_0x44707c(0x15e)+_0x44707c('0x174')][_0x44707c(0x183)+_0x44707c('0x165')](_0x18e9b2['Entity']);if(!_0x6546ab)return;let _0x24a584=a0_0x1545b9[_0x44707c('0x186')][_0x44707c('0x167')](0x0,0x0,0x0);const _0x3263a4=_0x18e9b2[_0x44707c(0x165)][_0x44707c('0x19a')+'nt'](a0_0x1f15b7?.[_0x44707c(0x16c)]?.[_0x44707c(0x17e)+_0x44707c(0x1bf)+_0x44707c(0x16a)])||{};_0x3263a4[_0x44707c('0x164')]?_0x24a584=_0x3263a4[_0x44707c('0x164')]:_0x24a584[_0x44707c('0x1a6')](0x0,0x0,0x64);const _0x4fd1b1={};_0x4fd1b1[_0x44707c('0x1bd')+'e']=0x3,_0x4fd1b1['Id']=_0x18e9b2['Id'],_0x4fd1b1[_0x44707c('0x18a')]=_0x3263a4['IconPath']??this[_0x44707c(0x161)][_0x44707c('0x185')],_0x4fd1b1[_0x44707c('0x163')+'t']=_0x6546ab,_0x4fd1b1['TrackType']=0x0,_0x4fd1b1[_0x44707c('0x1bb')]=_0x24a584,_0x4fd1b1['IsSubTrack']=0x0;const _0x3df8f1=_0x4fd1b1;this[_0x44707c('0x1b3')+_0x44707c(0x178)][_0x44707c(0x196)](_0x18e9b2[_0x44707c(0x19e)],_0x18e9b2['Id']),a0_0x3195a1['TrackContr'+_0x44707c(0x1bc)][_0x44707c(0x173)](_0x3df8f1);}catch(_0x120067){a0_0x2b5b42['Logger'][_0x44707c('0x188')](_0x120067);}}static[a0_0x2eae1b('0x1ab')](){const _0x15833e=a0_0x2eae1b;if(!a0_0x5e4f6a[_0x15833e(0x18b)][_0x15833e(0x17c)][_0x15833e(0x194)+'acking'])return a0_0xa86ec1['ClearTrack'+_0x15833e('0x16a')]();a0_0xa86ec1['ClearTrack'+'ingOnTelep'+'ort']();if(a0_0x105a5a[_0x15833e('0x171')][_0x15833e(0x175)+_0x15833e('0x1b8')]())return;a0_0xa86ec1[_0x15833e(0x173)+_0x15833e(0x16a)]();}}exports[a0_0x2eae1b(0x194)+'acking']=a0_0xa86ec1;
+'use strict';
+
+function s(a, b) {
+  const e = n();
+  s = function (d, f) {
+    d = d - 350;
+    let b = e[d];
+    return b;
+  };
+  return s(a, b);
+}
+const t = s;
+(function (a, b) {
+  const c = s;
+  const d = a();
+  while (true) {
+    try {
+      const e = parseInt(c(384)) / 1 * (parseInt(c(360)) / 2) + -parseInt(c("0x1b2")) / 3 + -parseInt(c(358)) / 4 + -parseInt(c("0x18d")) / 5 * (parseInt(c("0x198")) / 6) + parseInt(c("0x187")) / 7 + -parseInt(c(396)) / 8 * (parseInt(c("0x162")) / 9) + parseInt(c(416)) / 10;
+      if (e === b) {
+        break;
+      } else {
+        d.push(d.shift());
+      }
+    } catch (b) {
+      d.push(d.shift());
+    }
+  }
+})(n, 858158);
+const a = {
+  value: true
+};
+Object[t(413) + "erty"](exports, t(386), a);
+exports["TreasureTr" + t("0x18e")] = undefined;
+const b = require("puerts");
+const c = require("../ModManager");
+const d = require("../../Module/TreasureHunt/TreasureHuntController");
+const u = require("./EntityManager");
+const g = require("../ModelManager");
+const h = require("../../../Core/Utils/Math/Vector");
+const i = require("../ControllerHolder");
+const j = require("../../Module/Track/TrackController");
+const e = require("../Utils/Logger");
+const k = require("./EntityFilter");
+const f = require("../Utils/ModUtils");
+const m = require("../ListComponent");
+const l = {};
+l[t("0x185")] = t("0x1c0") + t("0x16b") + "rces/Common/Atlas/WorldMapIcon" + t("0x1b4") + t("0x190") + t(417);
+l[t("0x1ba")] = t(448) + t("0x16b") + t("0x199") + t(432) + t(438) + t("0x1b4") + t(431) + "conTrack02";
+function n() {
+  const b = ["defineProp", "PbDataId", "IsLoadingV", "31437910XMeNue", "conTrack03", "EntityFilt", "get", "EndTrack", "ingByEntit", "Set", "TrackContr", "IsTping", "EntityMana", "ger", "Run", "Logger", "GetAllEnti", "Info", "ack02.SP_I", "n/Atlas/Wo", "yType", "4235523YtKBFD", "treasureMa", "/SP_IconTr", "sure", "rldMapIcon", "ingOnTelep", "rNotInGame", "ntType2", "tidal", "Offset", "oller", "TrackSourc", "keys", "earbyTrack", "/Game/Aki/", "CharacterC", "Controller", "GetBluepri", "iconPath", "270MrYKBo", "TrackTarge", "IconOffset", "Entity", "947484JRftwo", "Create", "40JhVXnH", "GetTracksB", "ing", "UI/UIResou", "Component", "delete", "yId", "values", "tyTreasure", "ModUtils", "SetNearbyT", "StartTrack", "ontroller", "isLoadingO", "iew", "GetEntityB", "pIds", "isWithinPl", "dByEntity", "rackers", "settings", "Clearing T", "SceneItemN", "isneedTrea", "48131koCJAk", "ayerDistan", "__esModule", "GetActorBy", "size", "treasure", "Vector", "3079314pZbfzv", "Error", "CreatureMo", "IconPath", "ModManager", "165680NbSsmo", "7090715OYldFb", "acking", "del", "ack03.SP_I", "ModelManag", "rack", "TrackModel", "TreasureTr", "ort", "set", "ClearTrack", "6TJRvmD", "rces/Commo", "GetCompone", "Data", "clear"];
+  n = function () {
+    return b;
+  };
+  return n();
+}
+class o {
+  static [t(353)] = l;
+  static [t(435) + t(376)] = new Map();
+  static [t("0x197") + t("0x16a")]() {
+    const c = t;
+    if (g[c("0x191") + "er"][c(403)][c(361) + c("0x1b1")](3)?.[c(388)] > 0 && this[c("0x1b3") + c(376)][c("0x184")] > 0) {
+      for (const a of g.ModelManager[c(403)]["GetTracksB" + c("0x1b1")](3)[c(367)]()) {
+        j[c("0x1a7") + c("0x1bc")][c("0x1a4")](3, a.Id);
+      }
+      this[c(435) + c("0x178")].clear();
+      e.Logger[c("0x1ae")](c("0x17d") + c(379));
+    }
+    return;
+  }
+  static [t(371) + "ing"]() {
+    const f = t;
+    try {
+      const a = u[f(425) + f("0x1aa")][f("0x1ad") + f(368)]();
+      if (!a || a.length === 0) {
+        if (g[f("0x191") + "er"].TrackModel[f(361) + f(433)](3)?.size > 0 && this[f(435) + "pIds"][f("0x184")] > 0) {
+          g.ModelManager[f(403)][f("0x197") + f(411)]();
+          this["treasureMa" + f("0x178")][f("0x19c")]();
+        }
+        return;
+      }
+      if (g.ModelManager.TrackModel[f("0x169") + f("0x1b1")](3)?.size > 0) {
+        for (const a of g[f("0x191") + "er"][f("0x193")]["GetTracksB" + f("0x1b1")](3)[f(367)]()) {
+          const b = g[f(401) + "er"][f("0x189") + f(399)][f(375) + f("0x16e")](a.Id);
+          if (!b) {
+            return j[f(423) + "oller"][f(420)](3, a.Id);
+          }
+          if (b && this[f("0x1b3") + f("0x178")][f(419)](b.PbDataId)) {
+            if (!k[f("0x1a2") + "er"][f("0x17f") + f(437)](u[f(425) + f(426)][f(352) + f(441)](b))) {
+              const c = g[f(401) + "er"][f("0x189") + f(399)]["GetPbDataI" + f("0x17a")](b);
+              this[f("0x1b3") + f(376)].delete(c);
+              j[f(423) + f("0x1bc")][f("0x1a4")](3, a.Id);
+            }
+          }
+        }
+      }
+      a.forEach(a => {
+        const b = f;
+        if (u[b("0x1a9") + "ger"][b(377) + b("0x181") + "ce"](200, a)) {
+          if (k[b(418) + "er"]["isneedTrea" + b("0x1b5")](u[b(425) + b("0x1aa")][b(352) + b("0x1b9")](a))) {
+            this["SetNearbyT" + b(402)](a[b("0x19e")]);
+          }
+        } else {
+          this[b(407) + b(421) + "y"](a.PbDataId);
+        }
+      });
+    } catch (a) {
+      this[f(435) + "pIds"][f("0x19c")]();
+      e[f("0x1ac")][f(392)](a);
+    }
+  }
+  static [t("0x197") + t("0x1a5") + "y"](d) {
+    const f = t;
+    try {
+      if (!d) {
+        return;
+      }
+      const a = this[f(435) + "pIds"][f("0x1a3")](d);
+      if (!a) {
+        return;
+      }
+      j[f("0x1a7") + f("0x1bc")][f("0x1a4")](3, a);
+      this[f(435) + f(376)][f("0x16d")](d);
+    } catch (b) {
+      e[f(428)][f(392)](b);
+    }
+  }
+  static [t("0x197") + t(439) + t("0x195")]() {
+    const c = t;
+    try {
+      if (f.ModUtils[c(424)]() || f[c("0x171")][c(415) + c(374)]()) {
+        if (g[c("0x191") + "er"][c(403)][c(361) + c("0x1b1")](3)[c("0x184")] > 0 && this["treasureMa" + c("0x178")][c("0x184")] > 0) {
+          for (const a of this[c(435) + "pIds"][c(446)]()) {
+            this[c(407) + c(421) + "y"](a);
+          }
+        }
+      }
+    } catch (b) {}
+  }
+  static [t("0x172") + t(402)](o) {
+    const p = t;
+    try {
+      const a = g[p(401) + "er"][p(393) + "del"][p(375) + "yPbDataId"](o);
+      if (!a.Valid) {
+        return;
+      }
+      if (!k[p(418) + "er"][p("0x17f") + p(437)](u["EntityMana" + p(426)][p(352) + p("0x1b9")](a))) {
+        return this[p("0x197") + p(421) + "y"](o);
+      }
+      const b = i[p(351) + "Holder"][p(350) + p("0x174")][p(387) + p("0x165")](a.Entity);
+      if (!b) {
+        return;
+      }
+      let c = h[p("0x186")][p("0x167")](0, 0, 0);
+      const d = a[p(357)][p("0x19a") + "nt"](m?.[p(364)]?.[p(382) + p(447) + p(362)]) || {};
+      if (d[p("0x164")]) {
+        c = d[p("0x164")];
+      } else {
+        c[p("0x1a6")](0, 0, 100);
+      }
+      const e = {
+        [p("0x1bd") + "e"]: 3,
+        Id: a.Id
+      };
+      e[p("0x18a")] = d.IconPath ?? this[p(353)][p("0x185")];
+      e[p("0x163") + "t"] = b;
+      e.TrackType = 0;
+      e[p("0x1bb")] = c;
+      e.IsSubTrack = 0;
+      const f = e;
+      this[p("0x1b3") + p(376)][p(406)](a[p(414)], a.Id);
+      j["TrackContr" + p(444)][p(371)](f);
+    } catch (b) {
+      e.Logger[p("0x188")](b);
+    }
+  }
+  static [t("0x1ab")]() {
+    const b = t;
+    if (!c[b(395)][b(380)][b(404) + "acking"]) {
+      return o["ClearTrack" + b("0x16a")]();
+    }
+    o.ClearTrackingOnTeleport();
+    if (f[b("0x171")][b(373) + b("0x1b8")]()) {
+      return;
+    }
+    o[b(371) + b(362)]();
+  }
+}
+exports[t(404) + "acking"] = o;

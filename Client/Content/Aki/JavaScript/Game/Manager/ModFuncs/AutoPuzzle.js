@@ -1,1 +1,172 @@
-'use strict';const a0_0x26935d=a0_0x174b;(function(_0xcb56b7,_0x3614ee){const _0xc938b0=a0_0x174b,_0x4f3731=_0xcb56b7();while(!![]){try{const _0x347bac=-parseInt(_0xc938b0(0x169))/0x1*(-parseInt(_0xc938b0(0x1a3))/0x2)+-parseInt(_0xc938b0(0x177))/0x3*(parseInt(_0xc938b0(0x168))/0x4)+parseInt(_0xc938b0(0x166))/0x5*(-parseInt(_0xc938b0('0x167'))/0x6)+-parseInt(_0xc938b0(0x163))/0x7+-parseInt(_0xc938b0('0x17f'))/0x8*(parseInt(_0xc938b0(0x16d))/0x9)+-parseInt(_0xc938b0('0x178'))/0xa+parseInt(_0xc938b0(0x1ab))/0xb;if(_0x347bac===_0x3614ee)break;else _0x4f3731['push'](_0x4f3731['shift']());}catch(_0x555457){_0x4f3731['push'](_0x4f3731['shift']());}}}(a0_0x1e47,0x77977));function a0_0x1e47(){const _0x4a0232=['ceModel','defineProp','ignalDevic','Gameplay00','Model','AutoSolveL','autoFishin','Error','LifePoint','ger','ShowTip','AutoPuzzle','Valid','viceComple','tHitGearSt','2nCSFAf','equest','ModMethod','GetCompone','FishingQte','LifePointM','IsDataInit','EmitWithTa','33351780fUzTeC','ted','iew','isLifePoin','EventSyste','GetViewByN','Gameplay11','__esModule','ceView','5086963qaBsqD','View','tSolved','115OYNQsn','225966WMTiWY','44IGxbre','306407NxVOKS','SignalDevi','Component','ifePoint','99JrtwIs','AutoSolveS','isSignalDe','SetGuideRa','eItemState','odel','AutoMutter','IsViewOpen','Entity','GmFinish','77907blLkih','1242340VpTwCV','LifePointV','uest','Solved!','ModManager','GameInfo','PawnPercep','615080GPzhOT','Config','gInterval','HitGear','AutoSolve','isneed','ame','ntType2','ateChangeR','ler','Logger','tion','value','OnPerfectO','eChangeReq','GetBluepri','ModelManag','includes','Type','LevelGameP','settings'];a0_0x1e47=function(){return _0x4a0232;};return a0_0x1e47();}const a0_0x4204cd={};a0_0x4204cd[a0_0x26935d('0x18b')]=!0x0,(Object[a0_0x26935d(0x195)+'erty'](exports,a0_0x26935d('0x161'),a0_0x4204cd),exports[a0_0x26935d('0x19f')]=void 0x0);const a0_0x20ccf9=require('puerts'),a0_0x5f53e3=require('ue'),a0_0x3fe8c3=require('../ModManager'),a0_0x594af5=require('./ModMethod'),a0_0x48e0e6=require('../Utils/UI'),a0_0x3a1f13=require('../ModelManager'),a0_0x4d814a=require('../../LevelGamePlay/LevelGamePlayController'),a0_0x585e7f=require('../Utils/Logger'),a0_0x22ad18=require('../../Common/Event/EventDefine'),a0_0x28fdc8=require('../../Common/Event/EventSystem'),a0_0x3d5c8d=require('../ListComponent'),a0_0x4370da=require('./EntityManager'),a0_0x516c4f=['Gameplay05'+'9'],a0_0xfb7abd=[a0_0x26935d(0x160)+'1'];function a0_0x174b(_0xd0bdaa,_0x6412a){const _0x1e4757=a0_0x1e47();return a0_0x174b=function(_0x174bde,_0x5c4123){_0x174bde=_0x174bde-0x160;let _0x405ab7=_0x1e4757[_0x174bde];return _0x405ab7;},a0_0x174b(_0xd0bdaa,_0x6412a);}class a0_0x5e5b42 extends a0_0x4370da['EntityMana'+a0_0x26935d(0x19d)]{static[a0_0x26935d(0x184)](_0x4fc146,_0x400aec){const _0x28790a=a0_0x26935d;let _0x33ef72=this['GetBluepri'+_0x28790a(0x186)](_0x4fc146);return _0x400aec[_0x28790a(0x190)](_0x33ef72);}static async[a0_0x26935d(0x19f)](_0x3af740){const _0x2ddf20=a0_0x26935d;a0_0x3fe8c3[_0x2ddf20(0x17c)][_0x2ddf20('0x193')][_0x2ddf20(0x19f)]&&this[_0x2ddf20(0x182)](_0x3af740);}static[a0_0x26935d('0x182')](_0x383d2f){const _0x50a028=a0_0x26935d;this[_0x50a028(0x184)](_0x383d2f,a0_0x516c4f)&&a0_0x4d814a[_0x50a028(0x192)+'layControl'+_0x50a028('0x188')]['ShootTarge'+_0x50a028(0x1a2)+_0x50a028(0x187)+_0x50a028('0x1a4')](_0x383d2f[_0x50a028('0x175')]['Id'],_0x1df20d=>{const _0x234405=_0x50a028;if(_0x1df20d&&_0x383d2f['Entity']?.[_0x234405(0x1a0)])a0_0x28fdc8[_0x234405('0x1af')+'m'][_0x234405('0x1aa')+'rget'](_0x383d2f['Entity'],a0_0x22ad18['EEventName']['UpdateScen'+_0x234405('0x171')]);});}static[a0_0x26935d(0x197)+'4'](_0x28fa32){const _0x5c6669=a0_0x26935d;this[_0x5c6669(0x18e)+'ntType2'](_0x28fa32)==_0x5c6669(0x197)+'4'&&a0_0x594af5[_0x5c6669('0x1a5')]['ThrowDamag'+_0x5c6669(0x18d)+_0x5c6669('0x17a')](_0x28fa32['Entity'],0x3,0xc846051n);}static[a0_0x26935d(0x173)+'fly'](_0x4046cb){const _0x1211e1=a0_0x26935d;if(!a0_0x3fe8c3[_0x1211e1('0x17c')][_0x1211e1(0x193)][_0x1211e1('0x19f')])return;if(!this[_0x1211e1('0x184')](_0x4046cb,a0_0xfb7abd))return;const _0x677051=_0x4046cb[_0x1211e1('0x175')][_0x1211e1(0x1a6)+'nt'](a0_0x3d5c8d[_0x1211e1(0x16b)][_0x1211e1('0x17e')+_0x1211e1(0x18a)]);if(!_0x677051)return;try{const _0x394b86=0xf4240;_0x677051[_0x1211e1('0x170')+'nge'](_0x394b86);}catch(_0x12ea76){}}static [a0_0x26935d(0x16f)+a0_0x26935d(0x1a1)+'ted']=![];static[a0_0x26935d(0x16e)+a0_0x26935d('0x196')+'e'](){const _0x3371d2=a0_0x26935d;try{a0_0x48e0e6['UI']['IsViewOpen']('SignalDevi'+_0x3371d2(0x162))?!this[_0x3371d2('0x16f')+_0x3371d2(0x1a1)+_0x3371d2(0x1ac)]&&(a0_0x3a1f13[_0x3371d2('0x18f')+'er'][_0x3371d2(0x16a)+_0x3371d2(0x194)]['EDe'](),this[_0x3371d2('0x16f')+_0x3371d2(0x1a1)+'ted']=!![],a0_0x48e0e6['UI'][_0x3371d2('0x19e')](_0x3371d2(0x17b))):this[_0x3371d2(0x16f)+_0x3371d2(0x1a1)+'ted']=![];}catch(_0xc51708){}}static [a0_0x26935d('0x19a')+a0_0x26935d('0x181')]=null;static async['AutoFishin'+'g'](){const _0x1a8475=a0_0x26935d,_0x5c47fb=()=>{const _0x1680c5=a0_0x174b;this[_0x1680c5(0x19a)+_0x1680c5(0x181)]&&(clearInterval(this['autoFishin'+_0x1680c5(0x181)]),this[_0x1680c5('0x19a')+_0x1680c5('0x181')]=null);},_0x3f955c=a0_0x48e0e6['UI'][_0x1a8475('0x174')](_0x1a8475('0x1a7')+_0x1a8475(0x164)),_0x4fd03f=a0_0x48e0e6['UI']['GetViewByN'+_0x1a8475('0x185')](_0x1a8475(0x1a7)+'View');if(!a0_0x3fe8c3[_0x1a8475('0x17c')][_0x1a8475('0x193')]['AutoPuzzle']){_0x5c47fb();return;}_0x3f955c&&_0x4fd03f?!this['autoFishin'+'gInterval']&&(this[_0x1a8475(0x19a)+_0x1a8475('0x181')]=setInterval(()=>{const _0x34f3b0=_0x1a8475;!_0x4fd03f[_0x34f3b0('0x17d')]['IsGamePaus'+'e']()&&!_0x4fd03f[_0x34f3b0('0x17d')]['IsGameEnd']()&&a0_0x3a1f13[_0x34f3b0(0x18f)+'er'][_0x34f3b0('0x1a7')+_0x34f3b0('0x198')][_0x34f3b0(0x18c)+'n']();},0xfa)):_0x5c47fb();}static [a0_0x26935d('0x1ae')+'tSolved']=![];static[a0_0x26935d(0x199)+a0_0x26935d('0x16c')](){const _0x3a386f=a0_0x26935d;try{a0_0x3a1f13[_0x3a386f(0x18f)+'er'][_0x3a386f(0x1a8)+_0x3a386f(0x172)]['Config']&&a0_0x3a1f13['ModelManag'+'er'][_0x3a386f(0x1a8)+'odel'][_0x3a386f('0x180')][_0x3a386f('0x191')]===_0x3a386f('0x19c')&&a0_0x3a1f13[_0x3a386f(0x18f)+'er'][_0x3a386f(0x1a8)+_0x3a386f('0x172')][_0x3a386f(0x1a9)]&&a0_0x48e0e6['UI'][_0x3a386f(0x174)]('LifePointV'+'iew')?!this[_0x3a386f(0x1ae)+_0x3a386f('0x165')]&&(a0_0x48e0e6['UI'][_0x3a386f(0x1b0)+_0x3a386f(0x185)](_0x3a386f(0x179)+_0x3a386f(0x1ad))[_0x3a386f(0x176)](),this['isLifePoin'+_0x3a386f('0x165')]=!![],a0_0x48e0e6['UI'][_0x3a386f(0x19e)](_0x3a386f('0x17b'))):this[_0x3a386f('0x1ae')+'tSolved']=![];}catch(_0xdb165c){}}static[a0_0x26935d(0x183)](){const _0x59a160=a0_0x26935d;try{this['AutoSolveS'+_0x59a160('0x196')+'e'](),this[_0x59a160(0x199)+_0x59a160('0x16c')]();}catch(_0x1f1b80){a0_0x585e7f[_0x59a160(0x189)][_0x59a160('0x19b')](_0x1f1b80);}}}exports[a0_0x26935d('0x19f')]=a0_0x5e5b42;
+'use strict';
+
+const t = o;
+(function (e, f) {
+  const b = o;
+  const c = e();
+  while (true) {
+    try {
+      const d = -parseInt(b(361)) / 1 * (-parseInt(b(419)) / 2) + -parseInt(b(375)) / 3 * (parseInt(b(360)) / 4) + parseInt(b(358)) / 5 * (-parseInt(b("0x167")) / 6) + -parseInt(b(355)) / 7 + -parseInt(b("0x17f")) / 8 * (parseInt(b(365)) / 9) + -parseInt(b("0x178")) / 10 + parseInt(b(427)) / 11;
+      if (d === f) {
+        break;
+      } else {
+        c.push(c.shift());
+      }
+    } catch (b) {
+      c.push(c.shift());
+    }
+  }
+})(u, 489847);
+function u() {
+  const b = ["ceModel", "defineProp", "ignalDevic", "Gameplay00", "Model", "AutoSolveL", "autoFishin", "Error", "LifePoint", "ger", "ShowTip", "AutoPuzzle", "Valid", "viceComple", "tHitGearSt", "2nCSFAf", "equest", "ModMethod", "GetCompone", "FishingQte", "LifePointM", "IsDataInit", "EmitWithTa", "33351780fUzTeC", "ted", "iew", "isLifePoin", "EventSyste", "GetViewByN", "Gameplay11", "__esModule", "ceView", "5086963qaBsqD", "View", "tSolved", "115OYNQsn", "225966WMTiWY", "44IGxbre", "306407NxVOKS", "SignalDevi", "Component", "ifePoint", "99JrtwIs", "AutoSolveS", "isSignalDe", "SetGuideRa", "eItemState", "odel", "AutoMutter", "IsViewOpen", "Entity", "GmFinish", "77907blLkih", "1242340VpTwCV", "LifePointV", "uest", "Solved!", "ModManager", "GameInfo", "PawnPercep", "615080GPzhOT", "Config", "gInterval", "HitGear", "AutoSolve", "isneed", "ame", "ntType2", "ateChangeR", "ler", "Logger", "tion", "value", "OnPerfectO", "eChangeReq", "GetBluepri", "ModelManag", "includes", "Type", "LevelGameP", "settings"];
+  u = function () {
+    return b;
+  };
+  return u();
+}
+const a = {
+  [t("0x18b")]: true
+};
+Object[t(405) + "erty"](exports, t("0x161"), a);
+exports[t("0x19f")] = undefined;
+const b = require("puerts");
+const c = require("ue");
+const v = require("../ModManager");
+const d = require("./ModMethod");
+const f = require("../Utils/UI");
+const e = require("../ModelManager");
+const g = require("../../LevelGamePlay/LevelGamePlayController");
+const h = require("../Utils/Logger");
+const i = require("../../Common/Event/EventDefine");
+const j = require("../../Common/Event/EventSystem");
+const k = require("../ListComponent");
+const l = require("./EntityManager");
+const m = ["Gameplay059"];
+const n = [t(352) + "1"];
+function o(b, a) {
+  const e = u();
+  o = function (d, f) {
+    d = d - 352;
+    let b = e[d];
+    return b;
+  };
+  return o(b, a);
+}
+class p extends l["EntityMana" + t(413)] {
+  static [t(388)](a, b) {
+    const c = t;
+    let d = this["GetBluepri" + c(390)](a);
+    return b[c(400)](d);
+  }
+  static async [t(415)](a) {
+    const b = t;
+    if (v[b(380)][b("0x193")][b(415)]) {
+      this[b(386)](a);
+    }
+  }
+  static [t("0x182")](e) {
+    const b = t;
+    if (this[b(388)](e, m)) {
+      g[b(402) + "layControl" + b("0x188")]["ShootTarge" + b(418) + b(391) + b("0x1a4")](e[b("0x175")].Id, c => {
+        const a = b;
+        if (c && e.Entity?.[a(416)]) {
+          j[a("0x1af") + "m"][a("0x1aa") + "rget"](e.Entity, i.EEventName["UpdateScen" + a("0x171")]);
+        }
+      });
+    }
+  }
+  static [t(407) + "4"](a) {
+    const b = t;
+    if (this[b(398) + "ntType2"](a) == b(407) + "4") {
+      d[b("0x1a5")]["ThrowDamag" + b(397) + b("0x17a")](a.Entity, 3, 0xc846051n);
+    }
+  }
+  static [t(371) + "fly"](a) {
+    const b = t;
+    if (!v[b("0x17c")][b(403)][b("0x19f")]) {
+      return;
+    }
+    if (!this[b("0x184")](a, n)) {
+      return;
+    }
+    const c = a[b("0x175")][b(422) + "nt"](k[b(363)][b("0x17e") + b(394)]);
+    if (!c) {
+      return;
+    }
+    try {
+      const d = 1000000;
+      c[b("0x170") + "nge"](d);
+    } catch (b) {}
+  }
+  static [t(367) + t(417) + "ted"] = false;
+  static [t(366) + t("0x196") + "e"]() {
+    const a = t;
+    try {
+      if (f.UI.IsViewOpen("SignalDevi" + a(354))) {
+        if (!this[a("0x16f") + a(417) + a(428)]) {
+          e[a("0x18f") + "er"][a(362) + a(404)].EDe();
+          this[a("0x16f") + a(417) + "ted"] = true;
+          f.UI[a("0x19e")](a(379));
+        }
+      } else {
+        this[a(367) + a(417) + "ted"] = false;
+      }
+    } catch (b) {}
+  }
+  static [t("0x19a") + t("0x181")] = null;
+  static async AutoFishing() {
+    const g = t;
+    const a = () => {
+      const b = o;
+      if (this[b(410) + b(385)]) {
+        clearInterval(this["autoFishin" + b(385)]);
+        this[b("0x19a") + b("0x181")] = null;
+      }
+    };
+    const b = f.UI[g("0x174")](g("0x1a7") + g(356));
+    const c = f.UI["GetViewByN" + g("0x185")](g(423) + "View");
+    if (!v[g("0x17c")][g("0x193")].AutoPuzzle) {
+      a();
+      return;
+    }
+    if (b && c) {
+      if (!this.autoFishingInterval) {
+        this[g(410) + g("0x181")] = // TOLOOK
+        // TOLOOK
+        setInterval(() => {
+          const b = g;
+          if (!c[b("0x17d")].IsGamePause() && !c[b("0x17d")].IsGameEnd()) {
+            e[b(399) + "er"][b("0x1a7") + b("0x198")][b(396) + "n"]();
+          }
+        }, 250);
+      }
+    } else {
+      a();
+    }
+  }
+  static [t("0x1ae") + "tSolved"] = false;
+  static [t(409) + t("0x16c")]() {
+    const a = t;
+    try {
+      if (e[a(399) + "er"][a(424) + a(370)].Config && e.ModelManager[a(424) + "odel"][a("0x180")][a("0x191")] === a("0x19c") && e[a(399) + "er"][a(424) + a("0x172")][a(425)] && f.UI[a(372)]("LifePointView")) {
+        if (!this[a(430) + a("0x165")]) {
+          f.UI[a(432) + a(389)](a(377) + a(429))[a(374)]();
+          this["isLifePoin" + a("0x165")] = true;
+          f.UI[a(414)](a("0x17b"));
+        }
+      } else {
+        this[a("0x1ae") + "tSolved"] = false;
+      }
+    } catch (b) {}
+  }
+  static [t(387)]() {
+    const c = t;
+    try {
+      this["AutoSolveS" + c("0x196") + "e"]();
+      this[c(409) + c("0x16c")]();
+    } catch (b) {
+      h[c(393)][c("0x19b")](b);
+    }
+  }
+}
+exports[t("0x19f")] = p;

@@ -1,1 +1,814 @@
-'use strict';const a0_0x50390a=a0_0x5636;(function(_0x46df50,_0x464cf4){const _0x5d181e=a0_0x5636,_0x7e463e=_0x46df50();while(!![]){try{const _0x1ad32e=-parseInt(_0x5d181e(0x18a))/0x1*(parseInt(_0x5d181e('0x245'))/0x2)+-parseInt(_0x5d181e(0x174))/0x3+parseInt(_0x5d181e('0x246'))/0x4+-parseInt(_0x5d181e('0x217'))/0x5*(-parseInt(_0x5d181e(0x244))/0x6)+-parseInt(_0x5d181e(0x162))/0x7*(parseInt(_0x5d181e('0x167'))/0x8)+-parseInt(_0x5d181e('0x248'))/0x9+-parseInt(_0x5d181e('0x223'))/0xa*(-parseInt(_0x5d181e('0x1d4'))/0xb);if(_0x1ad32e===_0x464cf4)break;else _0x7e463e['push'](_0x7e463e['shift']());}catch(_0x2ef1dd){_0x7e463e['push'](_0x7e463e['shift']());}}}(a0_0x27fc,0x2b3dd));const a0_0x27ad11={};a0_0x27ad11[a0_0x50390a(0x207)]=!0x0,(Object[a0_0x50390a(0x1e1)+a0_0x50390a(0x17c)](exports,a0_0x50390a(0x1df),a0_0x27ad11),exports[a0_0x50390a('0x21e')+a0_0x50390a('0x1c6')]=void 0x0);const a0_0x5a34ee=require('ue'),a0_0x514232=require('../../Utils/ModUtils'),a0_0x4630c7=require('puerts'),a0_0x3e80be=require('../../ModManager'),a0_0x1f61af=require('../ModMethod'),a0_0x13503a=require('../KillAura'),a0_0x18f154=require('../../Component/TreasureTp'),a0_0x5e7ccb=require('../../../ModMenu'),a0_0x143f6c=require('../../Utils/Logger'),a0_0x1cbdd6=require('../MobVacuum'),a0_0x17e265=a0_0x50390a('0x1b4')+'on',a0_0x4cad10=require('./KeyDefine'),a0_0x21b3bd=require('../CustomTp'),a0_0x137083=require('../../Utils/UI'),a0_0x5d252b=require('../buffMethod'),a0_0x13c495=require('../EntityManager'),a0_0x2f252b=a0_0x50390a(0x17d)+'_com_count'+'_number',a0_0xc10798=require('../../Utils/ConfigManager'),a0_0x255ec7=require('../Flight'),a0_0x40d3c4=require('../../Utils/InputKeyController'),a0_0x1e081c=a0_0x4cad10[a0_0x50390a('0x150')+a0_0x50390a(0x175)+'T'],a0_0xc61502={};a0_0xc61502[a0_0x50390a('0x1a8')]='X',a0_0xc61502[a0_0x50390a('0x229')]='Toggle';const a0_0x2d4f31={};a0_0x2d4f31[a0_0x50390a('0x1a8')]=null,a0_0x2d4f31['type']=a0_0x50390a(0x16d);const a0_0x1302c5={};a0_0x1302c5['key']=null,a0_0x1302c5['type']=a0_0x50390a('0x183');const a0_0x289e0b={};a0_0x289e0b[a0_0x50390a(0x1a8)]=a0_0x50390a('0x1b3'),a0_0x289e0b[a0_0x50390a(0x229)]=a0_0x50390a(0x183);const a0_0x555453={};a0_0x555453['key']=null,a0_0x555453[a0_0x50390a('0x229')]='Toggle';const a0_0xf7d6d2={};a0_0xf7d6d2[a0_0x50390a(0x1a8)]=null,a0_0xf7d6d2['type']=a0_0x50390a(0x183);const a0_0x1a92af={};a0_0x1a92af['key']=null,a0_0x1a92af[a0_0x50390a(0x229)]='Toggle';const a0_0x13180e={};a0_0x13180e[a0_0x50390a(0x1a8)]='Right',a0_0x13180e[a0_0x50390a(0x229)]='Press';const a0_0x1bf582={};a0_0x1bf582[a0_0x50390a('0x1a8')]=null,a0_0x1bf582[a0_0x50390a('0x229')]=a0_0x50390a('0x183');const a0_0x37f5ba={};a0_0x37f5ba[a0_0x50390a('0x1a8')]='Left',a0_0x37f5ba[a0_0x50390a(0x229)]=a0_0x50390a(0x216);const a0_0x1dd5b3={};a0_0x1dd5b3['key']='T',a0_0x1dd5b3[a0_0x50390a('0x229')]=a0_0x50390a(0x216);const a0_0x1162fb={};a0_0x1162fb[a0_0x50390a('0x1a8')]='V',a0_0x1162fb[a0_0x50390a(0x229)]='Press';const a0_0x59ede8={};a0_0x59ede8[a0_0x50390a('0x1a8')]=a0_0x50390a('0x1d5'),a0_0x59ede8[a0_0x50390a(0x229)]=a0_0x50390a(0x216);const a0_0x2b94c0={};a0_0x2b94c0[a0_0x50390a(0x1a8)]=a0_0x50390a('0x1cd'),a0_0x2b94c0['type']=a0_0x50390a(0x183);const a0_0x1a565c={};a0_0x1a565c[a0_0x50390a(0x1a8)]=a0_0x50390a('0x177'),a0_0x1a565c[a0_0x50390a(0x229)]=a0_0x50390a('0x183');const a0_0x47947f={};a0_0x47947f[a0_0x50390a(0x1a8)]='F9',a0_0x47947f['type']='Toggle';const a0_0x290d16={};function a0_0x27fc(){const _0x1890f7=['Config','ModManager','ffOption','Toggle','e\x20Time','ApplyBuff','logger','\x20to\x20clipbo','Dir','ard!','1EMvoKF','ACTION_TYP','forEach','Action','MobVacuumT','GoToNextPo','nChanged','NoClip','Trigger\x20Ac','isWidgetLo','Time','toString','Init\x20keybi','PlayerSpee','retrying..','SelectBuff','Auto\x20Resta','ger','ShowModMen','Failed\x20ini','QuestX','PrevTp','settings','CLEAR_NAME','aded','isKeyDown','buffType','QuestY','killAura','tateText','key','Freeze\x20Gam','Key','ties','asureTelep','rKey','Keybind\x20no','Always\x20Sho','d\x20or\x20empty','Player\x20Spe','AlwaysShow','Five','Keybind.js','indChanges','onTypeChan','[\x20Keybind:','gistered!','LoadConfig','ListenClea','MarkX','InputKeyCo','Cursor','ortText','\x22\x20not\x20foun','CopyTpCord','Echo\x20Vacuu','ModMenu','Menu','AutoRestar','Applied\x20Bu','troller','LGUIBPLibr','dTime','listenActi','updateDefa','bindKeyToU','bShift','F11','function','inate','Add','keysState','tate','OnSelectio','7011037kWNJZp','F12','ModUtils','CordinateS','\x20empty\x20con','EntityMana','TeleportTo','ind','UpdateKeyb','hold','CheckConfi','__esModule','trim','defineProp','IsTping','leport','ding','updateStat','dOption','ClipBoardC','OnKeySelec','buffManage','NAME','name','dInterval','mpty\x20objec','AddOption','ted','Coordinate','howCursor','fault\x20keyb','keybindLoa','oaded','Flight','TreasureWi','be\x20a\x20non-e','selectedBu','htMode','Overlay','ClearOptio','World\x20Spee','teleport','\x22\x20does\x20not','NextTp','MobVacuum','UpdateKeyS','ShowTip','Mod','PlayAudio','SetWorldSp','MarkTp','value','ff\x20','ntroller','updateType','rld','KEY_NAME','nd...','killEntity','OnClicked','ConfigMana','keybinds','gExists','\x20exist\x20in\x20','indTrigger','IsKeyHold','Press','871825ISHPrO','imer','Hold','UnstuckLoa','dget','ToFile','GetSelecte','KeybindCon','peed','IsInGame','bCmd','Action\x20nam','10GjsABb','ary','Log','RunKillAur','IsInBoat','Timer','type','eed','TreasureTe','ctivate','isHolding','Invalid\x20or','triggerKey','ShowStatus','kill\x20Aura','Buff\x20loade','keybinds.','tDungeon','Library','e\x20\x22','Capitalize','holdInterv','SaveConfig','inds.','KuroStatic','KeyName','IsInMapVie','MainMenu','EchoVacuum','opy','values','t\x20found','FreezeGame','6DzqgJl','245738rnUjng','80220ZMAocI','toggleFlig','190908geUtMu','keys','Keybind\x20fo','KillAura','ReloadBuff','ACTION_ATT','rt\x20Dungeon','keyMenu','WorldSpeed','usPos','QuestZ','TYPE_LIST','ges','error','GoTp','find','sMod','SaveString','\x20file:','CustomTp','toLowerCas','ModMethod','Config\x20fil','416227DVWCmu','TreasureTp','eMod',',\x20using\x20de','SetSelecte','40wFFaAB','e\x20not\x20foun','buffMethod','Mob\x20Vacuum','lyBuff','MarkTpPosZ','press','bAlt','MarkY','None','IsInGameWo','dKey','Treasure','639852HBpPSt','RIBUTE_LIS','bCtrl','F10','isKeybindL','\x20was\x20saved','ultSetting','addKey','erty','play_ui_fx','QuestTp','SetPlayerS'];a0_0x27fc=function(){return _0x1890f7;};return a0_0x27fc();}a0_0x290d16[a0_0x50390a('0x1a8')]=null,a0_0x290d16[a0_0x50390a('0x229')]='Toggle';const a0_0x479e1a={};function a0_0x5636(_0x3bfcfe,_0x1c5c9a){const _0x27fc4a=a0_0x27fc();return a0_0x5636=function(_0x5636ea,_0xcab101){_0x5636ea=_0x5636ea-0x14f;let _0x399676=_0x27fc4a[_0x5636ea];return _0x399676;},a0_0x5636(_0x3bfcfe,_0x1c5c9a);}a0_0x479e1a['key']=null,a0_0x479e1a[a0_0x50390a('0x229')]='Press';const a0_0x97f6d5={};a0_0x97f6d5[a0_0x50390a('0x1a8')]=null,a0_0x97f6d5[a0_0x50390a('0x229')]='Press';const a0_0x3b5811={};a0_0x3b5811[a0_0x50390a('0x1a8')]=null,a0_0x3b5811[a0_0x50390a('0x229')]=a0_0x50390a('0x216');const a0_0x14765e={};a0_0x14765e[a0_0x50390a('0x1c2')]=a0_0xc61502,a0_0x14765e['TreasureTe'+'leport']=a0_0x2d4f31,a0_0x14765e['KillAura']=a0_0x1302c5,a0_0x14765e['Flight']=a0_0x289e0b,a0_0x14765e['MobVacuum']=a0_0x555453,a0_0x14765e[a0_0x50390a(0x153)]=a0_0xf7d6d2,a0_0x14765e['PlayerSpee'+'d']=a0_0x1a92af,a0_0x14765e['NextTp']=a0_0x13180e,a0_0x14765e[a0_0x50390a('0x191')]=a0_0x1bf582,a0_0x14765e[a0_0x50390a(0x19f)]=a0_0x37f5ba,a0_0x14765e['MarkTp']=a0_0x1dd5b3,a0_0x14765e['QuestTp']=a0_0x1162fb,a0_0x14765e['ReloadBuff'+a0_0x50390a(0x180)]=a0_0x59ede8,a0_0x14765e[a0_0x50390a('0x1b2')+a0_0x50390a(0x1bd)]=a0_0x2b94c0,a0_0x14765e[a0_0x50390a(0x243)+a0_0x50390a('0x194')]=a0_0x1a565c,a0_0x14765e[a0_0x50390a('0x23f')]=a0_0x47947f,a0_0x14765e[a0_0x50390a('0x1c4')+a0_0x50390a(0x234)]=a0_0x290d16,a0_0x14765e[a0_0x50390a(0x1c0)+a0_0x50390a('0x1cf')]=a0_0x479e1a,a0_0x14765e[a0_0x50390a('0x21a')+'ding']=a0_0x97f6d5,a0_0x14765e[a0_0x50390a(0x185)]=a0_0x3b5811;class a0_0x531d77{constructor(){setTimeout(()=>{this['InitKeyBin'+'d']();},0x3e8);}['InitKeyBin'+'d'](){const _0x47a4f2=a0_0x50390a;try{a0_0x514232[_0x47a4f2(0x1d6)][_0x47a4f2(0x225)](_0x47a4f2('0x196')+_0x47a4f2('0x20d'));if(a0_0x531d77[_0x47a4f2('0x178')+_0x47a4f2(0x1f4)]){const _0x4c48ce=Object['values'](a0_0x531d77[_0x47a4f2(0x211)]),_0x5e6a6b=Object[_0x47a4f2('0x249')](a0_0x531d77[_0x47a4f2('0x211')]);_0x4c48ce[_0x47a4f2(0x18c)]((_0x47ce14,_0x5a6671)=>{const _0x11060e=_0x47a4f2;_0x47ce14[_0x11060e(0x1a8)]&&a0_0x40d3c4['InputKeyCo'+_0x11060e(0x209)][_0x11060e(0x17b)](_0x5e6a6b[_0x5a6671],_0x47ce14[_0x11060e('0x1a8')]);}),a0_0x514232[_0x47a4f2(0x1d6)]['Log']('Keybind\x20re'+_0x47a4f2(0x1b8));}else setTimeout(()=>{const _0x1cb737=_0x47a4f2;this['InitKeyBin'+'d'](),a0_0x514232['ModUtils'][_0x1cb737('0x225')](_0x1cb737('0x19d')+'t\x20keybind\x20'+_0x1cb737(0x198)+'.',_0x1cb737('0x158'));},0x9c4);}catch(_0x23c18c){a0_0x514232[_0x47a4f2('0x1d6')]['Log'](_0x23c18c,_0x47a4f2('0x158'));}}static ['loadKeybin'+a0_0x50390a('0x1c8')]=null;static ['keyMenu']=null;static [a0_0x50390a(0x1d1)]={};static [a0_0x50390a(0x238)+'al']=null;static [a0_0x50390a('0x211')]=a0_0x14765e;static [a0_0x50390a('0x178')+'oaded']=![];static [a0_0x50390a(0x1f3)+a0_0x50390a('0x1ec')]=null;static [a0_0x50390a(0x20e)+a0_0x50390a(0x228)]=null;static [a0_0x50390a(0x18e)+a0_0x50390a(0x218)]=null;static['UpdateKeyb'+a0_0x50390a('0x1db')](_0x25c748,_0x2c5fab,_0x1f7714){const _0x226014=a0_0x50390a;if(!_0x25c748)return;const _0x153f78=this[_0x226014('0x211')][_0x25c748];if(!_0x153f78){a0_0x514232[_0x226014(0x1d6)]['Log'](_0x226014('0x222')+_0x226014(0x236)+_0x25c748+(_0x226014(0x1fe)+_0x226014('0x213')+_0x226014('0x233')),_0x226014(0x158));return;}this[_0x226014('0x1ca')+_0x226014(0x17a)+_0x226014('0x15b')](_0x25c748,_0x153f78[_0x226014(0x229)]);if(!_0x2c5fab||_0x2c5fab===''){_0x153f78[_0x226014(0x1a8)]=null,a0_0x531d77[_0x226014('0x166')+_0x226014('0x172')](_0x1f7714,null);return;}const _0x26f616=Object['entries'](a0_0x531d77[_0x226014('0x211')])[_0x226014('0x15a')](([,_0x3585d4])=>_0x3585d4[_0x226014(0x1a8)]===_0x2c5fab);if(_0x26f616){const [_0x31227a,_0x149fe8]=_0x26f616;if(_0x31227a!==_0x25c748){const _0x34126c=Object[_0x226014('0x241')](a0_0x1e081c),_0x3fe81e=_0x34126c[_0x226014('0x15a')](_0x234d60=>_0x234d60['NAME']===_0x31227a);_0x149fe8[_0x226014(0x1a8)]=null,a0_0x531d77[_0x226014(0x166)+_0x226014(0x172)](_0x3fe81e[_0x226014('0x20c')],null);}}_0x153f78[_0x226014('0x1a8')]=_0x2c5fab,a0_0x40d3c4['InputKeyCo'+'ntroller'][_0x226014(0x17b)](_0x25c748,_0x2c5fab);}static[a0_0x50390a(0x1ca)+a0_0x50390a('0x17a')+a0_0x50390a('0x15b')](_0x3241e0,_0x34c9f4){const _0x5c7a55=a0_0x50390a;if(_0x34c9f4===_0x5c7a55(0x219)){if(_0x3241e0===_0x5c7a55('0x153'))a0_0x1f61af['ModMethod'][_0x5c7a55('0x205')+_0x5c7a55(0x22a)](![]);else _0x3241e0==='PlayerSpee'+'d'&&a0_0x1f61af[_0x5c7a55(0x160)]['SetPlayerS'+_0x5c7a55('0x21f')](![]);}}static[a0_0x50390a('0x20a')+a0_0x50390a('0x18d')](_0x101a69,_0x39de02){const _0x2015d0=a0_0x50390a,_0x29d6d7=a0_0x531d77['keybinds'][_0x101a69];this[_0x2015d0(0x1ca)+'ultSetting'+'sMod'](_0x101a69,_0x39de02);if(!_0x29d6d7){a0_0x514232[_0x2015d0('0x1d6')][_0x2015d0(0x225)](_0x2015d0(0x1ae)+_0x2015d0('0x242'),_0x2015d0('0x158'));return;}else{if(!_0x39de02)return;}_0x29d6d7[_0x2015d0('0x229')]=_0x39de02;}static[a0_0x50390a(0x22f)]({actionName:actionName=null,func:func=null,onToggle:onToggle=null,onHold:onHold=null,onPress:onPress=null}){const _0x3627ad=a0_0x50390a;try{const _0x6cf957=a0_0x531d77[_0x3627ad('0x211')][actionName];if(!_0x6cf957){a0_0x514232[_0x3627ad('0x1d6')][_0x3627ad('0x225')](_0x3627ad(0x24a)+'r\x20action\x20\x22'+actionName+(_0x3627ad(0x1bf)+'d.'),_0x3627ad('0x158'));return;}if(!_0x6cf957[_0x3627ad(0x1a8)])return;let _0x1ab637=![];switch(_0x6cf957[_0x3627ad(0x229)][_0x3627ad('0x15f')+'e']()){case'press':_0x1ab637=a0_0x40d3c4[_0x3627ad(0x1bc)+_0x3627ad('0x209')][_0x3627ad('0x1a3')](_0x6cf957[_0x3627ad(0x1a8)]);_0x1ab637&&typeof onPress===_0x3627ad(0x1ce)&&onPress&&onPress();break;case _0x3627ad(0x1dd):const _0x41d30b=a0_0x531d77[_0x3627ad('0x1d1')]?.[actionName]||![];_0x1ab637=a0_0x40d3c4['InputKeyCo'+_0x3627ad('0x209')][_0x3627ad('0x215')](_0x6cf957['key'],0x64);if(typeof onHold===_0x3627ad(0x1ce)&&onHold){if(_0x1ab637&&!_0x41d30b)this[_0x3627ad('0x238')+'al']=setInterval(()=>{const _0x1e64b7={};_0x1e64b7['isHolding']=!![],onHold(_0x1e64b7);},0x64);else{if(!_0x1ab637&&_0x41d30b){const _0x2bda1c={};_0x2bda1c[_0x3627ad(0x22d)]=![],onHold(_0x2bda1c),clearInterval(this[_0x3627ad(0x238)+'al']),this[_0x3627ad('0x238')+'al']=null;}}}a0_0x531d77[_0x3627ad('0x1d1')]={...a0_0x531d77['keysState'],[actionName]:_0x1ab637};break;case'toggle':_0x1ab637=a0_0x40d3c4['InputKeyCo'+_0x3627ad(0x209)]['IsMyKeyUp'](_0x6cf957[_0x3627ad(0x1a8)]);_0x1ab637&&typeof onToggle==='function'&&onToggle&&onToggle();break;}func&&typeof func==='function'&&func();}catch(_0x2e2069){a0_0x514232[_0x3627ad(0x1d6)][_0x3627ad(0x225)](_0x3627ad(0x192)+'tion\x20Error'+'\x20'+_0x2e2069,_0x3627ad(0x158));}}static[a0_0x50390a(0x1e5)+a0_0x50390a(0x164)](_0x58e2e6){const _0x219b3c=a0_0x50390a,_0x2a08fc=a0_0x3e80be[_0x219b3c('0x181')][_0x219b3c(0x1a0)][_0x58e2e6];a0_0x3e80be[_0x219b3c(0x181)][_0x219b3c(0x1a0)][_0x58e2e6]=!_0x2a08fc;}static['ListenKeyb'+a0_0x50390a('0x214')](){const _0x4a497b=a0_0x50390a;try{this[_0x4a497b(0x22f)]({'actionName':a0_0x1e081c[_0x4a497b(0x1c2)]['NAME'],'onToggle':()=>{const _0x3c3588=_0x4a497b;a0_0x5e7ccb[_0x3c3588(0x23e)][_0x3c3588('0x19c')+'u']();}}),this[_0x4a497b('0x22f')]({'actionName':a0_0x1e081c[_0x4a497b(0x22b)+'leport'][_0x4a497b('0x1ea')],'onPress':()=>{const _0x4ab312=_0x4a497b;if(!a0_0x514232[_0x4ab312('0x1d6')][_0x4ab312(0x171)+_0x4ab312(0x20b)]()||!a0_0x3e80be[_0x4ab312('0x181')]['settings'][_0x4ab312('0x163')+_0x4ab312('0x1fa')])return;a0_0x514232[_0x4ab312(0x1d6)][_0x4ab312('0x204')](a0_0x2f252b),a0_0x18f154[_0x4ab312(0x163)][_0x4ab312('0x1da')+_0x4ab312('0x173')]();}}),this[_0x4a497b(0x22f)]({'actionName':a0_0x1e081c[_0x4a497b(0x14f)+'Config'][_0x4a497b(0x1ea)],'onPress':()=>{const _0x34feab=_0x4a497b;try{a0_0x5d252b['buffMethod'][_0x34feab('0x1b9')](),a0_0x5e7ccb[_0x34feab(0x23e)]['Menu'][_0x34feab('0x199')]['ClearOptio'+'ns'](),a0_0x5d252b[_0x34feab('0x169')]['buffType'][_0x34feab(0x18c)](_0x58788c=>a0_0x5e7ccb[_0x34feab('0x23e')][_0x34feab('0x1c3')][_0x34feab('0x199')]['AddOption'](_0x58788c[_0x34feab(0x1eb)])),a0_0x5e7ccb[_0x34feab('0x23e')]['Menu'][_0x34feab(0x199)]['SetSelecte'+_0x34feab('0x1e6')](a0_0x5d252b[_0x34feab('0x169')][_0x34feab('0x1a4')][a0_0x3e80be[_0x34feab('0x181')][_0x34feab(0x1a0)][_0x34feab(0x1a4)]]['name']),a0_0x137083['UI']['ShowTip'](_0x34feab(0x232)+'d!');}catch(_0x11c7a0){}}}),this[_0x4a497b(0x22f)]({'actionName':a0_0x1e081c[_0x4a497b('0x1b2')+'Cursor']['NAME'],'onToggle':()=>{const _0x1b563f=_0x4a497b;try{a0_0x514232['ModUtils'][_0x1b563f(0x204)](a0_0x2f252b),a0_0x3e80be['ModManager'][_0x1b563f(0x1a0)][_0x1b563f(0x1b2)+_0x1b563f(0x1bd)]=!a0_0x3e80be[_0x1b563f(0x181)][_0x1b563f('0x1a0')][_0x1b563f(0x1b2)+_0x1b563f(0x1bd)],a0_0x137083['UI'][_0x1b563f('0x230')+_0x1b563f('0x203')](_0x1b563f('0x1b2')+_0x1b563f('0x1bd'),_0x1b563f(0x1af)+'w\x20Cursor'),a0_0x1f61af[_0x1b563f(0x160)]['SetAlwaysS'+_0x1b563f('0x1f1')](a0_0x3e80be[_0x1b563f(0x181)]['settings']['AlwaysShow'+'Cursor']);}catch(_0x1e042c){}}});if(!a0_0x514232[_0x4a497b(0x1d6)][_0x4a497b('0x220')]()||a0_0x5e7ccb[_0x4a497b(0x23e)][_0x4a497b('0x1c3')]['IsVisible']())return;this['triggerKey']({'actionName':a0_0x1e081c[_0x4a497b(0x24b)]['NAME'],'onToggle':()=>{const _0x1c3df2=_0x4a497b;a0_0x514232['ModUtils']['PlayAudio'](a0_0x2f252b),a0_0x3e80be[_0x1c3df2('0x181')][_0x1c3df2('0x1a0')][_0x1c3df2('0x1a6')]=!a0_0x3e80be[_0x1c3df2('0x181')][_0x1c3df2(0x1a0)][_0x1c3df2(0x1a6)],a0_0x137083['UI'][_0x1c3df2('0x230')+'Mod']('killAura',_0x1c3df2('0x231'));},'onPress':()=>{const _0x8953ec=_0x4a497b;if(a0_0x531d77[_0x8953ec(0x20e)+_0x8953ec('0x228')])return;a0_0x531d77[_0x8953ec(0x20e)+_0x8953ec(0x228)]=setTimeout(()=>{const _0x32b1c6=_0x8953ec;a0_0x13503a[_0x32b1c6('0x24b')][_0x32b1c6('0x226')+'a'](),a0_0x531d77[_0x32b1c6('0x20e')+'Timer']=null;},0x64);},'onHold':({isHolding:_0x5a4d5a})=>{const _0x343181=_0x4a497b;if(_0x5a4d5a){if(a0_0x531d77['killEntity'+'Timer'])return;a0_0x531d77[_0x343181('0x20e')+_0x343181('0x228')]=setTimeout(()=>{const _0x543aa4=_0x343181;a0_0x13503a[_0x543aa4('0x24b')][_0x543aa4('0x226')+'a'](),a0_0x531d77['killEntity'+_0x543aa4('0x228')]=null;},0x12c);}}}),this[_0x4a497b(0x22f)]({'actionName':a0_0x1e081c['Flight']['NAME'],'onToggle':()=>{const _0x367ad5=_0x4a497b;a0_0x3e80be[_0x367ad5(0x181)][_0x367ad5(0x1a0)]['flightMode']&&a0_0x255ec7[_0x367ad5('0x1f5')][_0x367ad5('0x247')+_0x367ad5('0x1f9')]();}}),this[_0x4a497b(0x22f)]({'actionName':a0_0x1e081c[_0x4a497b('0x191')][_0x4a497b(0x1ea)],'onToggle':()=>{const _0x1abf2c=_0x4a497b;a0_0x514232['ModUtils'][_0x1abf2c('0x204')](a0_0x2f252b);const _0x244066=a0_0x3e80be['ModManager'][_0x1abf2c('0x1a0')]['NoClip'];return a0_0x1f61af[_0x1abf2c(0x160)][_0x1abf2c(0x191)](!_0x244066),a0_0x3e80be[_0x1abf2c(0x181)][_0x1abf2c('0x1a0')][_0x1abf2c('0x191')]=!_0x244066,a0_0x137083['UI']['ShowStatus'+'Mod'](_0x1abf2c('0x191'),'No\x20Clip');}}),this[_0x4a497b(0x22f)]({'actionName':a0_0x1e081c['PlayerSpee'+'d'][_0x4a497b('0x1ea')],'onToggle':()=>{const _0x5a1f5c=_0x4a497b;a0_0x514232['ModUtils']['PlayAudio'](a0_0x2f252b);const _0x146c63=a0_0x3e80be[_0x5a1f5c('0x181')][_0x5a1f5c(0x1a0)][_0x5a1f5c(0x197)+'d'];return a0_0x1f61af['ModMethod'][_0x5a1f5c('0x17f')+_0x5a1f5c('0x21f')](!_0x146c63),a0_0x3e80be['ModManager'][_0x5a1f5c(0x1a0)][_0x5a1f5c(0x197)+'d']=!_0x146c63,a0_0x137083['UI']['ShowStatus'+_0x5a1f5c('0x203')](_0x5a1f5c('0x197')+'d',_0x5a1f5c(0x1b1)+'ed');},'onHold':({isHolding:_0x2514c0})=>{const _0x3a0d19=_0x4a497b;_0x2514c0&&a0_0x3e80be['ModManager'][_0x3a0d19(0x1a0)][_0x3a0d19(0x197)+'d']?a0_0x1f61af[_0x3a0d19('0x160')]['SetPlayerS'+_0x3a0d19(0x21f)](!![]):a0_0x1f61af['ModMethod'][_0x3a0d19(0x17f)+_0x3a0d19('0x21f')](![]);}}),this['triggerKey']({'actionName':a0_0x1e081c['WorldSpeed'][_0x4a497b(0x1ea)],'onToggle':()=>{const _0x177e34=_0x4a497b;a0_0x514232[_0x177e34(0x1d6)][_0x177e34('0x204')](a0_0x2f252b);const _0x301b7d=a0_0x3e80be[_0x177e34('0x181')][_0x177e34('0x1a0')][_0x177e34('0x153')];return a0_0x1f61af[_0x177e34(0x160)][_0x177e34(0x205)+_0x177e34('0x22a')](!_0x301b7d),a0_0x3e80be[_0x177e34('0x181')][_0x177e34(0x1a0)][_0x177e34(0x153)]=!_0x301b7d,a0_0x137083['UI'][_0x177e34('0x230')+_0x177e34('0x203')](_0x177e34(0x153),_0x177e34('0x1fc')+'d');},'onHold':({isHolding:_0x51a016})=>{const _0x4659a0=_0x4a497b;_0x51a016&&a0_0x3e80be['ModManager'][_0x4659a0(0x1a0)][_0x4659a0(0x153)]?a0_0x1f61af[_0x4659a0('0x160')][_0x4659a0(0x205)+_0x4659a0('0x22a')](!![]):a0_0x1f61af['ModMethod'][_0x4659a0('0x205')+_0x4659a0(0x22a)](![]);}}),this['triggerKey']({'actionName':a0_0x4cad10[_0x4a497b('0x150')+_0x4a497b(0x175)+'T'][_0x4a497b('0x1ff')]['NAME'],'onPress':()=>{const _0x902cf2=_0x4a497b;a0_0x514232[_0x902cf2(0x1d6)][_0x902cf2(0x204)](a0_0x2f252b),a0_0x21b3bd['CustomTp'][_0x902cf2('0x18f')+'s'](),a0_0x21b3bd[_0x902cf2(0x15e)][_0x902cf2('0x159')]();}}),this[_0x4a497b('0x22f')]({'actionName':a0_0x4cad10[_0x4a497b(0x150)+_0x4a497b(0x175)+'T'][_0x4a497b(0x19f)]['NAME'],'onPress':()=>{const _0x97289a=_0x4a497b;a0_0x514232[_0x97289a(0x1d6)][_0x97289a('0x204')](a0_0x2f252b),a0_0x21b3bd[_0x97289a('0x15e')]['GoToPrevio'+_0x97289a('0x154')](),a0_0x21b3bd[_0x97289a('0x15e')]['GoTp']();}}),this['triggerKey']({'actionName':a0_0x4cad10['ACTION_ATT'+_0x4a497b(0x175)+'T'][_0x4a497b('0x206')][_0x4a497b('0x1ea')],'onPress':()=>{const _0x116f1e=_0x4a497b;if(!a0_0x3e80be[_0x116f1e('0x181')][_0x116f1e(0x1a0)][_0x116f1e(0x206)]||!a0_0x514232['ModUtils'][_0x116f1e(0x23d)+'w']())return;a0_0x514232[_0x116f1e(0x1d6)][_0x116f1e('0x204')](a0_0x2f252b);let _0x4fadc8=a0_0x3e80be[_0x116f1e(0x181)]['settings']['MarkZ'];if(_0x4fadc8==0x0)_0x4fadc8=a0_0x3e80be[_0x116f1e(0x181)]['settings'][_0x116f1e(0x16c)];const _0x370748={};_0x370748['x']=a0_0x3e80be['ModManager']['settings'][_0x116f1e('0x1bb')]*0x64,_0x370748['y']=a0_0x3e80be[_0x116f1e(0x181)][_0x116f1e(0x1a0)][_0x116f1e('0x16f')]*0x64,_0x370748['z']=_0x4fadc8*0x64,a0_0x21b3bd[_0x116f1e(0x15e)][_0x116f1e(0x1fd)](_0x370748);}}),this[_0x4a497b('0x22f')]({'actionName':a0_0x4cad10[_0x4a497b(0x150)+_0x4a497b('0x175')+'T'][_0x4a497b('0x17e')]['NAME'],'onPress':()=>{const _0x4bcbe6=_0x4a497b;if(!a0_0x3e80be[_0x4bcbe6('0x181')][_0x4bcbe6('0x1a0')][_0x4bcbe6('0x17e')]||a0_0x514232[_0x4bcbe6(0x1d6)][_0x4bcbe6('0x1e2')]()||a0_0x514232[_0x4bcbe6(0x1d6)][_0x4bcbe6('0x227')]()||!a0_0x514232[_0x4bcbe6('0x1d6')][_0x4bcbe6('0x171')+_0x4bcbe6('0x20b')]())return;a0_0x514232[_0x4bcbe6(0x1d6)][_0x4bcbe6('0x204')](a0_0x2f252b);if(a0_0x3e80be[_0x4bcbe6(0x181)][_0x4bcbe6('0x1a0')][_0x4bcbe6(0x19e)]!=0x0&&a0_0x3e80be[_0x4bcbe6('0x181')]['settings'][_0x4bcbe6('0x1a5')]!=0x0&&a0_0x3e80be[_0x4bcbe6('0x181')][_0x4bcbe6('0x1a0')][_0x4bcbe6(0x155)]!=0x0){const _0x2f2532={};_0x2f2532['x']=a0_0x3e80be[_0x4bcbe6(0x181)][_0x4bcbe6(0x1a0)][_0x4bcbe6(0x19e)],_0x2f2532['y']=a0_0x3e80be[_0x4bcbe6('0x181')][_0x4bcbe6('0x1a0')]['QuestY'],_0x2f2532['z']=a0_0x3e80be[_0x4bcbe6(0x181)][_0x4bcbe6('0x1a0')]['QuestZ'],a0_0x21b3bd[_0x4bcbe6('0x15e')][_0x4bcbe6('0x1fd')](_0x2f2532);}}}),this['triggerKey']({'actionName':a0_0x4cad10[_0x4a497b(0x150)+_0x4a497b('0x175')+'T']['MobVacuum'][_0x4a497b('0x1ea')],'onHold':({isHolding:_0x5ed3bf})=>{const _0x5bcd70=_0x4a497b;if(_0x5ed3bf&&a0_0x3e80be[_0x5bcd70(0x181)][_0x5bcd70('0x1a0')]['MobVacuum']){if(this[_0x5bcd70('0x18e')+_0x5bcd70(0x218)])return;this['MobVacuumT'+_0x5bcd70('0x218')]=setTimeout(()=>{const _0x3f796c=_0x5bcd70;a0_0x1cbdd6,a0_0x13c495[_0x3f796c(0x1d9)+_0x3f796c('0x19b')]['GetAllEnti'+_0x3f796c(0x1ab)]()['forEach'](_0x35d5a6=>{const _0x4bf4dd=_0x3f796c;a0_0x1cbdd6[_0x4bf4dd('0x200')][_0x4bf4dd(0x200)](_0x35d5a6);}),this[_0x3f796c('0x18e')+_0x3f796c('0x218')]=null;},0xc8);}},'onToggle':()=>{const _0x1d3304=_0x4a497b;a0_0x514232[_0x1d3304('0x1d6')][_0x1d3304('0x204')](a0_0x2f252b);const _0x2583ac=a0_0x3e80be[_0x1d3304(0x181)][_0x1d3304('0x1a0')][_0x1d3304(0x200)];a0_0x3e80be[_0x1d3304(0x181)][_0x1d3304(0x1a0)][_0x1d3304('0x200')]=!_0x2583ac,a0_0x137083['UI'][_0x1d3304(0x230)+'Mod']('MobVacuum',_0x1d3304('0x16a'));}}),this[_0x4a497b('0x22f')]({'actionName':a0_0x4cad10['ACTION_ATT'+_0x4a497b(0x175)+'T']['EchoVacuum'][_0x4a497b(0x1ea)],'onToggle':()=>{const _0x2303a0=_0x4a497b;a0_0x514232[_0x2303a0(0x1d6)][_0x2303a0(0x204)](a0_0x2f252b);const _0x1a9db4=a0_0x3e80be[_0x2303a0('0x181')][_0x2303a0('0x1a0')][_0x2303a0('0x23f')];a0_0x3e80be[_0x2303a0(0x181)][_0x2303a0(0x1a0)][_0x2303a0('0x23f')]=!_0x1a9db4,a0_0x137083['UI'][_0x2303a0(0x230)+_0x2303a0('0x203')](_0x2303a0(0x23f),_0x2303a0('0x1c1')+'m');}}),this[_0x4a497b('0x22f')]({'actionName':a0_0x1e081c[_0x4a497b('0x243')+'Time'][_0x4a497b('0x1ea')],'onToggle':()=>{const _0xdaea9c=_0x4a497b;try{a0_0x514232[_0xdaea9c(0x1d6)]['PlayAudio'](a0_0x2f252b),a0_0x3e80be[_0xdaea9c(0x181)]['settings'][_0xdaea9c('0x243')+_0xdaea9c('0x194')]=!a0_0x3e80be[_0xdaea9c(0x181)][_0xdaea9c('0x1a0')]['FreezeGame'+_0xdaea9c('0x194')],a0_0x137083['UI']['ShowStatus'+'Mod'](_0xdaea9c(0x243)+_0xdaea9c(0x194),_0xdaea9c(0x1a9)+_0xdaea9c(0x184)),a0_0x1f61af[_0xdaea9c('0x160')]['FreezeGame'+_0xdaea9c('0x194')](a0_0x3e80be['ModManager'][_0xdaea9c(0x1a0)][_0xdaea9c(0x243)+'Time']);}catch(_0x58e07b){}}}),this[_0x4a497b('0x22f')]({'actionName':a0_0x1e081c['AutoRestar'+'tDungeon']['NAME'],'onToggle':()=>{const _0x56fa55=_0x4a497b;a0_0x514232[_0x56fa55(0x1d6)][_0x56fa55('0x204')](a0_0x2f252b);const _0x3485ed=a0_0x3e80be['ModManager']['settings'][_0x56fa55('0x1c4')+_0x56fa55('0x234')];a0_0x3e80be[_0x56fa55('0x181')]['settings'][_0x56fa55('0x1c4')+_0x56fa55('0x234')]=!_0x3485ed,a0_0x137083['UI'][_0x56fa55('0x230')+'Mod'](_0x56fa55('0x1c4')+_0x56fa55(0x234),_0x56fa55(0x19a)+_0x56fa55(0x151));}}),this[_0x4a497b(0x22f)]({'actionName':a0_0x1e081c[_0x4a497b('0x1c0')+_0x4a497b(0x1cf)][_0x4a497b(0x1ea)],'onPress':()=>{const _0x4d2b78=_0x4a497b;a0_0x514232['ModUtils'][_0x4d2b78(0x204)](a0_0x2f252b);const {x:_0x41febe,y:_0x333e47,z:_0x5705b4}=a0_0x3e80be[_0x4d2b78('0x181')][_0x4d2b78(0x1a0)][_0x4d2b78(0x1d7)+_0x4d2b78('0x1d2')],_0x14cd1e={};_0x14cd1e['x']=_0x41febe,_0x14cd1e['y']=_0x333e47,_0x14cd1e['z']=_0x5705b4,a0_0x5a34ee[_0x4d2b78(0x1c7)+_0x4d2b78(0x224)][_0x4d2b78('0x1e7')+_0x4d2b78(0x240)](JSON['stringify'](_0x14cd1e)),a0_0x137083['UI'][_0x4d2b78('0x202')](_0x4d2b78('0x1f0')+_0x4d2b78(0x179)+_0x4d2b78(0x187)+_0x4d2b78(0x189));}}),this[_0x4a497b(0x22f)]({'actionName':a0_0x1e081c[_0x4a497b('0x21a')+_0x4a497b(0x1e4)][_0x4a497b('0x1ea')],'onPress':()=>{const _0x598d61=_0x4a497b;a0_0x514232[_0x598d61(0x1d6)][_0x598d61('0x204')](a0_0x2f252b),a0_0x1f61af[_0x598d61(0x160)][_0x598d61(0x21a)+'ding']();}}),this[_0x4a497b(0x22f)]({'actionName':a0_0x1e081c[_0x4a497b('0x185')][_0x4a497b('0x1ea')],'onPress':()=>{const _0x5e5ed0=_0x4a497b,_0x117b57=a0_0x5d252b['buffMethod'][_0x5e5ed0('0x1e9')+'r'][_0x5e5ed0('0x1f8')+_0x5e5ed0(0x182)];a0_0x5d252b[_0x5e5ed0(0x169)]['RequestApp'+_0x5e5ed0(0x16b)](_0x117b57),a0_0x514232['ModUtils'][_0x5e5ed0(0x204)](a0_0x2f252b),_0x117b57&&a0_0x137083['UI']['ShowTip'](_0x5e5ed0('0x1c5')+_0x5e5ed0(0x208)+_0x117b57[_0x5e5ed0(0x1eb)]);}});}catch(_0x36177f){a0_0x514232[_0x4a497b('0x1d6')]['Log'](_0x36177f,_0x4a497b('0x158'));}}static[a0_0x50390a(0x21d)+a0_0x50390a('0x172')](_0x8fafdf){const _0x4c70ff=a0_0x50390a;return _0x8fafdf[_0x4c70ff('0x1aa')][_0x4c70ff('0x23c')][_0x4c70ff(0x195)]();}static[a0_0x50390a(0x201)+a0_0x50390a(0x1a7)](){const _0xe39863=a0_0x50390a;try{a0_0x18f154['TreasureTp'][_0xe39863(0x193)+_0xe39863('0x1a2')]&&a0_0x18f154[_0xe39863('0x163')][_0xe39863('0x1f6')+_0xe39863(0x21b)]['KeybindTre'+_0xe39863(0x1ac)+_0xe39863(0x1be)]['SetText'](_0xe39863(0x1b7)+'\x20'+(this[_0xe39863('0x211')][_0xe39863(0x22b)+_0xe39863('0x1e3')][_0xe39863(0x1a8)]?this[_0xe39863(0x211)][_0xe39863('0x22b')+'leport'][_0xe39863('0x1a8')]:_0xe39863(0x170))+'\x20]');}catch(_0x53a4a5){a0_0x514232[_0xe39863('0x1d6')]['Log'](_0x53a4a5,_0xe39863(0x158));}}static['listenKeyb'+a0_0x50390a(0x1b5)](){const _0x2eaa9d=a0_0x50390a;try{if(!this[_0x2eaa9d('0x178')+_0x2eaa9d('0x1f4')])return;clearInterval(a0_0x531d77['keybindLoa'+_0x2eaa9d(0x1ec)]),a0_0x531d77[_0x2eaa9d(0x1f3)+_0x2eaa9d('0x1ec')]=null;const _0x544a32=a0_0x531d77[_0x2eaa9d('0x152')];if(!_0x544a32){a0_0x514232['ModUtils'][_0x2eaa9d('0x225')]('Menu\x20is\x20un'+'defined',_0x2eaa9d(0x158));return;}const _0x2ff63c=Object[_0x2eaa9d(0x241)](a0_0x1e081c);_0x2ff63c[_0x2eaa9d('0x18c')](_0x2b29c0=>{const _0x581cfc=_0x2eaa9d;_0x2b29c0['KEY_NAME']&&_0x544a32[_0x2b29c0[_0x581cfc('0x20c')]][_0x581cfc(0x1e8)+_0x581cfc('0x1ef')][_0x581cfc('0x1d0')](_0xa7bf2=>{const _0x1b4728=_0x581cfc,_0x3d36a6=this[_0x1b4728('0x21d')+'dKey'](_0xa7bf2);this[_0x1b4728('0x1dc')+_0x1b4728('0x1db')](_0x2b29c0[_0x1b4728('0x1ea')],_0x3d36a6,_0x2b29c0['KEY_NAME']);});}),this[_0x2eaa9d(0x1ba)+_0x2eaa9d(0x1ad)](),this[_0x2eaa9d('0x1c9')+_0x2eaa9d('0x1b6')+_0x2eaa9d('0x157')](),this[_0x2eaa9d(0x1cb)+'I']();}catch(_0x49b46a){a0_0x514232['ModUtils']['Log'](_0x49b46a,_0x2eaa9d(0x158));}}static['isAllowToA'+a0_0x50390a(0x22c)](_0x3b0104){const _0xac5bf8=a0_0x50390a;try{return a0_0x531d77[_0xac5bf8(0x211)][_0x3b0104][_0xac5bf8('0x229')][_0xac5bf8('0x15f')+'e']()==='toggle'||!a0_0x531d77['keybinds'][_0x3b0104][_0xac5bf8('0x1a8')];}catch(_0x1ba9a0){return a0_0x514232['ModUtils']['Log'](_0x1ba9a0,_0xac5bf8('0x158')),![];}}static[a0_0x50390a(0x1cb)+'I'](){const _0x3e6de8=a0_0x50390a;try{const _0x565170=Object[_0x3e6de8(0x241)](a0_0x1e081c);_0x565170[_0x3e6de8('0x18c')]((_0x283038,_0x3d7e9d)=>{const _0x4fc387=_0x3e6de8;_0x283038['ACTION_TYP'+'E']&&a0_0x531d77[_0x4fc387('0x152')][_0x283038[_0x4fc387(0x18b)+'E']][_0x4fc387('0x1fb')+'ns']();}),_0x565170[_0x3e6de8('0x18c')]((_0x7bac50,_0x5d5ee0)=>{const _0x311cbf=_0x3e6de8;_0x7bac50[_0x311cbf(0x18b)+'E']&&_0x7bac50['TYPE_LIST'][_0x311cbf('0x18c')](_0x373949=>{const _0x435577=_0x311cbf;a0_0x531d77['keyMenu'][_0x7bac50[_0x435577('0x18b')+'E']][_0x435577('0x1ee')](a0_0x514232[_0x435577(0x1d6)]['Capitalize'](_0x373949));});}),_0x565170[_0x3e6de8(0x18c)]((_0x529d28,_0x5b833a)=>{const _0x468fa9=_0x3e6de8;a0_0x531d77[_0x468fa9(0x211)][_0x529d28[_0x468fa9(0x1ea)]][_0x468fa9(0x1a8)]&&(_0x529d28[_0x468fa9('0x20c')]&&a0_0x531d77[_0x468fa9(0x166)+_0x468fa9(0x172)](_0x529d28['KEY_NAME'],a0_0x531d77['keybinds'][_0x529d28['NAME']][_0x468fa9('0x1a8')]));if(_0x529d28['ACTION_TYP'+'E']){const _0x2b1196=_0x529d28[_0x468fa9(0x156)][_0x468fa9(0x15a)](_0x7f84e0=>_0x7f84e0===a0_0x531d77[_0x468fa9('0x211')][_0x529d28[_0x468fa9(0x1ea)]][_0x468fa9(0x229)]);_0x2b1196?a0_0x531d77[_0x468fa9('0x152')][_0x529d28[_0x468fa9(0x18b)+'E']]['SetSelecte'+_0x468fa9('0x1e6')](a0_0x514232['ModUtils'][_0x468fa9(0x237)](_0x2b1196)):a0_0x531d77[_0x468fa9('0x152')][_0x529d28[_0x468fa9(0x18b)+'E']][_0x468fa9(0x166)+_0x468fa9(0x1e6)](a0_0x514232[_0x468fa9(0x1d6)][_0x468fa9('0x237')](_0x529d28[_0x468fa9('0x156')][0x0]));}});}catch(_0x2438c5){a0_0x514232['ModUtils'][_0x3e6de8(0x225)](_0x2438c5,'error');}}static['listenActi'+a0_0x50390a('0x1b6')+a0_0x50390a('0x157')](){const _0x34c87a=a0_0x50390a;try{const _0x53641f=Object[_0x34c87a('0x241')](a0_0x4cad10[_0x34c87a(0x150)+'RIBUTE_LIS'+'T']);_0x53641f[_0x34c87a('0x18c')]((_0x5ad5e1,_0x4930ec)=>{const _0x4b7dd9=_0x34c87a;_0x5ad5e1[_0x4b7dd9(0x18b)+'E']&&a0_0x531d77[_0x4b7dd9('0x152')][_0x5ad5e1[_0x4b7dd9('0x18b')+'E']][_0x4b7dd9(0x1d3)+_0x4b7dd9(0x190)][_0x4b7dd9(0x1d0)](()=>{const _0x46e28b=_0x4b7dd9,_0x58ccd4=a0_0x531d77[_0x46e28b('0x152')][_0x5ad5e1[_0x46e28b(0x18b)+'E']]['GetSelecte'+_0x46e28b('0x1e6')]();if(!_0x58ccd4)return;this[_0x46e28b(0x20a)+_0x46e28b('0x18d')](_0x5ad5e1[_0x46e28b('0x1ea')],_0x58ccd4);});});}catch(_0x50195f){a0_0x514232['ModUtils'][_0x34c87a(0x225)](_0x50195f,_0x34c87a(0x158));}}static['SetSelecte'+a0_0x50390a(0x172)](_0x536864,_0x20ef03){const _0x795ba7=a0_0x50390a;try{const _0x5713d2={};_0x5713d2['KeyName']=_0x20ef03;const _0x34e96d={};_0x34e96d[_0x795ba7(0x1aa)]=_0x5713d2,_0x34e96d[_0x795ba7('0x16e')]=![],_0x34e96d[_0x795ba7(0x221)]=![],_0x34e96d[_0x795ba7(0x176)]=![],_0x34e96d[_0x795ba7(0x1cc)]=![],a0_0x531d77[_0x795ba7('0x152')][_0x536864][_0x795ba7('0x166')+_0x795ba7('0x172')](_0x34e96d);}catch(_0x3d81ef){a0_0x514232['ModUtils'][_0x795ba7(0x225)](_0x3d81ef,_0x795ba7(0x158));}}static['ListenClea'+a0_0x50390a('0x1ad')](){const _0x31cc46=a0_0x50390a,_0x201236=Object[_0x31cc46('0x241')](a0_0x4cad10[_0x31cc46('0x150')+_0x31cc46('0x175')+'T']);_0x201236[_0x31cc46(0x18c)](_0x1ddb49=>{const _0x300327=_0x31cc46;_0x1ddb49['CLEAR_NAME']&&a0_0x531d77[_0x300327(0x152)][_0x1ddb49[_0x300327('0x1a1')]][_0x300327(0x20f)]['Add'](()=>{const _0x58c57f=_0x300327;a0_0x531d77[_0x58c57f(0x166)+_0x58c57f(0x172)](_0x1ddb49[_0x58c57f(0x20c)],null);});});}static[a0_0x50390a('0x1de')+a0_0x50390a(0x212)](){const _0x317fc8=a0_0x50390a,_0x43d81c=a0_0xc10798[_0x317fc8(0x210)+_0x317fc8('0x19b')][_0x317fc8(0x1de)+'gExists'](a0_0x17e265);return _0x43d81c;}static['SaveConfig'](){const _0x441046=a0_0x50390a;a0_0x531d77[_0x441046(0x178)+_0x441046('0x1f4')]=!![],a0_0x5a34ee[_0x441046(0x23b)+_0x441046(0x235)][_0x441046(0x15c)+_0x441046(0x21c)](JSON['stringify'](this[_0x441046('0x211')],null,0x2),a0_0xc10798[_0x441046(0x210)+_0x441046('0x19b')][_0x441046('0x1b9')+_0x441046('0x188')]()+a0_0x17e265);}static[a0_0x50390a('0x1b9')](){const _0x271171=a0_0x50390a;a0_0x531d77['isKeybindL'+'oaded']=![];let _0x530dc2=a0_0xc10798['ConfigMana'+'ger']['GetConfig'](a0_0x17e265);if(!_0x530dc2||_0x530dc2[_0x271171(0x1e0)]()===''){a0_0x4630c7[_0x271171('0x186')]['warn'](_0x271171(0x161)+_0x271171(0x168)+_0x271171(0x1b0)+_0x271171('0x165')+_0x271171(0x1f2)+_0x271171(0x23a)),this[_0x271171(0x211)]=a0_0x531d77[_0x271171(0x211)],a0_0x531d77[_0x271171('0x239')]();return;}try{_0x530dc2=JSON['parse'](_0x530dc2);if(typeof _0x530dc2!=='object'||_0x530dc2===null||Object[_0x271171('0x249')](_0x530dc2)['length']===0x0)throw new Error(_0x271171('0x22e')+_0x271171('0x1d8')+'fig:\x20must\x20'+_0x271171('0x1f7')+_0x271171('0x1ed')+'t.');const _0xfc93f={...a0_0x531d77[_0x271171(0x211)],..._0x530dc2};this['keybinds']=_0xfc93f;}catch(_0x7cf952){a0_0x4630c7[_0x271171('0x186')][_0x271171('0x158')]('Error\x20pars'+'ing\x20config'+_0x271171('0x15d'),_0x7cf952),this[_0x271171('0x211')]=a0_0x531d77[_0x271171('0x211')];}a0_0x531d77[_0x271171(0x239)]();}}exports[a0_0x50390a('0x21e')+a0_0x50390a(0x1c6)]=a0_0x531d77;
+'use strict';
+
+const V = M;
+(function (e, f) {
+  const b = M;
+  const c = e();
+  while (true) {
+    try {
+      const d = -parseInt(b(394)) / 1 * (parseInt(b("0x245")) / 2) + -parseInt(b(372)) / 3 + parseInt(b("0x246")) / 4 + -parseInt(b("0x217")) / 5 * (-parseInt(b(580)) / 6) + -parseInt(b(354)) / 7 * (parseInt(b("0x167")) / 8) + -parseInt(b("0x248")) / 9 + -parseInt(b("0x223")) / 10 * (-parseInt(b("0x1d4")) / 11);
+      if (d === f) {
+        break;
+      } else {
+        c.push(c.shift());
+      }
+    } catch (b) {
+      c.push(c.shift());
+    }
+  }
+})(K, 177117);
+const a = {
+  [V(519)]: true
+};
+Object[V(481) + V(380)](exports, V(479), a);
+exports[V("0x21e") + V("0x1c6")] = undefined;
+const W = require("ue");
+const X = require("../../Utils/ModUtils");
+const c = require("puerts");
+const Y = require("../../ModManager");
+const e = require("../ModMethod");
+const d = require("../KillAura");
+const f = require("../../Component/TreasureTp");
+const g = require("../../../ModMenu");
+const b = require("../../Utils/Logger");
+const h = require("../MobVacuum");
+const i = V("0x1b4") + "on";
+const j = require("./KeyDefine");
+const k = require("../CustomTp");
+const l = require("../../Utils/UI");
+const m = require("../buffMethod");
+const n = require("../EntityManager");
+const o = V(381) + "_com_count_number";
+const p = require("../../Utils/ConfigManager");
+const q = require("../Flight");
+const r = require("../../Utils/InputKeyController");
+const s = j[V("0x150") + V(373) + "T"];
+const t = {
+  [V("0x1a8")]: "X",
+  [V("0x229")]: "Toggle"
+};
+const u = {
+  [V("0x1a8")]: null
+};
+u.type = V(365);
+const v = {
+  key: null
+};
+v.type = V("0x183");
+const w = {};
+w[V(424)] = V("0x1b3");
+w[V(553)] = V(387);
+const x = {
+  key: null,
+  [V("0x229")]: "Toggle"
+};
+const y = {
+  [V(424)]: null
+};
+y.type = V(387);
+const z = {
+  key: null,
+  [V(553)]: "Toggle"
+};
+const A = {
+  [V(424)]: "Right",
+  [V(553)]: "Press"
+};
+const B = {
+  [V("0x1a8")]: null
+};
+B[V("0x229")] = V("0x183");
+const C = {
+  [V("0x1a8")]: "Left"
+};
+C[V(553)] = V(534);
+const D = {
+  key: "T"
+};
+D[V("0x229")] = V(534);
+const E = {
+  [V("0x1a8")]: "V",
+  [V(553)]: "Press"
+};
+const F = {};
+F[V("0x1a8")] = V("0x1d5");
+F[V(553)] = V(534);
+const G = {};
+G[V(424)] = V("0x1cd");
+G.type = V(387);
+const H = {};
+H[V(424)] = V("0x177");
+H[V(553)] = V("0x183");
+const I = {
+  [V(424)]: "F9",
+  type: "Toggle"
+};
+const J = {};
+function K() {
+  const b = ["Config", "ModManager", "ffOption", "Toggle", "e Time", "ApplyBuff", "logger", " to clipbo", "Dir", "ard!", "1EMvoKF", "ACTION_TYP", "forEach", "Action", "MobVacuumT", "GoToNextPo", "nChanged", "NoClip", "Trigger Ac", "isWidgetLo", "Time", "toString", "Init keybi", "PlayerSpee", "retrying..", "SelectBuff", "Auto Resta", "ger", "ShowModMen", "Failed ini", "QuestX", "PrevTp", "settings", "CLEAR_NAME", "aded", "isKeyDown", "buffType", "QuestY", "killAura", "tateText", "key", "Freeze Gam", "Key", "ties", "asureTelep", "rKey", "Keybind no", "Always Sho", "d or empty", "Player Spe", "AlwaysShow", "Five", "Keybind.js", "indChanges", "onTypeChan", "[ Keybind:", "gistered!", "LoadConfig", "ListenClea", "MarkX", "InputKeyCo", "Cursor", "ortText", "\" not foun", "CopyTpCord", "Echo Vacuu", "ModMenu", "Menu", "AutoRestar", "Applied Bu", "troller", "LGUIBPLibr", "dTime", "listenActi", "updateDefa", "bindKeyToU", "bShift", "F11", "function", "inate", "Add", "keysState", "tate", "OnSelectio", "7011037kWNJZp", "F12", "ModUtils", "CordinateS", " empty con", "EntityMana", "TeleportTo", "ind", "UpdateKeyb", "hold", "CheckConfi", "__esModule", "trim", "defineProp", "IsTping", "leport", "ding", "updateStat", "dOption", "ClipBoardC", "OnKeySelec", "buffManage", "NAME", "name", "dInterval", "mpty objec", "AddOption", "ted", "Coordinate", "howCursor", "fault keyb", "keybindLoa", "oaded", "Flight", "TreasureWi", "be a non-e", "selectedBu", "htMode", "Overlay", "ClearOptio", "World Spee", "teleport", "\" does not", "NextTp", "MobVacuum", "UpdateKeyS", "ShowTip", "Mod", "PlayAudio", "SetWorldSp", "MarkTp", "value", "ff ", "ntroller", "updateType", "rld", "KEY_NAME", "nd...", "killEntity", "OnClicked", "ConfigMana", "keybinds", "gExists", " exist in ", "indTrigger", "IsKeyHold", "Press", "871825ISHPrO", "imer", "Hold", "UnstuckLoa", "dget", "ToFile", "GetSelecte", "KeybindCon", "peed", "IsInGame", "bCmd", "Action nam", "10GjsABb", "ary", "Log", "RunKillAur", "IsInBoat", "Timer", "type", "eed", "TreasureTe", "ctivate", "isHolding", "Invalid or", "triggerKey", "ShowStatus", "kill Aura", "Buff loade", "keybinds.", "tDungeon", "Library", "e \"", "Capitalize", "holdInterv", "SaveConfig", "inds.", "KuroStatic", "KeyName", "IsInMapVie", "MainMenu", "EchoVacuum", "opy", "values", "t found", "FreezeGame", "6DzqgJl", "245738rnUjng", "80220ZMAocI", "toggleFlig", "190908geUtMu", "keys", "Keybind fo", "KillAura", "ReloadBuff", "ACTION_ATT", "rt Dungeon", "keyMenu", "WorldSpeed", "usPos", "QuestZ", "TYPE_LIST", "ges", "error", "GoTp", "find", "sMod", "SaveString", " file:", "CustomTp", "toLowerCas", "ModMethod", "Config fil", "416227DVWCmu", "TreasureTp", "eMod", ", using de", "SetSelecte", "40wFFaAB", "e not foun", "buffMethod", "Mob Vacuum", "lyBuff", "MarkTpPosZ", "press", "bAlt", "MarkY", "None", "IsInGameWo", "dKey", "Treasure", "639852HBpPSt", "RIBUTE_LIS", "bCtrl", "F10", "isKeybindL", " was saved", "ultSetting", "addKey", "erty", "play_ui_fx", "QuestTp", "SetPlayerS"];
+  K = function () {
+    return b;
+  };
+  return K();
+}
+J[V("0x1a8")] = null;
+J[V("0x229")] = "Toggle";
+const L = {};
+function M(d, a) {
+  const e = K();
+  M = function (c, f) {
+    c = c - 335;
+    let b = e[c];
+    return b;
+  };
+  return M(d, a);
+}
+L.key = null;
+L[V("0x229")] = "Press";
+const N = {
+  [V("0x1a8")]: null,
+  [V("0x229")]: "Press"
+};
+const O = {
+  [V("0x1a8")]: null
+};
+O[V("0x229")] = V("0x216");
+const P = {
+  [V("0x1c2")]: t,
+  TreasureTeleport: u,
+  KillAura: v,
+  Flight: w,
+  MobVacuum: x,
+  [V(339)]: y,
+  PlayerSpeed: z,
+  NextTp: A,
+  [V("0x191")]: B,
+  [V(415)]: C,
+  MarkTp: D,
+  QuestTp: E,
+  ["ReloadBuff" + V(384)]: F,
+  [V("0x1b2") + V(445)]: G,
+  [V(579) + V("0x194")]: H,
+  [V("0x23f")]: I,
+  [V("0x1c4") + V(564)]: J,
+  [V(448) + V("0x1cf")]: L,
+  [V("0x21a") + "ding"]: N,
+  [V(389)]: O
+};
+class Q {
+  constructor() {
+    // TOLOOK
+    // TOLOOK
+    setTimeout(() => {
+      this.InitKeyBind();
+    }, 1000);
+  }
+  InitKeyBind() {
+    const f = V;
+    try {
+      X[f(470)][f(549)](f("0x196") + f("0x20d"));
+      if (Q[f("0x178") + f(500)]) {
+        const b = Object.values(Q[f(529)]);
+        const g = Object[f("0x249")](Q[f("0x211")]);
+        b[f(396)]((b, a) => {
+          const c = f;
+          if (b[c(424)]) {
+            r["InputKeyCo" + c(521)][c(379)](g[a], b[c("0x1a8")]);
+          }
+        });
+        X[f(470)].Log("Keybind re" + f(440));
+      } else {
+        // TOLOOK
+        // TOLOOK
+        setTimeout(() => {
+          const b = f;
+          this.InitKeyBind();
+          X.ModUtils[b("0x225")](b("0x19d") + "t keybind " + b(408) + ".", b("0x158"));
+        }, 2500);
+      }
+    } catch (b) {
+      X[f("0x1d6")].Log(b, f("0x158"));
+    }
+  }
+  static ["loadKeybin" + V("0x1c8")] = null;
+  static keyMenu = null;
+  static [V(465)] = {};
+  static [V(568) + "al"] = null;
+  static [V("0x211")] = P;
+  static [V("0x178") + "oaded"] = false;
+  static [V(499) + V("0x1ec")] = null;
+  static [V(526) + V(552)] = null;
+  static [V(398) + V(536)] = null;
+  static ["UpdateKeyb" + V("0x1db")](d, b, a) {
+    const e = V;
+    if (!d) {
+      return;
+    }
+    const c = this[e("0x211")][d];
+    if (!c) {
+      X[e(470)].Log(e("0x222") + e(566) + d + (e(510) + e("0x213") + e("0x233")), e(344));
+      return;
+    }
+    this[e("0x1ca") + e(378) + e("0x15b")](d, c[e(553)]);
+    if (!b || b === "") {
+      c[e(424)] = null;
+      Q[e("0x166") + e("0x172")](a, null);
+      return;
+    }
+    const f = Object.entries(Q[e("0x211")])[e("0x15a")](([, c]) => c[e(424)] === b);
+    if (f) {
+      const [g, a] = f;
+      if (g !== d) {
+        const c = Object[e("0x241")](s);
+        const b = c[e("0x15a")](a => a.NAME === g);
+        a[e(424)] = null;
+        Q[e(358) + e(370)](b[e("0x20c")], null);
+      }
+    }
+    c[e("0x1a8")] = b;
+    r.InputKeyController[e(379)](d, b);
+  }
+  static [V(458) + V("0x17a") + V("0x15b")](a, b) {
+    const c = V;
+    if (b === c(537)) {
+      if (a === c("0x153")) {
+        e.ModMethod[c("0x205") + c(554)](false);
+      } else if (a === "PlayerSpeed") {
+        e[c(352)]["SetPlayerS" + c("0x21f")](false);
+      }
+    }
+  }
+  static [V("0x20a") + V("0x18d")](a, b) {
+    const c = V;
+    const d = Q.keybinds[a];
+    this[c(458) + "ultSettingsMod"](a, b);
+    if (!d) {
+      X[c("0x1d6")][c(549)](c(430) + c("0x242"), c("0x158"));
+      return;
+    } else if (!b) {
+      return;
+    }
+    d[c("0x229")] = b;
+  }
+  static [V(559)]({
+    actionName: d = null,
+    func: b = null,
+    onToggle: j = null,
+    onHold: e = null,
+    onPress: f = null
+  }) {
+    const g = V;
+    try {
+      const h = Q[g("0x211")][d];
+      if (!h) {
+        X[g("0x1d6")][g("0x225")](g(586) + "r action \"" + d + (g(447) + "d."), g("0x158"));
+        return;
+      }
+      if (!h[g(424)]) {
+        return;
+      }
+      let a = false;
+      switch (h[g(553)][g("0x15f") + "e"]()) {
+        case "press":
+          a = r[g(444) + g("0x209")][g("0x1a3")](h[g(424)]);
+          if (a && typeof f === g(462) && f) {
+            f();
+          }
+          break;
+        case g(477):
+          const b = Q[g("0x1d1")]?.[d] || false;
+          a = r["InputKeyCo" + g("0x209")][g("0x215")](h.key, 100);
+          if (typeof e === g(462) && e) {
+            if (a && !b) {
+              this[g("0x238") + "al"] = // TOLOOK
+              // TOLOOK
+              setInterval(() => {
+                const b = {
+                  isHolding: true
+                };
+                e(b);
+              }, 100);
+            } else if (!a && b) {
+              const b = {
+                [g(557)]: false
+              };
+              e(b);
+              clearInterval(this[g(568) + "al"]);
+              this[g("0x238") + "al"] = null;
+            }
+          }
+          Q[g("0x1d1")] = {
+            ...Q.keysState,
+            [d]: a
+          };
+          break;
+        case "toggle":
+          a = r["InputKeyCo" + g(521)].IsMyKeyUp(h[g(424)]);
+          if (a && typeof j === "function" && j) {
+            j();
+          }
+          break;
+      }
+      if (b && typeof b === "function") {
+        b();
+      }
+    } catch (b) {
+      X[g(470)][g(549)](g(402) + "tion Error " + b, g(344));
+    }
+  }
+  static [V(485) + V(356)](a) {
+    const b = V;
+    const c = Y[b("0x181")][b(416)][a];
+    Y[b(385)][b(416)][a] = !c;
+  }
+  static ["ListenKeyb" + V("0x214")]() {
+    const p = V;
+    try {
+      this[p(559)]({
+        actionName: s[p(450)].NAME,
+        onToggle: () => {
+          const b = p;
+          g[b(574)][b("0x19c") + "u"]();
+        }
+      });
+      this[p("0x22f")]({
+        actionName: s[p(555) + "leport"][p("0x1ea")],
+        onPress: () => {
+          const b = p;
+          if (!X[b("0x1d6")][b(369) + b(523)]() || !Y[b("0x181")].settings[b("0x163") + b("0x1fa")]) {
+            return;
+          }
+          X[b(470)][b("0x204")](o);
+          f[b(355)][b("0x1da") + b("0x173")]();
+        }
+      });
+      this[p(559)]({
+        actionName: s[p(335) + "Config"][p(490)],
+        onPress: () => {
+          const c = p;
+          try {
+            m.buffMethod[c("0x1b9")]();
+            g[c(574)].Menu[c("0x199")].ClearOptions();
+            m[c("0x169")].buffType[c(396)](a => g[c("0x23e")][c("0x1c3")][c("0x199")].AddOption(a[c(491)]));
+            g[c("0x23e")].Menu[c(409)]["SetSelecte" + c("0x1e6")](m[c("0x169")][c("0x1a4")][Y[c("0x181")][c(416)][c(420)]].name);
+            l.UI.ShowTip(c(562) + "d!");
+          } catch (b) {}
+        }
+      });
+      this[p(559)]({
+        actionName: s[p("0x1b2") + "Cursor"].NAME,
+        onToggle: () => {
+          const b = p;
+          try {
+            X.ModUtils[b(516)](o);
+            Y.ModManager[b(416)][b(434) + b(445)] = !Y[b(385)][b("0x1a0")][b(434) + b(445)];
+            l.UI[b("0x230") + b("0x203")](b("0x1b2") + b("0x1bd"), b(431) + "w Cursor");
+            e[b(352)]["SetAlwaysS" + b("0x1f1")](Y[b(385)].settings.AlwaysShowCursor);
+          } catch (b) {}
+        }
+      });
+      if (!X[p(470)][p("0x220")]() || g[p(574)][p("0x1c3")].IsVisible()) {
+        return;
+      }
+      this.triggerKey({
+        actionName: s[p(587)].NAME,
+        onToggle: () => {
+          const b = p;
+          X.ModUtils.PlayAudio(o);
+          Y[b("0x181")][b("0x1a0")][b("0x1a6")] = !Y[b("0x181")][b(416)][b(422)];
+          l.UI[b("0x230") + "Mod"]("killAura", b("0x231"));
+        },
+        onPress: () => {
+          const c = p;
+          if (Q[c(526) + c("0x228")]) {
+            return;
+          }
+          Q[c(526) + c(552)] = // TOLOOK
+          // TOLOOK
+          setTimeout(() => {
+            const a = c;
+            d[a("0x24b")][a("0x226") + "a"]();
+            Q[a("0x20e") + "Timer"] = null;
+          }, 100);
+        },
+        onHold: ({
+          isHolding: b
+        }) => {
+          const e = p;
+          if (b) {
+            if (Q.killEntityTimer) {
+              return;
+            }
+            Q[e("0x20e") + e("0x228")] = // TOLOOK
+            // TOLOOK
+            setTimeout(() => {
+              const b = e;
+              d[b("0x24b")][b("0x226") + "a"]();
+              Q["killEntity" + b("0x228")] = null;
+            }, 300);
+          }
+        }
+      });
+      this[p(559)]({
+        actionName: s.Flight.NAME,
+        onToggle: () => {
+          const b = p;
+          if (Y[b(385)][b(416)].flightMode) {
+            q[b("0x1f5")][b("0x247") + b("0x1f9")]();
+          }
+        }
+      });
+      this[p(559)]({
+        actionName: s[p("0x191")][p(490)],
+        onToggle: () => {
+          const b = p;
+          X.ModUtils[b("0x204")](o);
+          const a = Y.ModManager[b("0x1a0")].NoClip;
+          e[b(352)][b(401)](!a);
+          Y[b(385)][b("0x1a0")][b("0x191")] = !a;
+          return l.UI.ShowStatusMod(b("0x191"), "No Clip");
+        }
+      });
+      this[p(559)]({
+        actionName: s.PlayerSpeed[p("0x1ea")],
+        onToggle: () => {
+          const b = p;
+          X.ModUtils.PlayAudio(o);
+          const a = Y[b("0x181")][b(416)][b(407) + "d"];
+          e.ModMethod[b("0x17f") + b("0x21f")](!a);
+          Y.ModManager[b(416)][b(407) + "d"] = !a;
+          return l.UI["ShowStatus" + b("0x203")](b("0x197") + "d", b(433) + "ed");
+        },
+        onHold: ({
+          isHolding: b
+        }) => {
+          const a = p;
+          if (b && Y.ModManager[a(416)][a(407) + "d"]) {
+            e[a("0x160")]["SetPlayerS" + a(543)](true);
+          } else {
+            e.ModMethod[a(383) + a("0x21f")](false);
+          }
+        }
+      });
+      this.triggerKey({
+        actionName: s.WorldSpeed[p(490)],
+        onToggle: () => {
+          const b = p;
+          X[b(470)][b("0x204")](o);
+          const a = Y[b("0x181")][b("0x1a0")][b("0x153")];
+          e[b(352)][b(517) + b("0x22a")](!a);
+          Y[b("0x181")][b(416)][b(339)] = !a;
+          return l.UI[b("0x230") + b("0x203")](b(339), b("0x1fc") + "d");
+        },
+        onHold: ({
+          isHolding: b
+        }) => {
+          const a = p;
+          if (b && Y.ModManager[a(416)][a(339)]) {
+            e[a("0x160")][a(517) + a("0x22a")](true);
+          } else {
+            e.ModMethod[a("0x205") + a(554)](false);
+          }
+        }
+      });
+      this.triggerKey({
+        actionName: j[p("0x150") + p(373) + "T"][p("0x1ff")].NAME,
+        onPress: () => {
+          const b = p;
+          X[b(470)][b(516)](o);
+          k.CustomTp[b("0x18f") + "s"]();
+          k[b(350)][b("0x159")]();
+        }
+      });
+      this[p("0x22f")]({
+        actionName: j[p(336) + p(373) + "T"][p(415)].NAME,
+        onPress: () => {
+          const b = p;
+          X[b(470)][b("0x204")](o);
+          k[b("0x15e")]["GoToPrevio" + b("0x154")]();
+          k[b("0x15e")].GoTp();
+        }
+      });
+      this.triggerKey({
+        actionName: j["ACTION_ATT" + p(373) + "T"][p("0x206")][p("0x1ea")],
+        onPress: () => {
+          const b = p;
+          if (!Y[b("0x181")][b(416)][b(518)] || !X.ModUtils[b(573) + "w"]()) {
+            return;
+          }
+          X[b(470)][b("0x204")](o);
+          let a = Y[b(385)].settings.MarkZ;
+          if (a == 0) {
+            a = Y[b(385)].settings[b(364)];
+          }
+          const d = {};
+          d.x = Y.ModManager.settings[b("0x1bb")] * 100;
+          d.y = Y[b(385)][b(416)][b("0x16f")] * 100;
+          d.z = a * 100;
+          k[b(350)][b(509)](d);
+        }
+      });
+      this[p("0x22f")]({
+        actionName: j[p(336) + p("0x175") + "T"][p("0x17e")].NAME,
+        onPress: () => {
+          const c = p;
+          if (!Y[c("0x181")][c("0x1a0")][c("0x17e")] || X[c(470)][c("0x1e2")]() || X[c(470)][c("0x227")]() || !X[c("0x1d6")][c("0x171") + c("0x20b")]()) {
+            return;
+          }
+          X[c(470)][c("0x204")](o);
+          if (Y[c(385)][c("0x1a0")][c(414)] != 0 && Y[c("0x181")].settings[c("0x1a5")] != 0 && Y[c("0x181")][c("0x1a0")][c(341)] != 0) {
+            const a = {};
+            a.x = Y[c(385)][c(416)][c(414)];
+            a.y = Y[c("0x181")][c("0x1a0")].QuestY;
+            a.z = Y[c(385)][c("0x1a0")].QuestZ;
+            k[c("0x15e")][c("0x1fd")](a);
+          }
+        }
+      });
+      this.triggerKey({
+        actionName: j[p(336) + p("0x175") + "T"].MobVacuum[p("0x1ea")],
+        onHold: ({
+          isHolding: b
+        }) => {
+          const d = p;
+          if (b && Y[d(385)][d("0x1a0")].MobVacuum) {
+            if (this[d("0x18e") + d(536)]) {
+              return;
+            }
+            this["MobVacuumT" + d("0x218")] = // TOLOOK
+            // TOLOOK
+            setTimeout(() => {
+              const e = d;
+              h;
+              n[e(473) + e("0x19b")]["GetAllEnti" + e(427)]().forEach(a => {
+                const b = e;
+                h[b("0x200")][b(512)](a);
+              });
+              this[e("0x18e") + e("0x218")] = null;
+            }, 200);
+          }
+        },
+        onToggle: () => {
+          const b = p;
+          X[b("0x1d6")][b("0x204")](o);
+          const a = Y[b(385)][b("0x1a0")][b(512)];
+          Y[b(385)][b(416)][b("0x200")] = !a;
+          l.UI[b(560) + "Mod"]("MobVacuum", b("0x16a"));
+        }
+      });
+      this[p("0x22f")]({
+        actionName: j["ACTION_ATT" + p(373) + "T"].EchoVacuum[p(490)],
+        onToggle: () => {
+          const b = p;
+          X[b(470)][b(516)](o);
+          const a = Y[b("0x181")][b("0x1a0")][b("0x23f")];
+          Y[b(385)][b(416)][b("0x23f")] = !a;
+          l.UI[b(560) + b("0x203")](b(575), b("0x1c1") + "m");
+        }
+      });
+      this[p("0x22f")]({
+        actionName: s[p("0x243") + "Time"][p("0x1ea")],
+        onToggle: () => {
+          const b = p;
+          try {
+            X[b(470)].PlayAudio(o);
+            Y[b(385)].settings[b("0x243") + b("0x194")] = !Y[b(385)][b("0x1a0")]["FreezeGame" + b("0x194")];
+            l.UI.ShowStatusMod(b(579) + b(404), b(425) + b(388));
+            e[b("0x160")]["FreezeGame" + b("0x194")](Y.ModManager[b(416)][b(579) + "Time"]);
+          } catch (b) {}
+        }
+      });
+      this[p("0x22f")]({
+        actionName: s.AutoRestartDungeon.NAME,
+        onToggle: () => {
+          const b = p;
+          X[b(470)][b("0x204")](o);
+          const a = Y.ModManager.settings[b("0x1c4") + b("0x234")];
+          Y[b("0x181")].settings[b("0x1c4") + b("0x234")] = !a;
+          l.UI[b("0x230") + "Mod"](b("0x1c4") + b(564), b(410) + b(337));
+        }
+      });
+      this[p(559)]({
+        actionName: s[p("0x1c0") + p(463)][p(490)],
+        onPress: () => {
+          const b = p;
+          X.ModUtils[b(516)](o);
+          const {
+            x: a,
+            y: c,
+            z: d
+          } = Y[b("0x181")][b(416)][b(471) + b("0x1d2")];
+          const e = {
+            x: a,
+            y: c,
+            z: d
+          };
+          W[b(455) + b(548)][b("0x1e7") + b(576)](JSON.stringify(e));
+          l.UI[b("0x202")](b("0x1f0") + b(377) + b(391) + b(393));
+        }
+      });
+      this[p(559)]({
+        actionName: s[p("0x21a") + p(484)][p("0x1ea")],
+        onPress: () => {
+          const b = p;
+          X[b(470)][b("0x204")](o);
+          e[b(352)][b(538) + "ding"]();
+        }
+      });
+      this[p(559)]({
+        actionName: s[p("0x185")][p("0x1ea")],
+        onPress: () => {
+          const b = p;
+          const a = m.buffMethod[b("0x1e9") + "r"][b("0x1f8") + b(386)];
+          m[b(361)]["RequestApp" + b(363)](a);
+          X.ModUtils[b(516)](o);
+          if (a) {
+            l.UI.ShowTip(b("0x1c5") + b(520) + a[b(491)]);
+          }
+        }
+      });
+    } catch (b) {
+      X[p("0x1d6")].Log(b, p("0x158"));
+    }
+  }
+  static [V(541) + V("0x172")](a) {
+    const b = V;
+    return a[b("0x1aa")][b("0x23c")][b(405)]();
+  }
+  static [V(513) + V(423)]() {
+    const c = V;
+    try {
+      if (f.TreasureTp[c(403) + c("0x1a2")]) {
+        f[c("0x163")][c("0x1f6") + c(539)]["KeybindTre" + c(428) + c(446)].SetText(c(439) + " " + (this[c("0x211")][c(555) + c("0x1e3")][c(424)] ? this[c(529)][c("0x22b") + "leport"][c("0x1a8")] : c(368)) + " ]");
+      }
+    } catch (b) {
+      X[c("0x1d6")].Log(b, c(344));
+    }
+  }
+  static ["listenKeyb" + V(437)]() {
+    const e = V;
+    try {
+      if (!this[e("0x178") + e("0x1f4")]) {
+        return;
+      }
+      clearInterval(Q["keybindLoa" + e(492)]);
+      Q[e(499) + e("0x1ec")] = null;
+      const b = Q[e("0x152")];
+      if (!b) {
+        X.ModUtils[e("0x225")]("Menu is undefined", e(344));
+        return;
+      }
+      const a = Object[e(577)](s);
+      a[e("0x18c")](f => {
+        const c = e;
+        if (f.KEY_NAME) {
+          b[f[c("0x20c")]][c(488) + c("0x1ef")][c("0x1d0")](d => {
+            const a = c;
+            const b = this[a("0x21d") + "dKey"](d);
+            this[a("0x1dc") + a("0x1db")](f[a("0x1ea")], b, f.KEY_NAME);
+          });
+        }
+      });
+      this[e(442) + e(429)]();
+      this[e("0x1c9") + e("0x1b6") + e("0x157")]();
+      this[e(459) + "I"]();
+    } catch (b) {
+      X.ModUtils.Log(b, e(344));
+    }
+  }
+  static ["isAllowToA" + V(556)](a) {
+    const b = V;
+    try {
+      return Q[b(529)][a][b("0x229")][b("0x15f") + "e"]() === "toggle" || !Q.keybinds[a][b("0x1a8")];
+    } catch (c) {
+      X.ModUtils.Log(c, b("0x158"));
+      return false;
+    }
+  }
+  static [V(459) + "I"]() {
+    const f = V;
+    try {
+      const b = Object[f(577)](s);
+      b[f("0x18c")]((b, a) => {
+        const c = f;
+        if (b.ACTION_TYPE) {
+          Q[c("0x152")][b[c(395) + "E"]][c("0x1fb") + "ns"]();
+        }
+      });
+      b[f("0x18c")]((d, a) => {
+        const g = f;
+        if (d[g(395) + "E"]) {
+          d.TYPE_LIST[g("0x18c")](a => {
+            const b = g;
+            Q.keyMenu[d[b("0x18b") + "E"]][b("0x1ee")](X[b(470)].Capitalize(a));
+          });
+        }
+      });
+      b[f(396)]((d, a) => {
+        const c = f;
+        if (Q[c(529)][d[c(490)]][c(424)] && d[c("0x20c")]) {
+          Q[c(358) + c(370)](d.KEY_NAME, Q.keybinds[d.NAME][c("0x1a8")]);
+        }
+        if (d.ACTION_TYPE) {
+          const a = d[c(342)][c(346)](a => a === Q[c("0x211")][d[c(490)]][c(553)]);
+          if (a) {
+            Q[c("0x152")][d[c(395) + "E"]]["SetSelecte" + c("0x1e6")](X.ModUtils[c(567)](a));
+          } else {
+            Q[c("0x152")][d[c(395) + "E"]][c(358) + c(486)](X[c(470)][c("0x237")](d[c("0x156")][0]));
+          }
+        }
+      });
+    } catch (b) {
+      X.ModUtils[f(549)](b, "error");
+    }
+  }
+  static ["listenActi" + V("0x1b6") + V("0x157")]() {
+    const e = V;
+    try {
+      const b = Object[e("0x241")](j[e(336) + "RIBUTE_LIST"]);
+      b[e("0x18c")]((f, a) => {
+        const g = e;
+        if (f[g(395) + "E"]) {
+          Q[g("0x152")][f[g("0x18b") + "E"]][g(467) + g(400)][g(464)](() => {
+            const a = g;
+            const b = Q[a("0x152")][f[a(395) + "E"]]["GetSelecte" + a("0x1e6")]();
+            if (!b) {
+              return;
+            }
+            this[a(522) + a("0x18d")](f[a("0x1ea")], b);
+          });
+        }
+      });
+    } catch (b) {
+      X.ModUtils[e(549)](b, e(344));
+    }
+  }
+  static ["SetSelecte" + V(370)](f, b) {
+    const c = V;
+    try {
+      const e = {
+        KeyName: b
+      };
+      const a = {
+        [c(426)]: e,
+        [c("0x16e")]: false,
+        [c(545)]: false,
+        [c(374)]: false,
+        [c(460)]: false
+      };
+      Q[c("0x152")][f][c("0x166") + c("0x172")](a);
+    } catch (b) {
+      X.ModUtils[c(549)](b, c(344));
+    }
+  }
+  static ["ListenClea" + V("0x1ad")]() {
+    const d = V;
+    const a = Object[d("0x241")](j[d("0x150") + d("0x175") + "T"]);
+    a[d(396)](e => {
+      const a = d;
+      if (e.CLEAR_NAME) {
+        Q[a(338)][e[a("0x1a1")]][a(527)].Add(() => {
+          const c = a;
+          Q[c(358) + c(370)](e[c(524)], null);
+        });
+      }
+    });
+  }
+  static [V("0x1de") + V(530)]() {
+    const a = V;
+    const b = p[a(528) + a("0x19b")][a(478) + "gExists"](i);
+    return b;
+  }
+  static SaveConfig() {
+    const a = V;
+    Q[a(376) + a("0x1f4")] = true;
+    W[a(571) + a(565)][a(348) + a(540)](JSON.stringify(this[a("0x211")], null, 2), p[a(528) + a("0x19b")][a("0x1b9") + a("0x188")]() + i);
+  }
+  static [V("0x1b9")]() {
+    const d = V;
+    Q.isKeybindLoaded = false;
+    let b = p.ConfigManager.GetConfig(i);
+    if (!b || b[d(480)]() === "") {
+      c[d("0x186")].warn(d(353) + d(360) + d(432) + d("0x165") + d(498) + d(570));
+      this[d(529)] = Q[d(529)];
+      Q[d("0x239")]();
+      return;
+    }
+    try {
+      b = JSON.parse(b);
+      if (typeof b !== "object" || b === null || Object[d("0x249")](b).length === 0) {
+        throw new Error(d("0x22e") + d("0x1d8") + "fig: must " + d("0x1f7") + d("0x1ed") + "t.");
+      }
+      const c = {
+        ...Q[d(529)],
+        ...b
+      };
+      this.keybinds = c;
+    } catch (b) {
+      c[d("0x186")][d("0x158")]("Error parsing config" + d("0x15d"), b);
+      this[d("0x211")] = Q[d("0x211")];
+    }
+    Q[d(569)]();
+  }
+}
+exports[V("0x21e") + V(454)] = Q;

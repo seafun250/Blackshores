@@ -1,1 +1,140 @@
-'use strict';const a0_0x421d7b=a0_0x1b7c;function a0_0x1b7c(_0x3e53be,_0x74a12){const _0x469d25=a0_0x469d();return a0_0x1b7c=function(_0x1b7ca6,_0x3c2eb4){_0x1b7ca6=_0x1b7ca6-0x138;let _0x56c731=_0x469d25[_0x1b7ca6];return _0x56c731;},a0_0x1b7c(_0x3e53be,_0x74a12);}(function(_0x4bf2c0,_0x4d90fc){const _0x4b3c5f=a0_0x1b7c,_0xb8fa65=_0x4bf2c0();while(!![]){try{const _0x456c2e=-parseInt(_0x4b3c5f(0x13f))/0x1*(parseInt(_0x4b3c5f('0x14e'))/0x2)+parseInt(_0x4b3c5f('0x173'))/0x3*(parseInt(_0x4b3c5f('0x172'))/0x4)+-parseInt(_0x4b3c5f(0x175))/0x5+-parseInt(_0x4b3c5f(0x15c))/0x6*(parseInt(_0x4b3c5f('0x168'))/0x7)+-parseInt(_0x4b3c5f('0x14a'))/0x8+parseInt(_0x4b3c5f('0x16b'))/0x9*(-parseInt(_0x4b3c5f('0x163'))/0xa)+parseInt(_0x4b3c5f('0x178'))/0xb*(parseInt(_0x4b3c5f('0x146'))/0xc);if(_0x456c2e===_0x4d90fc)break;else _0xb8fa65['push'](_0xb8fa65['shift']());}catch(_0x4383eb){_0xb8fa65['push'](_0xb8fa65['shift']());}}}(a0_0x469d,0xc6fa2));const a0_0x24912d={};a0_0x24912d[a0_0x421d7b('0x145')]=!0x0,(Object['defineProp'+a0_0x421d7b(0x16a)](exports,a0_0x421d7b(0x14d),a0_0x24912d),exports[a0_0x421d7b(0x171)]=void 0x0);const a0_0x327e73=require('ue'),a0_0x33f214=require('./EntityManager'),a0_0x39e0c5=require('../Utils/ModUtils'),a0_0x31df35=require('../ModManager'),a0_0x1ace0f=require('../../NewWorld/Character/Common/Component/Move/CustomMovementDefine'),a0_0x42dfb2=require('../ListComponent'),a0_0x283b47=require('./buffMethod'),a0_0x1aaf01=require('puerts'),a0_0x4963d5={};a0_0x4963d5[a0_0x421d7b('0x13b')+'ight']=0x2625cefc,a0_0x4963d5['soaring']=0x1a13b8600;const a0_0x5898cd={};function a0_0x469d(){const _0xebabfc=['HasTag','settings','8131024UJEfAL','SOAR','EntityMana','htMode','Xte','AddBuffReq','onEvade','infiniteFl','CharacterM','IsInGame','flightMode','26PItBXB','ovement','error','isHasBuffF','buffMethod','RoleTag','value','24DpLufE','tMode','Add\x20buff\x20f','Add\x20tag\x20fl','125336HmdVOA','setFlightM','hasBuff','__esModule','49336rwEaUU','ight\x20mode','htState','allowFligh','Remove\x20buf','GetCompone','Log','CUSTOM_MOV','onFlight','tagId','ode','ModManager','buffIds','ntity','234WctJQR','RemoveBuff','ModUtils','Component','uest','Request','soaring','28150FDmtUB','applyBuff','timerApply','ger','listenFlig','15687FLJQuq','light','erty','783kwEYRu','EMENTMODE_','Buff','toggleFlig','GetPlayerE','AddTag','Flight','3556940myxypW','3WZUVrM','ight','2816270RMMoHc'];a0_0x469d=function(){return _0xebabfc;};return a0_0x469d();}a0_0x5898cd[a0_0x421d7b('0x151')+'t']=0x44a8f3a5,a0_0x5898cd['onFlight']=-0x78decadd,a0_0x5898cd['climbing']=0x1e0e13a5,a0_0x5898cd[a0_0x421d7b(0x13a)]=-0x6b4cbc54;class a0_0x38d395{static [a0_0x421d7b(0x165)+a0_0x421d7b('0x16d')]=null;static [a0_0x421d7b(0x15a)]=a0_0x4963d5;static [a0_0x421d7b(0x157)]=a0_0x5898cd;static[a0_0x421d7b('0x142')+a0_0x421d7b('0x169')](){const _0x2a154f=a0_0x421d7b;return a0_0x283b47[_0x2a154f('0x143')][_0x2a154f(0x14c)](this[_0x2a154f(0x15a)][_0x2a154f('0x13b')+_0x2a154f(0x174)]);}static['setFlightM'+'ode'](_0x39a212){const _0x52b9a1=a0_0x421d7b;if(!a0_0x39e0c5[_0x52b9a1('0x15e')][_0x52b9a1('0x13d')]())return;!a0_0x283b47[_0x52b9a1('0x143')][_0x52b9a1('0x14c')](this[_0x52b9a1(0x15a)][_0x52b9a1('0x162')])&&a0_0x283b47[_0x52b9a1('0x143')]['AddBuffReq'+_0x52b9a1(0x160)](this['buffIds']['soaring']);const _0x4e1828=a0_0x33f214['EntityMana'+_0x52b9a1('0x166')][_0x52b9a1('0x16f')+_0x52b9a1('0x15b')]()?.[_0x52b9a1('0x153')+'nt'](a0_0x42dfb2[_0x52b9a1('0x15f')][_0x52b9a1('0x13c')+_0x52b9a1(0x140)]);if(!_0x4e1828)return;_0x39a212?_0x4e1828[_0x52b9a1(0x13c)+_0x52b9a1('0x140')]['SetMovemen'+'tMode'](0x6,a0_0x1ace0f[_0x52b9a1(0x155)+_0x52b9a1('0x16c')+_0x52b9a1('0x179')]):_0x4e1828[_0x52b9a1(0x13c)+_0x52b9a1('0x140')]['SetMovemen'+_0x52b9a1('0x147')](0x3,0x0);}static[a0_0x421d7b(0x16e)+a0_0x421d7b('0x17b')](){const _0xff6426=a0_0x421d7b,_0x38c7a3=a0_0x33f214[_0xff6426('0x17a')+_0xff6426(0x166)][_0xff6426(0x16f)+_0xff6426(0x15b)]()['GetCompone'+'nt'](a0_0x42dfb2[_0xff6426('0x15f')][_0xff6426(0x144)]);if(!_0x38c7a3)return;return _0x38c7a3[_0xff6426('0x176')](this['tagId']['onEvade'])&&_0x38c7a3['RemoveTag'](this[_0xff6426(0x157)][_0xff6426(0x13a)]),_0x38c7a3[_0xff6426('0x176')](this['tagId'][_0xff6426('0x156')])?this[_0xff6426(0x14b)+_0xff6426('0x158')](![]):this[_0xff6426('0x14b')+_0xff6426(0x158)](!![]);}static[a0_0x421d7b(0x167)+a0_0x421d7b(0x150)](){const _0x59f87f=a0_0x421d7b;try{const _0xd6e1cd=a0_0x33f214['EntityMana'+_0x59f87f(0x166)][_0x59f87f(0x16f)+_0x59f87f('0x15b')]();if(!_0xd6e1cd)return;const _0x484af6=_0xd6e1cd[_0x59f87f(0x153)+'nt'](a0_0x42dfb2[_0x59f87f('0x15f')][_0x59f87f('0x144')]);let _0x18c03d=_0xd6e1cd[_0x59f87f(0x153)+'nt'](a0_0x42dfb2[_0x59f87f('0x15f')]['GlideComp']);if(this[_0x59f87f(0x142)+_0x59f87f(0x169)]()&&a0_0x31df35['ModManager'][_0x59f87f(0x177)]['flightMode']&&_0x484af6[_0x59f87f(0x176)](this[_0x59f87f('0x157')]['allowFligh'+'t']))return;if(a0_0x31df35[_0x59f87f(0x159)][_0x59f87f(0x177)][_0x59f87f('0x13e')])!_0x18c03d['Xte']&&(_0x18c03d[_0x59f87f(0x138)]=a0_0x33f214[_0x59f87f(0x17a)+'ger'][_0x59f87f('0x16f')+_0x59f87f('0x15b')]()['GetCompone'+'nt'](a0_0x42dfb2[_0x59f87f('0x15f')][_0x59f87f(0x144)])),!_0x484af6[_0x59f87f(0x176)](this['tagId'][_0x59f87f('0x151')+'t'])&&(a0_0x39e0c5[_0x59f87f(0x15e)][_0x59f87f(0x154)](_0x59f87f('0x149')+_0x59f87f(0x14f)),_0x484af6[_0x59f87f(0x170)](this['tagId'][_0x59f87f(0x151)+'t'])),!this[_0x59f87f(0x142)+'light']()&&this['applyBuff'](!![]);else this[_0x59f87f(0x142)+_0x59f87f(0x169)]()&&this[_0x59f87f('0x164')](![]);}catch(_0x58868c){a0_0x39e0c5['ModUtils']['Log'](_0x58868c,_0x59f87f('0x141'));}}static[a0_0x421d7b('0x164')](_0x4d180f){const _0x57955d=a0_0x421d7b;_0x4d180f?(a0_0x283b47[_0x57955d('0x143')][_0x57955d(0x139)+'uest'](this[_0x57955d('0x15a')][_0x57955d('0x13b')+_0x57955d('0x174')]),a0_0x39e0c5['ModUtils'][_0x57955d('0x154')](_0x57955d('0x148')+'light!')):(a0_0x283b47[_0x57955d('0x143')][_0x57955d(0x15d)+_0x57955d(0x161)](this[_0x57955d('0x15a')][_0x57955d('0x13b')+_0x57955d('0x174')]),a0_0x39e0c5[_0x57955d(0x15e)][_0x57955d('0x154')](_0x57955d('0x152')+'f\x20flight!'));}}exports[a0_0x421d7b(0x171)]=a0_0x38d395;
+'use strict';
+
+const p = q;
+function q(b, a) {
+  const e = k();
+  q = function (d, f) {
+    d = d - 312;
+    let b = e[d];
+    return b;
+  };
+  return q(b, a);
+}
+(function (b, f) {
+  const c = q;
+  const d = b();
+  while (true) {
+    try {
+      const b = -parseInt(c(319)) / 1 * (parseInt(c("0x14e")) / 2) + parseInt(c("0x173")) / 3 * (parseInt(c("0x172")) / 4) + -parseInt(c(373)) / 5 + -parseInt(c(348)) / 6 * (parseInt(c("0x168")) / 7) + -parseInt(c("0x14a")) / 8 + parseInt(c("0x16b")) / 9 * (-parseInt(c("0x163")) / 10) + parseInt(c("0x178")) / 11 * (parseInt(c("0x146")) / 12);
+      if (b === f) {
+        break;
+      } else {
+        d.push(d.shift());
+      }
+    } catch (b) {
+      d.push(d.shift());
+    }
+  }
+})(k, 815010);
+const a = {
+  [p("0x145")]: true
+};
+Object["defineProp" + p(362)](exports, p(333), a);
+exports[p(369)] = undefined;
+const b = require("ue");
+const r = require("./EntityManager");
+const e = require("../Utils/ModUtils");
+const f = require("../ModManager");
+const g = require("../../NewWorld/Character/Common/Component/Move/CustomMovementDefine");
+const h = require("../ListComponent");
+const i = require("./buffMethod");
+const c = require("puerts");
+const d = {
+  [p("0x13b") + "ight"]: 640012028,
+  soaring: 7000000000
+};
+const j = {};
+function k() {
+  const b = ["HasTag", "settings", "8131024UJEfAL", "SOAR", "EntityMana", "htMode", "Xte", "AddBuffReq", "onEvade", "infiniteFl", "CharacterM", "IsInGame", "flightMode", "26PItBXB", "ovement", "error", "isHasBuffF", "buffMethod", "RoleTag", "value", "24DpLufE", "tMode", "Add buff f", "Add tag fl", "125336HmdVOA", "setFlightM", "hasBuff", "__esModule", "49336rwEaUU", "ight mode", "htState", "allowFligh", "Remove buf", "GetCompone", "Log", "CUSTOM_MOV", "onFlight", "tagId", "ode", "ModManager", "buffIds", "ntity", "234WctJQR", "RemoveBuff", "ModUtils", "Component", "uest", "Request", "soaring", "28150FDmtUB", "applyBuff", "timerApply", "ger", "listenFlig", "15687FLJQuq", "light", "erty", "783kwEYRu", "EMENTMODE_", "Buff", "toggleFlig", "GetPlayerE", "AddTag", "Flight", "3556940myxypW", "3WZUVrM", "ight", "2816270RMMoHc"];
+  k = function () {
+    return b;
+  };
+  return k();
+}
+j[p("0x151") + "t"] = 1151923109;
+j.onFlight = -2027866845;
+j.climbing = 504239013;
+j[p(314)] = -1800191060;
+class l {
+  static [p(357) + p("0x16d")] = null;
+  static [p(346)] = d;
+  static [p(343)] = j;
+  static [p("0x142") + p("0x169")]() {
+    const a = p;
+    return i[a("0x143")][a(332)](this[a(346)][a("0x13b") + a(372)]);
+  }
+  static setFlightMode(a) {
+    const b = p;
+    if (!e[b("0x15e")][b("0x13d")]()) {
+      return;
+    }
+    if (!i[b("0x143")][b("0x14c")](this[b(346)][b("0x162")])) {
+      i[b("0x143")]["AddBuffReq" + b(352)](this.buffIds.soaring);
+    }
+    const c = r["EntityMana" + b("0x166")][b("0x16f") + b("0x15b")]()?.[b("0x153") + "nt"](h[b("0x15f")][b("0x13c") + b(320)]);
+    if (!c) {
+      return;
+    }
+    if (a) {
+      c[b(316) + b("0x140")].SetMovementMode(6, g[b(341) + b("0x16c") + b("0x179")]);
+    } else {
+      c[b(316) + b("0x140")]["SetMovemen" + b("0x147")](3, 0);
+    }
+  }
+  static [p(366) + p("0x17b")]() {
+    const a = p;
+    const b = r[a("0x17a") + a(358)][a(367) + a(347)]().GetComponent(h[a("0x15f")][a(324)]);
+    if (!b) {
+      return;
+    }
+    if (b[a("0x176")](this.tagId.onEvade)) {
+      b.RemoveTag(this[a(343)][a(314)]);
+    }
+    if (b[a("0x176")](this.tagId[a("0x156")])) {
+      return this[a(331) + a("0x158")](false);
+    } else {
+      return this[a("0x14b") + a(344)](true);
+    }
+  }
+  static [p(359) + p(336)]() {
+    const g = p;
+    try {
+      const b = r["EntityMana" + g(358)][g(367) + g("0x15b")]();
+      if (!b) {
+        return;
+      }
+      const a = b[g(339) + "nt"](h[g("0x15f")][g("0x144")]);
+      let c = b[g(339) + "nt"](h[g("0x15f")].GlideComp);
+      if (this[g(322) + g(361)]() && f.ModManager[g(375)].flightMode && a[g(374)](this[g("0x157")].allowFlight)) {
+        return;
+      }
+      if (f[g(345)][g(375)][g("0x13e")]) {
+        if (!c.Xte) {
+          c[g(312)] = r[g(378) + "ger"][g("0x16f") + g("0x15b")]().GetComponent(h[g("0x15f")][g(324)]);
+        }
+        if (!a[g(374)](this.tagId[g("0x151") + "t"])) {
+          e[g(350)][g(340)](g("0x149") + g(335));
+          a[g(368)](this.tagId[g(337) + "t"]);
+        }
+        if (!this[g(322) + "light"]()) {
+          this.applyBuff(true);
+        }
+      } else if (this[g(322) + g(361)]()) {
+        this[g("0x164")](false);
+      }
+    } catch (b) {
+      e.ModUtils.Log(b, g("0x141"));
+    }
+  }
+  static [p("0x164")](a) {
+    const b = p;
+    if (a) {
+      i[b("0x143")][b(313) + "uest"](this[b("0x15a")][b("0x13b") + b("0x174")]);
+      e.ModUtils[b("0x154")](b("0x148") + "light!");
+    } else {
+      i[b("0x143")][b(349) + b(353)](this[b("0x15a")][b("0x13b") + b("0x174")]);
+      e[b(350)][b("0x154")](b("0x152") + "f flight!");
+    }
+  }
+}
+exports[p(369)] = l;

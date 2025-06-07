@@ -1,1 +1,193 @@
-'use strict';const a0_0x168589=a0_0x54d7;function a0_0x54d7(_0x53a686,_0xb8227c){const _0x200a01=a0_0x200a();return a0_0x54d7=function(_0x54d7d2,_0x578a91){_0x54d7d2=_0x54d7d2-0x19d;let _0x24f6d5=_0x200a01[_0x54d7d2];return _0x24f6d5;},a0_0x54d7(_0x53a686,_0xb8227c);}function a0_0x200a(){const _0x557d00=['EntityMana','Capitalize','UiManager','InputBox','OpenView','IsFadeIn','EnterGameR','substring','4291878AGxMpp','time','IsInCutsce','10DigPTK','331iNSsON','Library','24792VkNYwy','AudioSyste','IsLoginSta','Wait','FishingMod','IsLoadingV','IsInGame','PlotModel','IsInGameWo','Getdistanc','Log','IsOnShipVe','LoadingVie','defineProp','Sleep','getDate','IsCheckNon','PlayAudio','rld','__esModule','9045680jkgnyp','iew','ModelManag','ackTarget','sitionByTr','ler','5302470smVzkB','3478328sTXFoj','MapUtil','ger','1522QrkLru','IsInBoat','IsViewShow','erty','getFormatX','leInputVie','IsLoginVie','getFullYea','ataControl','toUpperCas','hicle','Fight','date','isLoadingO','ModUtils','IsInPlot','padStart','Vector_Dis','IsTping','onButton','ELoginStat','BattleView','isInPlot','GetTrackPo','LoginModel','FormationD','KismetMath','getHours','logger','WaitAsync','e2Player','TimerSyste','Title','PostEvent','getMinutes','charAt','ShowTip','IsTeleport','VideoView','value','WorldMapVi','GetPlayerP','tus','rNotInGame','995nBmUXZ','3858102ClGViJ','NeedFuncti'];a0_0x200a=function(){return _0x557d00;};return a0_0x200a();}(function(_0x361277,_0x2ba75c){const _0x2fc433=a0_0x54d7,_0x487661=_0x361277();while(!![]){try{const _0x3bcabb=-parseInt(_0x2fc433('0x1a1'))/0x1*(-parseInt(_0x2fc433(0x1c1))/0x2)+parseInt(_0x2fc433('0x19d'))/0x3+parseInt(_0x2fc433('0x1a3'))/0x4*(-parseInt(_0x2fc433('0x1ed'))/0x5)+-parseInt(_0x2fc433(0x1bd))/0x6+parseInt(_0x2fc433(0x1be))/0x7+parseInt(_0x2fc433('0x1b7'))/0x8+-parseInt(_0x2fc433('0x1ee'))/0x9*(parseInt(_0x2fc433(0x1a0))/0xa);if(_0x3bcabb===_0x2ba75c)break;else _0x487661['push'](_0x487661['shift']());}catch(_0x3ad670){_0x487661['push'](_0x487661['shift']());}}}(a0_0x200a,0xba992));const a0_0xdddf78={};a0_0xdddf78[a0_0x168589(0x1e8)]=!0x0,(Object[a0_0x168589('0x1b0')+a0_0x168589(0x1c4)](exports,a0_0x168589(0x1b6),a0_0xdddf78),exports[a0_0x168589('0x1cf')]=void 0x0);const a0_0x5504b9=require('puerts'),a0_0x3374c5=require('ue'),a0_0x4d5ab5=require('../../Module/Util/LguiUtil'),a0_0x358a6e=require('./UI'),a0_0x13e973=require('../../../Core/Timer/TimerSystem'),a0_0x207407=require('../ModelManager'),a0_0xa36982=require('../../Module/Login/Data/LoginDefine'),a0_0x4a533d=require('../../Module/Map/MapUtil'),a0_0x118b8d=require('../../Module/Abilities/FormationDataController'),a0_0x9059f7=require('../ModFuncs/EntityManager'),a0_0x3c8884=require('../../../Core/Audio/AudioSystem'),a0_0x545890=require('../../../Ui/UiManager');class a0_0x2050c4{static[a0_0x168589(0x1a9)](){const _0x2315e4=a0_0x168589;let _0x5baabf=null;try{_0x5baabf=a0_0x207407[_0x2315e4(0x1b9)+'er'][_0x2315e4(0x1d9)][_0x2315e4(0x1a5)+_0x2315e4('0x1eb')](a0_0xa36982[_0x2315e4('0x1d5')+'us'][_0x2315e4(0x1f6)+'et']);}catch{}return _0x5baabf;}static[a0_0x168589(0x1c5)+'YZ'](_0x2a0181){const _0x562884=_0x2a0181['split'](',');return{'x':parseFloat(_0x562884[0x0]),'y':parseFloat(_0x562884[0x1]),'z':parseFloat(_0x562884[0x2])};}static['IsInMapVie'+'w'](){const _0xb0743f=a0_0x168589;return a0_0x545890[_0xb0743f('0x1f2')][_0xb0743f('0x1c3')](_0xb0743f(0x1e9)+'ew');}static[a0_0x168589('0x1ce')+a0_0x168589('0x1ec')](){const _0x174e91=a0_0x168589;return Boolean(!a0_0x2050c4[_0x174e91('0x1ab')+_0x174e91('0x1b5')]()||a0_0x2050c4[_0x174e91(0x1a8)+_0x174e91('0x1b8')]());}static[a0_0x168589(0x19f)+'ne'](){const _0xe87ad1=a0_0x168589;return a0_0x207407[_0xe87ad1(0x1b9)+'er'][_0xe87ad1('0x1aa')][_0xe87ad1('0x1f5')]||a0_0x545890['UiManager'][_0xe87ad1('0x1c3')](_0xe87ad1(0x1e7));}static[a0_0x168589(0x1d7)](){const _0xc643f5=a0_0x168589;return Boolean(a0_0x207407[_0xc643f5(0x1b9)+'er'][_0xc643f5(0x1aa)][_0xc643f5('0x1d0')]||a0_0x207407['ModelManag'+'er'][_0xc643f5('0x1aa')][_0xc643f5('0x1f5')]);}static[a0_0x168589('0x1b2')](){const _0x53cad7=a0_0x168589;let _0x52954a=new Date(),_0x18f908=String(_0x52954a[_0x53cad7(0x1b2)]())['padStart'](0x2,'0'),_0x165c58=String(_0x52954a['getMonth']()+0x1)['padStart'](0x2,'0'),_0x563b6b=_0x52954a[_0x53cad7(0x1c8)+'r'](),_0x35f8a5=String(_0x52954a[_0x53cad7(0x1dc)]())[_0x53cad7('0x1d1')](0x2,'0'),_0xcd767b=String(_0x52954a[_0x53cad7(0x1e3)]())['padStart'](0x2,'0'),_0x4fca86=String(_0x52954a['getSeconds']())['padStart'](0x2,'0');const _0x22abb1={};return _0x22abb1[_0x53cad7(0x1cd)]=_0x18f908+'-'+_0x165c58+'-'+_0x563b6b,_0x22abb1[_0x53cad7('0x19e')]=_0x35f8a5+':'+_0xcd767b+':'+_0x4fca86,_0x22abb1;}static[a0_0x168589('0x1de')](_0x202653){return new Promise(_0x5f26ae=>setTimeout(_0x5f26ae,_0x202653));}static[a0_0x168589(0x1ab)+a0_0x168589(0x1b5)](){const _0x4c27df=a0_0x168589;return a0_0x545890[_0x4c27df('0x1f2')][_0x4c27df('0x1c3')](_0x4c27df(0x1d6));}static[a0_0x168589('0x1c7')+'w'](){const _0x391fe9=a0_0x168589;return a0_0x545890[_0x391fe9('0x1f2')][_0x391fe9('0x1c3')]('LoginView');}static['IsLoadingV'+a0_0x168589('0x1b8')](){const _0x4bebe3=a0_0x168589;return a0_0x545890['UiManager']['IsViewShow'](_0x4bebe3(0x1af)+'w');}static['IsInFight'](){const _0x2fc1e7=a0_0x168589;return Boolean(a0_0x118b8d[_0x2fc1e7(0x1da)+_0x2fc1e7('0x1c9')+_0x2fc1e7('0x1bc')]['GlobalIsIn'+_0x2fc1e7('0x1cc')]);}static[a0_0x168589(0x1c2)](){const _0xe30a1c=a0_0x168589;return Boolean(a0_0x207407[_0xe30a1c(0x1b9)+'er'][_0xe30a1c(0x1a7)+'el'][_0xe30a1c('0x1ae')+_0xe30a1c(0x1cb)]());}static[a0_0x168589(0x1ac)+a0_0x168589(0x1df)](_0x9feda9){const _0x156a6d=a0_0x168589;let _0x304899=a0_0x9059f7[_0x156a6d(0x1f0)+_0x156a6d(0x1c0)][_0x156a6d('0x1ea')+'os'](),_0x5b6001=a0_0x3374c5[_0x156a6d('0x1db')+'Library'][_0x156a6d(0x1d2)+'tance'](_0x9feda9,_0x304899);return _0x5b6001;}static[a0_0x168589('0x1ac')+'e'](_0x31f04e,_0x43cc9f){const _0x223bf8=a0_0x168589;let _0x1dff05=a0_0x3374c5[_0x223bf8('0x1db')+_0x223bf8(0x1a2)]['Vector_Dis'+'tance'](_0x31f04e,_0x43cc9f);return _0x1dff05;}static[a0_0x168589('0x1d3')](){const _0x15e2a4=a0_0x168589;return a0_0x207407[_0x15e2a4(0x1b9)+'er']['TeleportMo'+'del'][_0x15e2a4(0x1e6)];}static async[a0_0x168589(0x1b1)](_0x391ef8){const _0x97e02=a0_0x168589;await a0_0x13e973[_0x97e02('0x1e0')+'m'][_0x97e02(0x1a6)](_0x391ef8);}static[a0_0x168589(0x1b4)](_0x1d8a5f){const _0x1a226d=a0_0x168589;a0_0x3c8884[_0x1a226d(0x1a4)+'m'][_0x1a226d(0x1e2)](_0x1d8a5f);}static[a0_0x168589('0x1f1')](_0xf19ddf){const _0x4eb61c=a0_0x168589;return _0xf19ddf[_0x4eb61c(0x1e4)](0x0)[_0x4eb61c(0x1ca)+'e']()+_0xf19ddf[_0x4eb61c('0x1f7')](0x1);}static['StringToIn'+'t'](_0x22f573){const _0x5bcbd3=a0_0x168589;var _0x4c738b=parseInt(_0x22f573);return isNaN(_0x4c738b)?(a0_0x358a6e['UI'][_0x5bcbd3(0x1e5)]('str\x20is\x20not'+'\x20int'),'error'):_0x4c738b;}static[a0_0x168589(0x1ad)](_0x416984,_0x1fdd77='info'){const _0x2513c2=a0_0x168589;a0_0x5504b9[_0x2513c2('0x1dd')][_0x1fdd77](_0x416984);}static['KuroSingle'+a0_0x168589('0x1f3')]({title:_0xb280a8,customFunc:_0x162208,inputText:_0x4bf37d,defaultText:_0x322149,isCheckNone:_0x1af709,needFunctionButton:_0x41de2e}){const _0x54f5d8=a0_0x168589,_0x3b3245={};_0x3b3245[_0x54f5d8('0x1e1')]=_0xb280a8,_0x3b3245['CustomFunc']=_0x162208,_0x3b3245['InputText']=_0x4bf37d,_0x3b3245['DefaultTex'+'t']=_0x322149,_0x3b3245[_0x54f5d8(0x1b3)+'e']=_0x1af709,_0x3b3245[_0x54f5d8('0x1ef')+_0x54f5d8(0x1d4)]=_0x41de2e,a0_0x545890[_0x54f5d8(0x1f2)][_0x54f5d8(0x1f4)]('CommonSing'+_0x54f5d8('0x1c6')+'w',_0x3b3245);}static[a0_0x168589(0x1d8)+a0_0x168589(0x1bb)+a0_0x168589('0x1ba')](_0x1e88d1){const _0x52cf86=a0_0x168589;try{return a0_0x4a533d[_0x52cf86(0x1bf)][_0x52cf86(0x1d8)+_0x52cf86(0x1bb)+'ackTarget'](_0x1e88d1);}catch(_0x1adae8){}}}exports['ModUtils']=a0_0x2050c4;
+'use strict';
+
+const r = s;
+function s(c, a) {
+  const d = b();
+  s = function (e, f) {
+    e = e - 413;
+    let b = d[e];
+    return b;
+  };
+  return s(c, a);
+}
+function b() {
+  const c = ["EntityMana", "Capitalize", "UiManager", "InputBox", "OpenView", "IsFadeIn", "EnterGameR", "substring", "4291878AGxMpp", "time", "IsInCutsce", "10DigPTK", "331iNSsON", "Library", "24792VkNYwy", "AudioSyste", "IsLoginSta", "Wait", "FishingMod", "IsLoadingV", "IsInGame", "PlotModel", "IsInGameWo", "Getdistanc", "Log", "IsOnShipVe", "LoadingVie", "defineProp", "Sleep", "getDate", "IsCheckNon", "PlayAudio", "rld", "__esModule", "9045680jkgnyp", "iew", "ModelManag", "ackTarget", "sitionByTr", "ler", "5302470smVzkB", "3478328sTXFoj", "MapUtil", "ger", "1522QrkLru", "IsInBoat", "IsViewShow", "erty", "getFormatX", "leInputVie", "IsLoginVie", "getFullYea", "ataControl", "toUpperCas", "hicle", "Fight", "date", "isLoadingO", "ModUtils", "IsInPlot", "padStart", "Vector_Dis", "IsTping", "onButton", "ELoginStat", "BattleView", "isInPlot", "GetTrackPo", "LoginModel", "FormationD", "KismetMath", "getHours", "logger", "WaitAsync", "e2Player", "TimerSyste", "Title", "PostEvent", "getMinutes", "charAt", "ShowTip", "IsTeleport", "VideoView", "value", "WorldMapVi", "GetPlayerP", "tus", "rNotInGame", "995nBmUXZ", "3858102ClGViJ", "NeedFuncti"];
+  b = function () {
+    return c;
+  };
+  return b();
+}
+(function (b, f) {
+  const c = s;
+  const d = b();
+  while (true) {
+    try {
+      const b = -parseInt(c("0x1a1")) / 1 * (-parseInt(c(449)) / 2) + parseInt(c("0x19d")) / 3 + parseInt(c("0x1a3")) / 4 * (-parseInt(c("0x1ed")) / 5) + -parseInt(c(445)) / 6 + parseInt(c(446)) / 7 + parseInt(c("0x1b7")) / 8 + -parseInt(c("0x1ee")) / 9 * (parseInt(c(416)) / 10);
+      if (b === f) {
+        break;
+      } else {
+        d.push(d.shift());
+      }
+    } catch (b) {
+      d.push(d.shift());
+    }
+  }
+})(b, 764306);
+const a = {
+  [r(488)]: true
+};
+Object[r("0x1b0") + r(452)](exports, r(438), a);
+exports[r("0x1cf")] = undefined;
+const t = require("puerts");
+const u = require("ue");
+const c = require("../../Module/Util/LguiUtil");
+const d = require("./UI");
+const e = require("../../../Core/Timer/TimerSystem");
+const f = require("../ModelManager");
+const g = require("../../Module/Login/Data/LoginDefine");
+const h = require("../../Module/Map/MapUtil");
+const i = require("../../Module/Abilities/FormationDataController");
+const j = require("../ModFuncs/EntityManager");
+const k = require("../../../Core/Audio/AudioSystem");
+const l = require("../../../Ui/UiManager");
+class m {
+  static [r(425)]() {
+    const a = r;
+    let b = null;
+    try {
+      b = f[a(441) + "er"][a(473)][a(421) + a("0x1eb")](g[a("0x1d5") + "us"][a(502) + "et"]);
+    } catch {}
+    return b;
+  }
+  static [r(453) + "YZ"](c) {
+    const a = c.split(",");
+    return {
+      x: parseFloat(a[0]),
+      y: parseFloat(a[1]),
+      z: parseFloat(a[2])
+    };
+  }
+  static IsInMapView() {
+    const a = r;
+    return l[a("0x1f2")][a("0x1c3")](a(489) + "ew");
+  }
+  static [r("0x1ce") + r("0x1ec")]() {
+    const a = r;
+    return Boolean(!m[a("0x1ab") + a("0x1b5")]() || m[a(424) + a("0x1b8")]());
+  }
+  static [r(415) + "ne"]() {
+    const a = r;
+    return f[a(441) + "er"][a("0x1aa")][a("0x1f5")] || l.UiManager[a("0x1c3")](a(487));
+  }
+  static [r(471)]() {
+    const a = r;
+    return Boolean(f[a(441) + "er"][a(426)][a("0x1d0")] || f.ModelManager[a("0x1aa")][a("0x1f5")]);
+  }
+  static [r("0x1b2")]() {
+    const a = r;
+    let b = new Date();
+    let c = String(b[a(434)]()).padStart(2, "0");
+    let d = String(b.getMonth() + 1).padStart(2, "0");
+    let e = b[a(456) + "r"]();
+    let f = String(b[a(476)]())[a("0x1d1")](2, "0");
+    let g = String(b[a(483)]()).padStart(2, "0");
+    let h = String(b.getSeconds()).padStart(2, "0");
+    const i = {
+      [a(461)]: c + "-" + d + "-" + e,
+      [a("0x19e")]: f + ":" + g + ":" + h
+    };
+    return i;
+  }
+  static [r("0x1de")](c) {
+    return new Promise(a => // TOLOOK
+    // TOLOOK
+    setTimeout(a, c));
+  }
+  static [r(427) + r(437)]() {
+    const a = r;
+    return l[a("0x1f2")][a("0x1c3")](a(470));
+  }
+  static [r("0x1c7") + "w"]() {
+    const a = r;
+    return l[a("0x1f2")][a("0x1c3")]("LoginView");
+  }
+  static ["IsLoadingV" + r("0x1b8")]() {
+    const a = r;
+    return l.UiManager.IsViewShow(a(431) + "w");
+  }
+  static IsInFight() {
+    const a = r;
+    return Boolean(i[a(474) + a("0x1c9") + a("0x1bc")]["GlobalIsIn" + a("0x1cc")]);
+  }
+  static [r(450)]() {
+    const a = r;
+    return Boolean(f[a(441) + "er"][a(423) + "el"][a("0x1ae") + a(459)]());
+  }
+  static [r(428) + r(479)](a) {
+    const b = r;
+    let c = j[b(496) + b(448)][b("0x1ea") + "os"]();
+    let d = u[b("0x1db") + "Library"][b(466) + "tance"](a, c);
+    return d;
+  }
+  static [r("0x1ac") + "e"](a, b) {
+    const c = r;
+    let d = u[c("0x1db") + c(418)].Vector_Distance(a, b);
+    return d;
+  }
+  static [r("0x1d3")]() {
+    const a = r;
+    return f[a(441) + "er"].TeleportModel[a(486)];
+  }
+  static async [r(433)](a) {
+    const b = r;
+    await e[b("0x1e0") + "m"][b(422)](a);
+  }
+  static [r(436)](a) {
+    const b = r;
+    k[b(420) + "m"][b(482)](a);
+  }
+  static [r("0x1f1")](a) {
+    const b = r;
+    return a[b(484)](0)[b(458) + "e"]() + a[b("0x1f7")](1);
+  }
+  static StringToInt(a) {
+    const b = r;
+    var c = parseInt(a);
+    if (isNaN(c)) {
+      d.UI[b(485)]("str is not int");
+      return "error";
+    } else {
+      return c;
+    }
+  }
+  static [r(429)](a, b = "info") {
+    const c = r;
+    t[c("0x1dd")][b](a);
+  }
+  static ["KuroSingle" + r("0x1f3")]({
+    title: a,
+    customFunc: b,
+    inputText: c,
+    defaultText: d,
+    isCheckNone: e,
+    needFunctionButton: f
+  }) {
+    const g = r;
+    const h = {
+      [g("0x1e1")]: a,
+      CustomFunc: b,
+      InputText: c,
+      DefaultText: d,
+      [g(435) + "e"]: e,
+      [g("0x1ef") + g(468)]: f
+    };
+    l[g(498)][g(500)]("CommonSing" + g("0x1c6") + "w", h);
+  }
+  static [r(472) + r(443) + r("0x1ba")](a) {
+    const b = r;
+    try {
+      return h[b(447)][b(472) + b(443) + "ackTarget"](a);
+    } catch (b) {}
+  }
+}
+exports.ModUtils = m;

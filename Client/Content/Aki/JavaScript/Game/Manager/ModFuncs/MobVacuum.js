@@ -1,1 +1,158 @@
-'use strict';function a0_0x4895(){const _0x378cf6=['EnableMove','Entity','push','TimerSyste','SyncMonste','16BJanoF','ons','561613IsPuvz','61854VuZHki','ActorInter','2785363TqOxGE','ModUtils','ect','fos','nent\x20InFig','Location','__esModule','ntType2','ger','nal','SetEnableM','origPositi','MonsterBeh','ovementSyn','orwardVect','ModManager','652378LlmmFy','erty','VacuumRadi','6UGQFQE','e2Player','Forever','settings','1mDBxxA','GetPlayerP','create','K2_SetActo','rLocation','144Tktdlx','EchoVacuum','GetCurrent','GetPositio','Getdistanc','mentSync','MoveSample','isMonster','Remove','GetCompone','Aki','862675NvXrwp','MobVacuum','isIndistan','EntityMana','CollectPen','isneedLoot','GetPlayerF','8StxPQN','592465PJfJlq','10NpqGFN','Protocol','PendingMov','VacuumColl','EntityFilt','dingMoveIn','1416096DPjLjk','WRs'];a0_0x4895=function(){return _0x378cf6;};return a0_0x4895();}const a0_0x1b8779=a0_0x3e15;(function(_0x4d4dd1,_0x34b0b8){const _0x1c672e=a0_0x3e15,_0x28bb61=_0x4d4dd1();while(!![]){try{const _0x2b204c=-parseInt(_0x1c672e(0x1e4))/0x1*(-parseInt(_0x1c672e(0x1dd))/0x2)+-parseInt(_0x1c672e(0x20d))/0x3*(parseInt(_0x1c672e('0x20a'))/0x4)+-parseInt(_0x1c672e(0x1fc))/0x5*(parseInt(_0x1c672e(0x1e0))/0x6)+parseInt(_0x1c672e(0x1cd))/0x7*(parseInt(_0x1c672e('0x1fb'))/0x8)+parseInt(_0x1c672e('0x203'))/0x9+parseInt(_0x1c672e(0x1fd))/0xa*(parseInt(_0x1c672e('0x1f4'))/0xb)+parseInt(_0x1c672e('0x1e9'))/0xc*(-parseInt(_0x1c672e('0x20c'))/0xd);if(_0x2b204c===_0x34b0b8)break;else _0x28bb61['push'](_0x28bb61['shift']());}catch(_0x4a004a){_0x28bb61['push'](_0x28bb61['shift']());}}}(a0_0x4895,0x3ab6a));function a0_0x3e15(_0x3e5794,_0x107350){const _0x4895e3=a0_0x4895();return a0_0x3e15=function(_0x3e1530,_0x24b317){_0x3e1530=_0x3e1530-0x1cc;let _0x230fe3=_0x4895e3[_0x3e1530];return _0x230fe3;},a0_0x3e15(_0x3e5794,_0x107350);}const a0_0x5e6a1e={};a0_0x5e6a1e['value']=!0x0,(Object['defineProp'+a0_0x1b8779(0x1de)](exports,a0_0x1b8779('0x1d3'),a0_0x5e6a1e),exports['MobVacuum']=void 0x0);const a0_0xda7bdb=require('puerts'),a0_0x3e15f4=require('ue'),a0_0x3e140c=require('../ModManager'),a0_0x3683c3=require('../Utils/ModUtils'),a0_0x3885be=require('../../../Core/Define/Net/Protocol'),a0_0x3c62bc=require('../../../Core/Timer/TimerSystem'),a0_0x251c3f=require('../../../Core/Net/Net'),a0_0x268bcb=require('./EntityManager'),a0_0x4751ce=require('./EntityFilter');class a0_0x12565b extends a0_0x268bcb[a0_0x1b8779(0x1f7)+a0_0x1b8779(0x1d5)]{static[a0_0x1b8779('0x1f6')+'ce'](_0x2f1e3b){const _0x5175c7=a0_0x1b8779;let _0x14277a=this[_0x5175c7(0x1ec)+'n'](_0x2f1e3b[_0x5175c7(0x206)]),_0x27a761=a0_0x3683c3[_0x5175c7(0x1ce)][_0x5175c7('0x1ed')+_0x5175c7('0x1e1')](_0x14277a);if(_0x27a761<a0_0x3e140c[_0x5175c7(0x1dc)]['settings'][_0x5175c7(0x1df)+'us']*0x64)return!![];else return![];}static [a0_0x1b8779('0x1d8')+a0_0x1b8779(0x20b)]={};static async[a0_0x1b8779('0x1f5')](_0x1ed73a){const _0x4cfef6=a0_0x1b8779;if(!a0_0x3e140c[_0x4cfef6('0x1dc')]['settings'][_0x4cfef6('0x1f5')])return;let _0x5ae1ed=_0x1ed73a[_0x4cfef6(0x206)]['GetCompone'+'nt'](0x1);if(!_0x5ae1ed)return;if(!_0x5ae1ed['ActorInter'+'nal'])return;if(this[_0x4cfef6(0x1f0)](_0x1ed73a)&&this[_0x4cfef6(0x1f6)+'ce'](_0x1ed73a)){const _0x11afd0=_0x1ed73a[_0x4cfef6(0x206)]['Id'];if(!(_0x11afd0 in this[_0x4cfef6('0x1d8')+'ons'])){let _0x25fbda=this[_0x4cfef6(0x1ec)+'n'](_0x1ed73a[_0x4cfef6(0x206)]);if(!_0x25fbda['X'])return;this['origPositi'+'ons'][_0x11afd0]=_0x25fbda;}let _0x508870=null,_0x3bd4be=0x0,_0x223abb=0x5;_0x508870=a0_0x3c62bc[_0x4cfef6('0x208')+'m'][_0x4cfef6(0x1e2)](()=>{const _0x53edab=_0x4cfef6;if(!_0x1ed73a[_0x53edab(0x206)]||_0x3bd4be>_0x223abb){a0_0x3c62bc['TimerSyste'+'m'][_0x53edab(0x1f1)](_0x508870);return;}_0x3bd4be++;let _0x14baac=a0_0x3683c3[_0x53edab(0x1ce)][_0x53edab(0x1ed)+_0x53edab(0x1e1)](this[_0x53edab(0x1ec)+'n'](_0x1ed73a[_0x53edab('0x206')]));if(_0x14baac<0x1f4){a0_0x3c62bc[_0x53edab(0x208)+'m'][_0x53edab(0x1f1)](_0x508870);return;}let _0x16b289=this[_0x53edab(0x1e5)+'os'](),_0x3ab236=a0_0x3683c3[_0x53edab('0x1ce')][_0x53edab(0x1ed)+'e'](this[_0x53edab('0x1d8')+_0x53edab('0x20b')][_0x11afd0],_0x16b289);if(_0x3ab236>a0_0x3e140c[_0x53edab('0x1dc')][_0x53edab(0x1e3)][_0x53edab(0x1df)+'us']*0x64){a0_0x3c62bc[_0x53edab(0x208)+'m']['Remove'](_0x508870);return;}if(!this[_0x53edab('0x1f6')+'ce'](_0x1ed73a)){a0_0x3c62bc[_0x53edab(0x208)+'m']['Remove'](_0x508870);return;}_0x16b289['Z']+=0x64;let _0xc209c4=this[_0x53edab(0x1fa)+_0x53edab(0x1db)+'or']();_0x16b289['X']=_0x16b289['X']-_0xc209c4['X']*0xc8,_0x16b289['Y']=_0x16b289['Y']-_0xc209c4['Y']*0xc8;let _0x1a379c=_0x1ed73a[_0x53edab('0x206')]['GetCompone'+'nt'](0x1);_0x1a379c[_0x53edab(0x1cc)+_0x53edab(0x1d6)][_0x53edab('0x1e7')+_0x53edab('0x1e8')](_0x16b289),this[_0x53edab(0x209)+'r'](_0x1ed73a,_0x16b289);},0x14d);}}static async['VacuumColl'+a0_0x1b8779('0x1cf')](_0x2d2960){const _0x591f09=a0_0x1b8779;if(!a0_0x3e140c[_0x591f09('0x1dc')][_0x591f09(0x1e3)][_0x591f09('0x200')+_0x591f09(0x1cf)])return;if(a0_0x4751ce[_0x591f09('0x201')+'er'][_0x591f09(0x1f9)](this['GetBluepri'+_0x591f09('0x1d4')](_0x2d2960))&&this[_0x591f09(0x1f6)+'ce'](_0x2d2960)){let _0x343c2d=this[_0x591f09('0x1e5')+'os'](),_0x2aecd9=_0x2d2960['Entity'][_0x591f09(0x1f2)+'nt'](0x1);_0x2aecd9[_0x591f09('0x1cc')+'nal']&&_0x2aecd9[_0x591f09('0x1cc')+_0x591f09('0x1d6')][_0x591f09(0x1e7)+_0x591f09(0x1e8)](_0x343c2d);}}static async['EchoVacuum'](_0x21383f){const _0x175b03=a0_0x1b8779;if(!a0_0x3e140c[_0x175b03(0x1dc)][_0x175b03('0x1e3')][_0x175b03('0x1ea')])return;if(a0_0x268bcb['EntityMana'+_0x175b03('0x1d5')]['isVision'](_0x21383f)&&this[_0x175b03(0x1f6)+'ce'](_0x21383f)){let _0x3e1d6e=this[_0x175b03('0x1e5')+'os'](),_0x1c7a72=_0x21383f[_0x175b03('0x206')][_0x175b03(0x1f2)+'nt'](0x1);_0x1c7a72[_0x175b03(0x1cc)+_0x175b03('0x1d6')]&&_0x1c7a72[_0x175b03(0x1cc)+_0x175b03('0x1d6')][_0x175b03(0x1e7)+'rLocation'](_0x3e1d6e);}}static[a0_0x1b8779('0x209')+'r'](_0x2a40a3,_0x23990f){const _0x522694=a0_0x1b8779;var _0x309774=_0x2a40a3['Entity'][_0x522694('0x1f2')+'nt'](0x3c);!_0x309774[_0x522694(0x205)+'mentSync']&&(_0x309774[_0x522694('0x1d7')+_0x522694('0x1da')+'c'](!![],_0x522694('0x1d9')+'aviorCompo'+_0x522694(0x1d1)+'ht'),_0x309774[_0x522694('0x205')+_0x522694(0x1ee)]=!![]);var _0x40a1b3=_0x309774[_0x522694(0x1eb)+_0x522694(0x1ef)]();_0x40a1b3[_0x522694('0x1d2')]=_0x23990f,_0x309774[_0x522694(0x1ff)+'eInfos'][_0x522694(0x207)](_0x40a1b3);var _0x305110=a0_0x3885be[_0x522694(0x1f3)][_0x522694(0x1fe)]['Yus'][_0x522694(0x1e6)]();_0x305110[_0x522694('0x204')][_0x522694(0x207)](_0x309774[_0x522694('0x1f8')+_0x522694('0x202')+_0x522694(0x1d0)]());}}exports[a0_0x1b8779(0x1f5)]=a0_0x12565b;
+'use strict';
+
+function o() {
+  const a = ["EnableMove", "Entity", "push", "TimerSyste", "SyncMonste", "16BJanoF", "ons", "561613IsPuvz", "61854VuZHki", "ActorInter", "2785363TqOxGE", "ModUtils", "ect", "fos", "nent InFig", "Location", "__esModule", "ntType2", "ger", "nal", "SetEnableM", "origPositi", "MonsterBeh", "ovementSyn", "orwardVect", "ModManager", "652378LlmmFy", "erty", "VacuumRadi", "6UGQFQE", "e2Player", "Forever", "settings", "1mDBxxA", "GetPlayerP", "create", "K2_SetActo", "rLocation", "144Tktdlx", "EchoVacuum", "GetCurrent", "GetPositio", "Getdistanc", "mentSync", "MoveSample", "isMonster", "Remove", "GetCompone", "Aki", "862675NvXrwp", "MobVacuum", "isIndistan", "EntityMana", "CollectPen", "isneedLoot", "GetPlayerF", "8StxPQN", "592465PJfJlq", "10NpqGFN", "Protocol", "PendingMov", "VacuumColl", "EntityFilt", "dingMoveIn", "1416096DPjLjk", "WRs"];
+  o = function () {
+    return a;
+  };
+  return o();
+}
+const p = q;
+(function (c, f) {
+  const b = q;
+  const d = c();
+  while (true) {
+    try {
+      const c = -parseInt(b(484)) / 1 * (-parseInt(b(477)) / 2) + -parseInt(b(525)) / 3 * (parseInt(b("0x20a")) / 4) + -parseInt(b(508)) / 5 * (parseInt(b(480)) / 6) + parseInt(b(461)) / 7 * (parseInt(b("0x1fb")) / 8) + parseInt(b("0x203")) / 9 + parseInt(b(509)) / 10 * (parseInt(b("0x1f4")) / 11) + parseInt(b("0x1e9")) / 12 * (-parseInt(b("0x20c")) / 13);
+      if (c === f) {
+        break;
+      } else {
+        d.push(d.shift());
+      }
+    } catch (b) {
+      d.push(d.shift());
+    }
+  }
+})(o, 240490);
+function q(a, b) {
+  const d = o();
+  q = function (e, f) {
+    e = e - 460;
+    let b = d[e];
+    return b;
+  };
+  return q(a, b);
+}
+const a = {
+  value: true
+};
+Object["defineProp" + p(478)](exports, p("0x1d3"), a);
+exports.MobVacuum = undefined;
+const b = require("puerts");
+const c = require("ue");
+const r = require("../ModManager");
+const g = require("../Utils/ModUtils");
+const h = require("../../../Core/Define/Net/Protocol");
+const s = require("../../../Core/Timer/TimerSystem");
+const d = require("../../../Core/Net/Net");
+const e = require("./EntityManager");
+const f = require("./EntityFilter");
+class i extends e[p(503) + p(469)] {
+  static [p("0x1f6") + "ce"](b) {
+    const a = p;
+    let c = this[a(492) + "n"](b[a(518)]);
+    let d = g[a(462)][a("0x1ed") + a("0x1e1")](c);
+    if (d < r[a(476)].settings[a(479) + "us"] * 100) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  static [p("0x1d8") + p(523)] = {};
+  static async [p("0x1f5")](h) {
+    const a = p;
+    if (!r[a("0x1dc")].settings[a("0x1f5")]) {
+      return;
+    }
+    let b = h[a(518)].GetComponent(1);
+    if (!b) {
+      return;
+    }
+    if (!b.ActorInternal) {
+      return;
+    }
+    if (this[a(496)](h) && this[a(502) + "ce"](h)) {
+      const c = h[a(518)].Id;
+      if (!(c in this[a("0x1d8") + "ons"])) {
+        let b = this[a(492) + "n"](h[a(518)]);
+        if (!b.X) {
+          return;
+        }
+        this.origPositions[c] = b;
+      }
+      let b = null;
+      let d = 0;
+      let e = 5;
+      b = s[a("0x208") + "m"][a(482)](() => {
+        const f = a;
+        if (!h[f(518)] || d > e) {
+          s.TimerSystem[f(497)](b);
+          return;
+        }
+        d++;
+        let i = g[f(462)][f(493) + f(481)](this[f(492) + "n"](h[f("0x206")]));
+        if (i < 500) {
+          s[f(520) + "m"][f(497)](b);
+          return;
+        }
+        let j = this[f(485) + "os"]();
+        let k = g[f("0x1ce")][f(493) + "e"](this[f("0x1d8") + f("0x20b")][c], j);
+        if (k > r[f("0x1dc")][f(483)][f(479) + "us"] * 100) {
+          s[f(520) + "m"].Remove(b);
+          return;
+        }
+        if (!this[f("0x1f6") + "ce"](h)) {
+          s[f(520) + "m"].Remove(b);
+          return;
+        }
+        j.Z += 100;
+        let l = this[f(506) + f(475) + "or"]();
+        j.X = j.X - l.X * 200;
+        j.Y = j.Y - l.Y * 200;
+        let m = h[f("0x206")].GetComponent(1);
+        m[f(460) + f(470)][f("0x1e7") + f("0x1e8")](j);
+        this[f(521) + "r"](h, j);
+      }, 333);
+    }
+  }
+  static async ["VacuumColl" + p("0x1cf")](e) {
+    const a = p;
+    if (!r[a("0x1dc")][a(483)][a("0x200") + a(463)]) {
+      return;
+    }
+    if (f[a("0x201") + "er"][a(505)](this["GetBluepri" + a("0x1d4")](e)) && this[a(502) + "ce"](e)) {
+      let c = this[a("0x1e5") + "os"]();
+      let b = e.Entity[a(498) + "nt"](1);
+      if (b[a("0x1cc") + "nal"]) {
+        b[a("0x1cc") + a("0x1d6")][a(487) + a(488)](c);
+      }
+    }
+  }
+  static async EchoVacuum(f) {
+    const a = p;
+    if (!r[a(476)][a("0x1e3")][a("0x1ea")]) {
+      return;
+    }
+    if (e["EntityMana" + a("0x1d5")].isVision(f) && this[a(502) + "ce"](f)) {
+      let c = this[a("0x1e5") + "os"]();
+      let b = f[a("0x206")][a(498) + "nt"](1);
+      if (b[a(460) + a("0x1d6")]) {
+        b[a(460) + a("0x1d6")][a(487) + "rLocation"](c);
+      }
+    }
+  }
+  static [p("0x209") + "r"](b, a) {
+    const c = p;
+    var d = b.Entity[c("0x1f2") + "nt"](60);
+    if (!d[c(517) + "mentSync"]) {
+      d[c("0x1d7") + c("0x1da") + "c"](true, c("0x1d9") + "aviorCompo" + c(465) + "ht");
+      d[c("0x205") + c(494)] = true;
+    }
+    var e = d[c(491) + c(495)]();
+    e[c("0x1d2")] = a;
+    d[c(511) + "eInfos"][c(519)](e);
+    var f = h[c(499)][c(510)].Yus[c(486)]();
+    f[c("0x204")][c(519)](d[c("0x1f8") + c("0x202") + c(464)]());
+  }
+}
+exports[p(501)] = i;

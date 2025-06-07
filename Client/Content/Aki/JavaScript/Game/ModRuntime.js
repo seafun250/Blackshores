@@ -1,1 +1,188 @@
-'use strict';const a0_0x21507a=a0_0x2c07;(function(_0x5d0ee8,_0x2bbad8){const _0x4e047b=a0_0x2c07,_0x1257f9=_0x5d0ee8();while(!![]){try{const _0x3a039a=parseInt(_0x4e047b('0x1ca'))/0x1*(-parseInt(_0x4e047b(0x1e4))/0x2)+-parseInt(_0x4e047b(0x1ad))/0x3*(-parseInt(_0x4e047b('0x1c9'))/0x4)+parseInt(_0x4e047b(0x1e7))/0x5+-parseInt(_0x4e047b('0x1b2'))/0x6*(-parseInt(_0x4e047b(0x1b9))/0x7)+-parseInt(_0x4e047b(0x1f5))/0x8+parseInt(_0x4e047b('0x1b1'))/0x9*(parseInt(_0x4e047b(0x1e3))/0xa)+-parseInt(_0x4e047b(0x1c7))/0xb*(parseInt(_0x4e047b(0x1ee))/0xc);if(_0x3a039a===_0x2bbad8)break;else _0x1257f9['push'](_0x1257f9['shift']());}catch(_0x1343d1){_0x1257f9['push'](_0x1257f9['shift']());}}}(a0_0x44bc,0xeb9b1));const a0_0x254cce={};function a0_0x2c07(_0x4dbcd1,_0x2342bf){const _0x44bc95=a0_0x44bc();return a0_0x2c07=function(_0x2c07bc,_0x5c423a){_0x2c07bc=_0x2c07bc-0x1a6;let _0x243064=_0x44bc95[_0x2c07bc];return _0x243064;},a0_0x2c07(_0x4dbcd1,_0x2342bf);}a0_0x254cce[a0_0x21507a(0x1d2)]=!![],Object[a0_0x21507a('0x1d8')+a0_0x21507a('0x1bb')](exports,a0_0x21507a(0x1d9),a0_0x254cce),exports[a0_0x21507a('0x1c3')]=void 0x0;const a0_0x399f28=require('puerts'),a0_0x23fab9=require('ue'),a0_0xaa2a76=require('./Manager/ModFuncs/KillAura'),a0_0x4b0828=require('./Manager/ModelManager'),a0_0x2c2fb4=require('./Manager/Utils/ModUtils'),a0_0x2b3fd3=require('./Manager/ModFuncs/EntityManager'),a0_0x294350=require('./Manager/ModFuncs/buffMethod'),a0_0x3f422b=require('./Manager/ModFuncs/TreasureTracking'),a0_0x1f0266=require('./Manager/ModFuncs/Keybind/KeybindController'),a0_0x5c536f=require('./Manager/ModFuncs/Flight'),a0_0x3d06d8=require('./Manager/Utils/Logger'),a0_0x3d612a=require('./Manager/ModFuncs/ModMethod'),a0_0x5f47d1=require('./Manager/ModFuncs/Interaction'),a0_0x311e3e=require('./Manager/ModManager'),a0_0x1c1bd6=require('./Manager/ModFuncs/AutoPuzzle'),a0_0xc894fc=require('./Manager/ModFuncs/MobVacuum'),a0_0x3ab693=require('./Manager/ModFuncs/AutoDestroy');function a0_0x44bc(){const _0x4eb14f=['10130NTxZDD','74AInamE','Start','AutoRestar','7330375xUzFhA','EntityMana','isInstantK','ngeBoss','buffMethod','htState','EchoVacuum','12KEOcXd','AutoSonanc','AutoOpenTe','killAura','troller','Interactio','AutoDestro','13221184CNiwrf','ctivate','rNotInGame','AutoSolve','ger','ModManager','MobVacuum','iew','318ObnDBV','mediumLoop','VacuumColl','isLoadingO','10179hPnbHC','404130xZBAhH','KillAnimal','isAllowToA','oop','AutoPuzzle','listenFlig','Run','154iabxEF','Error','erty','ura','runFastLoo','illAura','AutoAbsorb','runSlowLoo','startRunti','AutoChalle','ModRuntime','eCasket','easure','isRunning','6680839DLfmsp','settings','36536BDpUzm','49642FHzMRa','fly','slowLoop','Entity','ApplyBuffs','fastLoop','ModUtils','runMediumL','value','ties','stopRuntim','Logger','KeybindCon','ModelManag','defineProp','__esModule','leports','IsInGame','ModMethod','GetAllEnti','forEach','AutoLootCo','tDungeon','KillAura','ect'];a0_0x44bc=function(){return _0x4eb14f;};return a0_0x44bc();}class a0_0x579a8e{constructor(){const _0x3b5d9e=a0_0x21507a;this['isRunning']=![],this[_0x3b5d9e('0x1cf')]=null,this[_0x3b5d9e('0x1ae')]=null,this[_0x3b5d9e('0x1cc')]=null,a0_0x42a420[_0x3b5d9e('0x1e5')](),setInterval(()=>{const _0x2b9fe5=_0x3b5d9e;!this['isRunning']&&!a0_0x2c2fb4[_0x2b9fe5(0x1d0)][_0x2b9fe5('0x1b0')+_0x2b9fe5(0x1a7)]()&&this[_0x2b9fe5(0x1c1)+'me']();},0x5dc);}[a0_0x21507a(0x1c1)+'me'](){const _0x4ddbed=a0_0x21507a;if(this[_0x4ddbed(0x1c6)]||a0_0x2c2fb4[_0x4ddbed(0x1d0)][_0x4ddbed(0x1b0)+_0x4ddbed(0x1a7)]())return;this[_0x4ddbed(0x1c6)]=!![],this[_0x4ddbed('0x1bd')+'p'](),this[_0x4ddbed(0x1d1)+_0x4ddbed(0x1b5)](),this[_0x4ddbed('0x1c0')+'p']();}[a0_0x21507a('0x1d4')+'e'](){const _0x165eec=a0_0x21507a;this[_0x165eec(0x1c6)]=![],clearTimeout(this[_0x165eec(0x1cf)]),clearTimeout(this[_0x165eec('0x1ae')]),clearTimeout(this[_0x165eec('0x1cc')]);}['runFastLoo'+'p'](){const _0x54216f=a0_0x21507a;if(!this[_0x54216f(0x1c6)]||a0_0x2c2fb4[_0x54216f(0x1d0)][_0x54216f(0x1b0)+'rNotInGame']()){this[_0x54216f(0x1d4)+'e']();return;}try{a0_0x294350[_0x54216f(0x1eb)][_0x54216f(0x1ce)](),a0_0x3f422b['TreasureTr'+'acking'][_0x54216f(0x1b8)](),a0_0x4b0828[_0x54216f('0x1d7')+'er']['CreatureMo'+'del'][_0x54216f(0x1dd)+_0x54216f('0x1d3')]()[_0x54216f(0x1de)](_0x3271d4=>{const _0x51ffd9=_0x54216f;if(!_0x3271d4['Entity'])return;a0_0xc894fc[_0x51ffd9('0x1ab')][_0x51ffd9(0x1af)+_0x51ffd9('0x1e2')](_0x3271d4),a0_0xc894fc['MobVacuum'][_0x51ffd9(0x1ed)](_0x3271d4),a0_0x5f47d1['Interactio'+'n'][_0x51ffd9(0x1ef)+_0x51ffd9(0x1c4)](_0x3271d4),a0_0x5f47d1[_0x51ffd9('0x1f3')+'n'][_0x51ffd9('0x1bf')](_0x3271d4),a0_0x5f47d1[_0x51ffd9('0x1f3')+'n']['AutoPickTr'+_0x51ffd9(0x1c5)](_0x3271d4),a0_0x5f47d1[_0x51ffd9('0x1f3')+'n'][_0x51ffd9('0x1f0')+_0x51ffd9('0x1da')](_0x3271d4),a0_0x1c1bd6[_0x51ffd9(0x1b6)]['AutoMutter'+_0x51ffd9('0x1cb')](_0x3271d4),a0_0x1f0266[_0x51ffd9(0x1d6)+'troller'][_0x51ffd9('0x1b4')+_0x51ffd9('0x1a6')](_0x51ffd9(0x1ab))&&a0_0xc894fc[_0x51ffd9('0x1ab')][_0x51ffd9('0x1ab')](_0x3271d4);});}catch(_0x42ff73){}this['fastLoop']=setTimeout(()=>this[_0x54216f('0x1bd')+'p'](),0x1f4);}[a0_0x21507a(0x1d1)+a0_0x21507a('0x1b5')](){const _0x40457e=a0_0x21507a;if(!this[_0x40457e('0x1c6')])return;try{a0_0x5c536f['Flight'][_0x40457e(0x1b7)+_0x40457e(0x1ec)](),a0_0x3d612a[_0x40457e(0x1dc)][_0x40457e(0x1e6)+_0x40457e('0x1e0')](),a0_0x2b3fd3[_0x40457e(0x1e8)+_0x40457e('0x1a9')][_0x40457e(0x1dd)+_0x40457e(0x1d3)]()['forEach'](_0x1f9c58=>{const _0x18eb70=_0x40457e;if(!_0x1f9c58[_0x18eb70('0x1cd')])return;a0_0x5f47d1[_0x18eb70('0x1f3')+'n'][_0x18eb70(0x1c2)+_0x18eb70(0x1ea)](_0x1f9c58),a0_0x1f0266['KeybindCon'+'troller'][_0x18eb70(0x1b4)+_0x18eb70('0x1a6')](_0x18eb70(0x1e1))&&a0_0x311e3e['ModManager']['settings'][_0x18eb70(0x1f1)]&&a0_0x311e3e['ModManager']['settings']['isDotKillA'+_0x18eb70(0x1bc)]&&a0_0xaa2a76[_0x18eb70(0x1e1)][_0x18eb70('0x1f1')](_0x1f9c58);});}catch(_0x512785){}this[_0x40457e('0x1ae')]=setTimeout(()=>this[_0x40457e('0x1d1')+_0x40457e('0x1b5')](),0x3e8);}['runSlowLoo'+'p'](){const _0x40a596=a0_0x21507a;if(!this['isRunning'])return;try{a0_0x2b3fd3[_0x40a596('0x1e8')+_0x40a596(0x1a9)][_0x40a596('0x1dd')+_0x40a596(0x1d3)]()[_0x40a596(0x1de)](_0x315347=>{const _0x5491dc=_0x40a596;if(!_0x315347[_0x5491dc('0x1cd')])return;a0_0x1f0266[_0x5491dc(0x1d6)+_0x5491dc(0x1f2)][_0x5491dc(0x1b4)+_0x5491dc('0x1a6')]('KillAura')&&a0_0x311e3e[_0x5491dc(0x1aa)][_0x5491dc(0x1c8)]['killAura']&&a0_0x311e3e[_0x5491dc('0x1aa')][_0x5491dc(0x1c8)][_0x5491dc('0x1e9')+_0x5491dc(0x1be)]&&a0_0xaa2a76['KillAura'][_0x5491dc('0x1f1')](_0x315347),a0_0x5f47d1['Interactio'+'n'][_0x5491dc(0x1df)+'llection'](_0x315347),a0_0x3ab693[_0x5491dc(0x1f4)+'y'][_0x5491dc(0x1f4)+'y'](_0x315347),a0_0x1c1bd6[_0x5491dc(0x1b6)][_0x5491dc(0x1b6)](_0x315347),a0_0xaa2a76['KillAura'][_0x5491dc('0x1b3')](_0x315347);});}catch(_0x58ac24){}this['slowLoop']=setTimeout(()=>this['runSlowLoo'+'p'](),0x9c4);}}class a0_0x42a420{static[a0_0x21507a(0x1e5)](){setInterval(()=>{const _0x2cab7a=a0_0x2c07;try{(a0_0x2c2fb4[_0x2cab7a(0x1d0)][_0x2cab7a(0x1db)]()||!a0_0x2c2fb4[_0x2cab7a('0x1d0')]['IsLoadingV'+_0x2cab7a('0x1ac')]())&&(a0_0x311e3e[_0x2cab7a(0x1aa)][_0x2cab7a(0x1c8)]['AutoPuzzle']&&a0_0x1c1bd6[_0x2cab7a(0x1b6)][_0x2cab7a(0x1a8)](),a0_0x1c1bd6[_0x2cab7a(0x1b6)]['AutoFishin'+'g']());}catch(_0x1bbdf8){a0_0x3d06d8[_0x2cab7a(0x1d5)][_0x2cab7a(0x1ba)](_0x1bbdf8);}},0x7d0);}}exports[a0_0x21507a('0x1c3')]=a0_0x579a8e;
+'use strict';
+
+const x = y;
+(function (c, f) {
+  const b = y;
+  const d = c();
+  while (true) {
+    try {
+      const c = parseInt(b("0x1ca")) / 1 * (-parseInt(b(484)) / 2) + -parseInt(b(429)) / 3 * (-parseInt(b("0x1c9")) / 4) + parseInt(b(487)) / 5 + -parseInt(b("0x1b2")) / 6 * (-parseInt(b(441)) / 7) + -parseInt(b(501)) / 8 + parseInt(b("0x1b1")) / 9 * (parseInt(b(483)) / 10) + -parseInt(b(455)) / 11 * (parseInt(b(494)) / 12);
+      if (c === f) {
+        break;
+      } else {
+        d.push(d.shift());
+      }
+    } catch (b) {
+      d.push(d.shift());
+    }
+  }
+})(s, 965041);
+const a = {};
+function y(c, a) {
+  const e = s();
+  y = function (d, f) {
+    d = d - 422;
+    let b = e[d];
+    return b;
+  };
+  return y(c, a);
+}
+a[x(466)] = true;
+Object[x("0x1d8") + x("0x1bb")](exports, x(473), a);
+exports[x("0x1c3")] = undefined;
+const b = require("puerts");
+const c = require("ue");
+const d = require("./Manager/ModFuncs/KillAura");
+const e = require("./Manager/ModelManager");
+const f = require("./Manager/Utils/ModUtils");
+const g = require("./Manager/ModFuncs/EntityManager");
+const h = require("./Manager/ModFuncs/buffMethod");
+const i = require("./Manager/ModFuncs/TreasureTracking");
+const j = require("./Manager/ModFuncs/Keybind/KeybindController");
+const k = require("./Manager/ModFuncs/Flight");
+const l = require("./Manager/Utils/Logger");
+const m = require("./Manager/ModFuncs/ModMethod");
+const n = require("./Manager/ModFuncs/Interaction");
+const o = require("./Manager/ModManager");
+const p = require("./Manager/ModFuncs/AutoPuzzle");
+const q = require("./Manager/ModFuncs/MobVacuum");
+const r = require("./Manager/ModFuncs/AutoDestroy");
+function s() {
+  const b = ["10130NTxZDD", "74AInamE", "Start", "AutoRestar", "7330375xUzFhA", "EntityMana", "isInstantK", "ngeBoss", "buffMethod", "htState", "EchoVacuum", "12KEOcXd", "AutoSonanc", "AutoOpenTe", "killAura", "troller", "Interactio", "AutoDestro", "13221184CNiwrf", "ctivate", "rNotInGame", "AutoSolve", "ger", "ModManager", "MobVacuum", "iew", "318ObnDBV", "mediumLoop", "VacuumColl", "isLoadingO", "10179hPnbHC", "404130xZBAhH", "KillAnimal", "isAllowToA", "oop", "AutoPuzzle", "listenFlig", "Run", "154iabxEF", "Error", "erty", "ura", "runFastLoo", "illAura", "AutoAbsorb", "runSlowLoo", "startRunti", "AutoChalle", "ModRuntime", "eCasket", "easure", "isRunning", "6680839DLfmsp", "settings", "36536BDpUzm", "49642FHzMRa", "fly", "slowLoop", "Entity", "ApplyBuffs", "fastLoop", "ModUtils", "runMediumL", "value", "ties", "stopRuntim", "Logger", "KeybindCon", "ModelManag", "defineProp", "__esModule", "leports", "IsInGame", "ModMethod", "GetAllEnti", "forEach", "AutoLootCo", "tDungeon", "KillAura", "ect"];
+  s = function () {
+    return b;
+  };
+  return s();
+}
+class t {
+  constructor() {
+    const c = x;
+    this.isRunning = false;
+    this[c("0x1cf")] = null;
+    this[c("0x1ae")] = null;
+    this[c("0x1cc")] = null;
+    u[c("0x1e5")]();
+    // TOLOOK
+    // TOLOOK
+    setInterval(() => {
+      const b = c;
+      if (!this.isRunning && !f[b(464)][b("0x1b0") + b(423)]()) {
+        this[b(449) + "me"]();
+      }
+    }, 1500);
+  }
+  [x(449) + "me"]() {
+    const a = x;
+    if (this[a(454)] || f[a(464)][a(432) + a(423)]()) {
+      return;
+    }
+    this[a(454)] = true;
+    this[a("0x1bd") + "p"]();
+    this[a(465) + a(437)]();
+    this[a("0x1c0") + "p"]();
+  }
+  [x("0x1d4") + "e"]() {
+    const a = x;
+    this[a(454)] = false;
+    clearTimeout(this[a(463)]);
+    clearTimeout(this[a("0x1ae")]);
+    clearTimeout(this[a("0x1cc")]);
+  }
+  runFastLoop() {
+    const d = x;
+    if (!this[d(454)] || f[d(464)][d(432) + "rNotInGame"]()) {
+      this[d(468) + "e"]();
+      return;
+    }
+    try {
+      h[d(491)][d(462)]();
+      i.TreasureTracking[d(440)]();
+      e[d("0x1d7") + "er"].CreatureModel[d(477) + d("0x1d3")]()[d(478)](b => {
+        const a = d;
+        if (!b.Entity) {
+          return;
+        }
+        q[a("0x1ab")][a(431) + a("0x1e2")](b);
+        q.MobVacuum[a(493)](b);
+        n.Interaction[a(495) + a(452)](b);
+        n[a("0x1f3") + "n"][a("0x1bf")](b);
+        n[a("0x1f3") + "n"]["AutoPickTr" + a(453)](b);
+        n[a("0x1f3") + "n"][a("0x1f0") + a("0x1da")](b);
+        p[a(438)]["AutoMutter" + a("0x1cb")](b);
+        if (j[a(470) + "troller"][a("0x1b4") + a("0x1a6")](a(427))) {
+          q[a("0x1ab")][a("0x1ab")](b);
+        }
+      });
+    } catch (b) {}
+    this.fastLoop = // TOLOOK
+    // TOLOOK
+    setTimeout(() => this[d("0x1bd") + "p"](), 500);
+  }
+  [x(465) + x("0x1b5")]() {
+    const e = x;
+    if (!this[e("0x1c6")]) {
+      return;
+    }
+    try {
+      k.Flight[e(439) + e(492)]();
+      m[e(476)][e(486) + e("0x1e0")]();
+      g[e(488) + e("0x1a9")][e(477) + e(467)]().forEach(b => {
+        const a = e;
+        if (!b[a("0x1cd")]) {
+          return;
+        }
+        n[a("0x1f3") + "n"][a(450) + a(490)](b);
+        if (j.KeybindController[a(436) + a("0x1a6")](a(481)) && o.ModManager.settings[a(497)] && o.ModManager.settings["isDotKillA" + a(444)]) {
+          d[a(481)][a("0x1f1")](b);
+        }
+      });
+    } catch (b) {}
+    this[e("0x1ae")] = // TOLOOK
+    // TOLOOK
+    setTimeout(() => this[e("0x1d1") + e("0x1b5")](), 1000);
+  }
+  runSlowLoop() {
+    const e = x;
+    if (!this.isRunning) {
+      return;
+    }
+    try {
+      g[e("0x1e8") + e(425)][e("0x1dd") + e(467)]()[e(478)](b => {
+        const a = e;
+        if (!b[a("0x1cd")]) {
+          return;
+        }
+        if (j[a(470) + a(498)][a(436) + a("0x1a6")]("KillAura") && o[a(426)][a(456)].killAura && o[a("0x1aa")][a(456)][a("0x1e9") + a(446)]) {
+          d.KillAura[a("0x1f1")](b);
+        }
+        n.Interaction[a(479) + "llection"](b);
+        r[a(500) + "y"][a(500) + "y"](b);
+        p[a(438)][a(438)](b);
+        d.KillAura[a("0x1b3")](b);
+      });
+    } catch (b) {}
+    this.slowLoop = // TOLOOK
+    // TOLOOK
+    setTimeout(() => this.runSlowLoop(), 2500);
+  }
+}
+class u {
+  static [x(485)]() {
+    // TOLOOK
+    // TOLOOK
+    setInterval(() => {
+      const c = y;
+      try {
+        if (f[c(464)][c(475)]() || !f[c("0x1d0")]["IsLoadingV" + c("0x1ac")]()) {
+          if (o[c(426)][c(456)].AutoPuzzle) {
+            p[c(438)][c(424)]();
+          }
+          p[c(438)].AutoFishing();
+        }
+      } catch (a) {
+        l[c(469)][c(442)](a);
+      }
+    }, 2000);
+  }
+}
+exports[x("0x1c3")] = t;
