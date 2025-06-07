@@ -149,12 +149,11 @@ class ModLoader {
   static openGithub() {
     ue.KismetSystemLibrary.LaunchURL("for github");
   }
-
-  // 后续代码结构类似，已根据功能进行模块化整理
-  // 完整实现需要还原所有功能方法
+  static openDiscord() {
+    ue.KismetSystemLibrary.LaunchURL("for discord");
+  }
 }
 
-// 静态属性初始化
 ModLoader.loaderInterval = null;
 ModLoader.versionInterval = null;
 ModLoader.isCursorShown = false;
